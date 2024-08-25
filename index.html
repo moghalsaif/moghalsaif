@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RATIOS</title>
+    <style>
+        :root {
+            --bg-color: #000000;
+            --text-color: #ffffff;
+            --card-bg: #000000;
+            --card-shadow: 0 2px 4px rgba(255,255,255,0.1);
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, var(--bg-color) 0%, #330000 100%);
+            color: var(--text-color);
+            min-height: 100vh;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        header img {
+            max-width: 100%;
+            height: auto;
+        }
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .blog-post {
+            display: flex;
+            flex-direction: column;
+            background-color: var(--card-bg);
+            border: 1px solid #333;
+            padding: 0;
+            box-shadow: var(--card-shadow);
+            border-radius: 15px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            position: relative;
+            overflow: hidden;
+        }
+        .post-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        .post-content {
+            padding: 15px;
+        }
+        .post-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0 0 10px 0;
+        }
+        .post-meta {
+            font-size: 14px;
+            color: #aaaaaa;
+            margin: 0;
+        }
+        .blog-post::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at center, rgba(255, 0, 0, 0.2) 0%, rgba(139, 0, 0, 0) 70%);
+            opacity: 0;
+            transition: opacity 0.3s;
+            z-index: 1;
+        }
+        .blog-post:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(139, 0, 0, 0.3);
+        }
+        .blog-post:hover::before {
+            opacity: 1;
+        }
+        .previous-editions-container {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .previous-editions-btn {
+            display: inline-block;
+            padding: 12px 24px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background: linear-gradient(135deg, #660000, #CC0000);
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            position: relative;
+            overflow: hidden;
+            text-decoration: none;
+        }
+        .previous-editions-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at center, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 70%);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .previous-editions-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(139, 0, 0, 0.3);
+        }
+        .previous-editions-btn:hover::before {
+            opacity: 1;
+        }
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #121212;
+            border-radius: 15px;
+            box-shadow: var(--card-shadow);
+        }
+        .subscribe-box {
+            max-width: 500px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .subscribe-box h3 {
+            margin-bottom: 15px;
+            color: var(--text-color);
+        }
+        .subscribe-box iframe {
+            max-width: 100%;
+            border: 1px solid #333;
+            background: white;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://ratios.co/ratios-logo.png" alt="RATIOS">
+    </header>
+    <main class="blog-grid">
+        <article class="blog-post" onclick="location.href='essay1.html';">
+            <img src="https://example.com/essay1-image.jpg" alt="Essay 1 Image" class="post-image">
+            <div class="post-content">
+                <h2 class="post-title">Write the blog post title right here</h2>
+                <p class="post-meta">4 min read</p>
+            </div>
+        </article>
+        <article class="blog-post" onclick="location.href='essay2.html';">
+            <img src="https://example.com/essay2-image.jpg" alt="Essay 2 Image" class="post-image">
+            <div class="post-content">
+                <h2 class="post-title">Write the blog post title right here</h2>
+                <p class="post-meta">4 min read</p>
+            </div>
+        </article>
+        <article class="blog-post" onclick="location.href='essay3.html';">
+            <img src="https://example.com/essay3-image.jpg" alt="Essay 3 Image" class="post-image">
+            <div class="post-content">
+                <h2 class="post-title">Write the blog post title right here</h2>
+                <p class="post-meta">4 min read</p>
+            </div>
+        </article>
+        <article class="blog-post" onclick="location.href='essay4.html';">
+            <img src="https://example.com/essay4-image.jpg" alt="Essay 4 Image" class="post-image">
+            <div class="post-content">
+                <h2 class="post-title">Write the blog post title right here</h2>
+                <p class="post-meta">4 min read</p>
+            </div>
+        </article>
+    </main>
+
+    <div class="previous-editions-container">
+        <a href="https://ratios.substack.com" class="previous-editions-btn">See the previous editions of RATIOS</a>
+    </div>
+
+    <footer>
+        <div class="subscribe-box">
+            <h3>Subscribe to my email</h3>
+            <iframe src="https://ratios.substack.com/embed" width="480" height="150" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </footer>
+</body>
+</html>
