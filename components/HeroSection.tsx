@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { haptics } from "@/lib/haptics";
 
 const SPRING          = 0.07;
 const DAMPING         = 0.80;
@@ -22,6 +23,7 @@ function scrollTo(id: string) {
 
 export default function HeroSection() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const lastHapticRef = useRef<number>(0);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -142,6 +144,12 @@ export default function HeroSection() {
       const r = canvas.getBoundingClientRect();
       const t = e.touches[0];
       mouse = { x: t.clientX - r.left, y: t.clientY - r.top };
+      // Throttle haptic to once every 250 ms so it doesn't spam
+      const now = Date.now();
+      if (now - lastHapticRef.current > 250) {
+        lastHapticRef.current = now;
+        haptics.light();
+      }
     };
     const onTouchEnd = () => { mouse = { x: -9999, y: -9999 }; };
     const onResize = () => {
@@ -180,7 +188,7 @@ export default function HeroSection() {
         {["Project", "Story", "Writings"].map((label) => (
           <button
             key={label}
-            onClick={() => scrollTo("sphere-nav")}
+            onClick={(e) => { haptics.medium(e.currentTarget); scrollTo("sphere-nav"); }}
             className="rounded-full px-3 sm:px-5 py-1.5 text-xs font-medium tracking-wide transition-all duration-200"
             style={{ color: "#9C9590", fontFamily: "var(--font-inter)" }}
             onMouseEnter={(e) => {

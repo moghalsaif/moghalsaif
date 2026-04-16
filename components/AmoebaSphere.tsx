@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { haptics } from "@/lib/haptics";
 
 const NUM_POINTS = 16;
 
@@ -124,7 +125,7 @@ export default function AmoebaSphere({
   return (
     <button
       ref={sphereRef}
-      onClick={onClick}
+      onClick={(e) => { haptics.heavy(e.currentTarget); onClick(); }}
       className="group focus:outline-none"
       aria-label={`Open ${label}`}
     >

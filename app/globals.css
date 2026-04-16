@@ -125,3 +125,27 @@
 .marquee-track:hover {
   animation-play-state: paused;
 }
+
+/* ── Haptic feedback animations (fallback for iOS / desktop) ── */
+@keyframes haptic-light-kf {
+  0%   { transform: scale(1); }
+  35%  { transform: scale(0.97); }
+  100% { transform: scale(1); }
+}
+@keyframes haptic-medium-kf {
+  0%   { transform: scale(1); }
+  25%  { transform: scale(0.93); }
+  65%  { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
+@keyframes haptic-heavy-kf {
+  0%   { transform: scale(1); }
+  20%  { transform: scale(0.88); }
+  55%  { transform: scale(1.06); }
+  80%  { transform: scale(0.98); }
+  100% { transform: scale(1); }
+}
+
+.haptic-light  { animation: haptic-light-kf   90ms ease-out forwards !important; }
+.haptic-medium { animation: haptic-medium-kf  130ms ease-out forwards !important; }
+.haptic-heavy  { animation: haptic-heavy-kf   180ms ease-out forwards !important; }

@@ -1,6 +1,7 @@
 "use client";
 
 import { createRef, useMemo, useState, useCallback, useEffect } from "react";
+import { haptics } from "@/lib/haptics";
 import AmoebaSphere from "./AmoebaSphere";
 import ProjectsSection from "./ProjectsSection";
 import StorySection from "./StorySection";
@@ -91,7 +92,7 @@ export default function SphereNav() {
         >
           {/* Close button */}
           <button
-            onClick={handleClose}
+            onClick={(e) => { haptics.medium(e.currentTarget); handleClose(); }}
             className="fixed top-6 right-6 z-[201] w-10 h-10 rounded-full flex items-center justify-center border transition-all duration-200"
             style={{
               borderColor: "var(--site-accent)",
