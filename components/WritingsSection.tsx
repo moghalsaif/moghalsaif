@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef, useCallback, useEffect } from "react";
+import Link from "next/link";
 
 const SCRAMBLE_CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*";
 
@@ -15,17 +16,44 @@ function scramble(text: string, progress: number): string {
     .join("");
 }
 
-type Writing = {
+export type Writing = {
   id: number;
   title: string;
   date: string;
-  platform: "Medium" | "Nicheless" | "Substack";
-  url: string;
+  platform: "Medium" | "Nicheless" | "Substack" | "Website";
+  url?: string;
   preview: string;
   body: string;
 };
 
-const writings: Writing[] = [
+export const writings: Writing[] = [
+  {
+    id: 25,
+    title: "Everyone is talking about brand, but no one is talking about sales",
+    date: "May 2026",
+    platform: "Website",
+    preview: "I interviewed 5 successful businessmen and all of them gave me the same advice. Don't start your own brand if you want to make money.",
+    body: `I interviewed 5 successful businessmen and all of them gave me the same advice.
+Don't start your own brand if you want to make money.
+See, today everyone wants a founder tag on their LinkedIn. So they start a brand - a clothing brand, a tech agency, a marketing agency, a soft beverage brand, a coffee brand, or a café.
+Everyone wants to be a founder but nobody is focusing on the money. Most of the brands that people are starting out are losing all of their money, and very rarely do you see a brand succeeding past the 5-year mark.
+Time is the best filter to understand any business. You don't want to be in a space where your shelf life is less than 5 years. You need to invest your capital, time, and energy into businesses that will compound with time.
+And I have personally been a victim of this. I started out by first editing video and then pitching myself as a marketing agency, then an AI agency, and ended up with peanuts for the amount of work I put in.
+Directionally it felt very wrong, so I started checking in with other founders who have been in this space — less than 10 years older than me — and all of them said the same thing: margins are razor thin, and that's just how the service industry works.
+After that, I spent some time asking founders in my network who have made some decent wealth and have a few grey hairs too.
+The advice I landed on was: solve a problem for a bigger player than you.
+All big companies have very niche problems which, for an outsider, might not even be visible. Your first target is to get into the industry and understand the game. Next, you will automatically understand where the gaps are, go ahead and solve them.
+A good example here is: instead of starting your own AI agency, become an Implementation Partner for Google's AI services. Each time you get a client, Google benefits and pays you for it too. And because the system is handled by Google, you don't have to reinvent the wheel each time.
+You are only a bridge that makes the sales.
+If you observe carefully, every D2C brand coming out of India is getting acquired in less than 5 years of launch because within that 5-year timeline, you can scale the brand with content, build hype, and sell out. Most D2C founders realise this and sell their brand off to a big FMCG company which systematises the whole operation but keeps the brand alive.
+This pattern is true for tech companies, FMCG companies, and clothing companies alike.
+But there is a problem here. You need to become an operator, not an owner — and that is your cap.
+When you get a client into the Google AI ecosystem, Google pays you 50% and keeps 50% for themselves. Now imagine, at scale, Google has hundreds of implementation partners and makes 50% from each — that's ownership.
+Google focuses on product, marketing, and branding. You focus on sales.
+Google can scale as big as they want, but for you, the scale is capped.
+When I asked this question back to the same 5 businessmen, all of them smiled and said it was a good question. They agreed that this model is capped and hard to scale — but it is a less risky bet than starting your own brand or product, because that requires a lot of capital to deploy upfront and the chances of going bankrupt are also very high.
+This strategy is good if you want to build a $10 million company, but it may not work past that. Still, it is wise to start here collect the cash, and then build your own products from there.`,
+  },
   {
     id: 1,
     title: "If you want something no one has, endure what no one will",
@@ -652,99 +680,7 @@ Most intelligent people's outlook on life is as a whole, while stupid people's o
 
 type WritingType = (typeof writings)[0];
 
-const PLATFORM_COLORS: Record<string, string> = {
-  Medium: "#1A8917",
-  Nicheless: "#6B6560",
-  Substack: "#FF6719",
-};
-
-function ReadingModal({ writing, onClose }: { writing: WritingType; onClose: () => void }) {
-  return (
-    <div
-      className="fixed inset-0 z-[400] flex items-center justify-center p-4 md:p-8"
-      style={{ backgroundColor: "rgba(0,0,0,0.45)", backdropFilter: "blur(4px)" }}
-      onClick={onClose}
-    >
-      <div
-        className="relative w-full max-w-2xl max-h-[88vh] overflow-y-auto rounded-2xl"
-        style={{
-          backgroundColor: "var(--site-bg)",
-          border: "1px solid var(--site-border)",
-          boxShadow: "0 32px 80px rgba(0,0,0,0.22)",
-        }}
-        onClick={(e) => e.stopPropagation()}
-      >
-        <button
-          onClick={onClose}
-          className="absolute top-5 right-5 z-10 w-8 h-8 flex items-center justify-center rounded-full border transition-colors"
-          style={{ borderColor: "var(--site-border)", color: "var(--site-muted)", backgroundColor: "var(--site-bg)" }}
-          onMouseEnter={(e) => (e.currentTarget.style.borderColor = "var(--site-fg)")}
-          onMouseLeave={(e) => (e.currentTarget.style.borderColor = "var(--site-border)")}
-          aria-label="Close"
-        >
-          <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-            <path d="M1 1l10 10M11 1L1 11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
-          </svg>
-        </button>
-
-        <div className="p-6 sm:p-10 md:p-14">
-          <div className="flex items-center gap-3 mb-3">
-            <p className="text-[10px] tracking-[0.2em] uppercase" style={{ color: "var(--site-muted)", fontFamily: "var(--font-inter)" }}>
-              {writing.date}
-            </p>
-            <span
-              className="text-[9px] tracking-widest uppercase px-2 py-0.5 rounded-full"
-              style={{
-                fontFamily: "var(--font-inter)",
-                color: PLATFORM_COLORS[writing.platform],
-                border: `1px solid ${PLATFORM_COLORS[writing.platform]}40`,
-                background: `${PLATFORM_COLORS[writing.platform]}10`,
-              }}
-            >
-              {writing.platform}
-            </span>
-          </div>
-
-          <h2
-            className="text-3xl md:text-4xl font-normal italic leading-tight mb-8"
-            style={{ fontFamily: "var(--font-playfair)", color: "var(--site-fg)" }}
-          >
-            {writing.title}
-          </h2>
-
-          <div className="w-10 h-px mb-10" style={{ backgroundColor: "var(--site-accent)" }} />
-
-          <div
-            className="text-[15px] leading-[2] whitespace-pre-line"
-            style={{ fontFamily: "var(--font-inter)", fontWeight: 300, color: "var(--site-fg)", opacity: 0.88 }}
-          >
-            {writing.body}
-          </div>
-
-          <div className="mt-12 pt-8 border-t flex items-center justify-between" style={{ borderColor: "var(--site-border)" }}>
-            <p className="text-[10px] tracking-[0.2em] uppercase" style={{ color: "var(--site-muted)", fontFamily: "var(--font-inter)" }}>
-              — Moghal Saif
-            </p>
-            <a
-              href={writing.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-[10px] tracking-[0.15em] uppercase flex items-center gap-1.5 transition-opacity hover:opacity-60"
-              style={{ color: PLATFORM_COLORS[writing.platform], fontFamily: "var(--font-inter)" }}
-            >
-              Read on {writing.platform}
-              <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
-                <path d="M2 8L8 2M8 2H4M8 2V6" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function WritingCard({ writing, onClick }: { writing: WritingType; onClick: () => void }) {
+function WritingCard({ writing }: { writing: WritingType }) {
   const sentences = writing.preview.split(". ").map((s, i, arr) =>
     s.endsWith(".") ? s : s + (i < arr.length - 1 ? "." : ".")
   );
@@ -777,7 +713,10 @@ function WritingCard({ writing, onClick }: { writing: WritingType; onClick: () =
   useEffect(() => () => cancelAnimationFrame(rafRef.current), []);
 
   return (
-    <div
+    <Link
+      href={`/writings/${writing.id}`}
+      target="_blank"
+      rel="noopener noreferrer"
       className="group flex flex-col gap-5 rounded-xl p-5 sm:p-7 cursor-pointer transition-all duration-200 h-full"
       style={{ border: "1px solid var(--site-border)", backgroundColor: "var(--site-bg)" }}
       onMouseEnter={(e) => {
@@ -790,27 +729,14 @@ function WritingCard({ writing, onClick }: { writing: WritingType; onClick: () =
         (e.currentTarget as HTMLElement).style.borderColor = "var(--site-border)";
         animate("out");
       }}
-      onClick={onClick}
     >
       <div className="flex items-start justify-between gap-3">
         <h3 className="text-xl font-normal italic leading-snug" style={{ fontFamily: "var(--font-playfair)", color: "var(--site-fg)" }}>
           {writing.title}
         </h3>
-        <div className="flex flex-col items-end gap-1 shrink-0">
-          <span className="text-[10px] tracking-wide" style={{ color: "var(--site-muted)", fontFamily: "var(--font-inter)" }}>
-            {writing.date}
-          </span>
-          <span
-            className="text-[8px] tracking-widest uppercase px-1.5 py-0.5 rounded-full"
-            style={{
-              fontFamily: "var(--font-inter)",
-              color: PLATFORM_COLORS[writing.platform],
-              border: `1px solid ${PLATFORM_COLORS[writing.platform]}50`,
-            }}
-          >
-            {writing.platform}
-          </span>
-        </div>
+        <span className="text-[10px] tracking-wide shrink-0" style={{ color: "var(--site-muted)", fontFamily: "var(--font-inter)" }}>
+          {writing.date}
+        </span>
       </div>
 
       <div className="w-full h-px" style={{ backgroundColor: "var(--site-border)" }} />
@@ -841,14 +767,13 @@ function WritingCard({ writing, onClick }: { writing: WritingType; onClick: () =
           <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
         </svg>
       </div>
-    </div>
+    </Link>
   );
 }
 
 const PER_PAGE = 3;
 
 export default function WritingsSection() {
-  const [selected, setSelected] = useState<WritingType | null>(null);
   const [page, setPage] = useState(0);
   const totalPages = Math.ceil(writings.length / PER_PAGE);
   const visible = writings.slice(page * PER_PAGE, page * PER_PAGE + PER_PAGE);
@@ -871,7 +796,7 @@ export default function WritingsSection() {
         <div className="rounded-2xl p-3 sm:p-4 flex flex-col flex-1" style={{ border: "1px solid var(--site-border)", backgroundColor: "var(--site-card)" }}>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 flex-1">
             {visible.map((w) => (
-              <WritingCard key={w.id} writing={w} onClick={() => setSelected(w)} />
+              <WritingCard key={w.id} writing={w} />
             ))}
           </div>
 
@@ -922,8 +847,6 @@ export default function WritingsSection() {
           <iframe src="https://ratios.substack.com/embed" width="100%" height="320" style={{ border: "none", background: "white", display: "block" }} scrolling="no" />
         </div>
       </div>
-
-      {selected && <ReadingModal writing={selected} onClose={() => setSelected(null)} />}
     </section>
   );
 }
