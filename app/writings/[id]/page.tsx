@@ -11,6 +11,7 @@ export default function WritingPage({
 }) {
   const { id } = use(params);
   const writing = writings.find((item) => String(item.id) === id);
+  const paragraphs = writing?.body.split("\n").filter((paragraph) => paragraph.trim().length > 0) ?? [];
 
   if (!writing) {
     return (
@@ -36,7 +37,7 @@ export default function WritingPage({
 
   return (
     <main className="min-h-screen px-5 py-10 sm:px-10 md:py-16" style={{ backgroundColor: "var(--site-bg)" }}>
-      <article className="mx-auto max-w-2xl">
+      <article className="mx-auto max-w-[760px]">
         <Link
           href="/"
           className="text-[10px] uppercase tracking-[0.18em] transition-opacity hover:opacity-60"
@@ -53,24 +54,28 @@ export default function WritingPage({
         </p>
 
         <h1
-          className="mt-4 text-4xl font-normal italic leading-tight sm:text-5xl"
-          style={{ color: "var(--site-fg)", fontFamily: "var(--font-playfair)" }}
+          className="mt-4 text-4xl font-medium leading-[1.15] sm:text-5xl"
+          style={{ color: "var(--site-fg)", fontFamily: "var(--font-inter)" }}
         >
           {writing.title}
         </h1>
 
-        <div className="my-10 h-px w-12" style={{ backgroundColor: "var(--site-accent)" }} />
+        <div className="my-9 h-px w-12" style={{ backgroundColor: "var(--site-accent)" }} />
 
         <div
-          className="whitespace-pre-line text-[16px] leading-[2]"
+          className="text-[17px] leading-[1.72]"
           style={{
             color: "var(--site-fg)",
             fontFamily: "var(--font-inter)",
-            fontWeight: 300,
+            fontWeight: 400,
             opacity: 0.9,
           }}
         >
-          {writing.body}
+          {paragraphs.map((paragraph) => (
+            <p key={paragraph} className="mb-7 last:mb-0">
+              {paragraph}
+            </p>
+          ))}
         </div>
 
         <p
