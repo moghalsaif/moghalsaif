@@ -1,6 +1,7 @@
 "use client";
 
 import { createRef, useMemo, useState, useCallback, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import { haptics } from "@/lib/haptics";
 import AmoebaSphere from "./AmoebaSphere";
 import ProjectsSection from "./ProjectsSection";
@@ -11,6 +12,7 @@ const SECTIONS = [
   { id: "projects", label: "Projects", timeOffset: 0 },
   { id: "story", label: "Story", timeOffset: 2.8 },
   { id: "writings", label: "Writings", timeOffset: 5.5 },
+  { id: "books", label: "Books", timeOffset: 8.1 },
 ] as const;
 
 type SectionId = (typeof SECTIONS)[number]["id"];
@@ -19,9 +21,11 @@ const BG: Record<SectionId, string> = {
   projects: "#FAF8F4",
   story: "#FAF8F4",
   writings: "#FAF8F4",
+  books: "#FAF8F4",
 };
 
 export default function SphereNav() {
+  const router = useRouter();
   const [open, setOpen] = useState<SectionId | null>(null);
   const [sphereSize, setSphereSize] = useState(168);
   // Global mouse position in viewport coords (for cursor attraction)
@@ -47,7 +51,13 @@ export default function SphereNav() {
     setMouse({ x: -9999, y: -9999 });
   }, []);
 
-  const handleOpen = (id: SectionId) => setOpen(id);
+  const handleOpen = (id: SectionId) => {
+    if (id === "books") {
+      router.push("/books");
+      return;
+    }
+    setOpen(id);
+  };
   const handleClose = () => setOpen(null);
 
   return (
@@ -67,7 +77,7 @@ export default function SphereNav() {
           Tap a section to explore
         </p>
 
-        <div className="flex items-center justify-center gap-4 sm:gap-12 md:gap-20">
+        <div className="flex max-w-[560px] flex-wrap items-center justify-center gap-4 sm:max-w-none sm:gap-12 md:gap-20">
           {SECTIONS.map(({ id, label, timeOffset }, i) => (
             <AmoebaSphere
               key={id}
@@ -87,7 +97,7 @@ export default function SphereNav() {
       {/* Full-screen overlay */}
       {open && (
         <div
-          className="fixed inset-0 z-[200] overflow-y-auto animate-in fade-in duration-300"
+          className="fixed inset-0 z-[200] overflow-y-auto overscroll-contain animate-in fade-in duration-300"
           style={{ backgroundColor: BG[open] }}
         >
           {/* Close button */}

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { useRouter } from "next/navigation";
 import { haptics } from "@/lib/haptics";
 
 const SPRING          = 0.07;
@@ -22,6 +23,7 @@ function scrollTo(id: string) {
 }
 
 export default function HeroSection() {
+  const router = useRouter();
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const lastHapticRef = useRef<number>(0);
 
@@ -185,10 +187,17 @@ export default function HeroSection() {
         className="absolute top-6 left-1/2 z-20 flex -translate-x-1/2 items-center gap-px rounded-full border px-1 py-1 shadow-sm backdrop-blur-sm"
         style={{ background: "#FAF8F4", borderColor: "#DDD8CE" }}
       >
-        {["Project", "Story", "Writings"].map((label) => (
+        {["Project", "Story", "Writings", "Books"].map((label) => (
           <button
             key={label}
-            onClick={(e) => { haptics.medium(e.currentTarget); scrollTo("sphere-nav"); }}
+            onClick={(e) => {
+              haptics.medium(e.currentTarget);
+              if (label === "Books") {
+                router.push("/books");
+                return;
+              }
+              scrollTo("sphere-nav");
+            }}
             className="rounded-full px-3 sm:px-5 py-1.5 text-xs font-medium tracking-wide transition-all duration-200"
             style={{ color: "#9C9590", fontFamily: "var(--font-inter)" }}
             onMouseEnter={(e) => {

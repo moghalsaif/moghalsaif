@@ -103,6 +103,11 @@
   50% { transform: translateY(-22px); }
 }
 
+@keyframes book-cover-museum {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(360deg); }
+}
+
 .float-a { animation: float-a 4s ease-in-out infinite; }
 .float-b { animation: float-b 5.2s ease-in-out infinite; }
 .float-c { animation: float-c 3.7s ease-in-out infinite; }
