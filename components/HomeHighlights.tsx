@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { MapPin } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useRef } from "react";
 import { SocialIcon } from "@/components/SocialIcon";
 import { books } from "@/lib/books";
 import { CURRENT_PROJECT, SITE_PROFILE } from "@/lib/site-config";
@@ -12,28 +12,28 @@ const YEAR_MS = 365.2425 * 24 * 60 * 60 * 1000;
 
 const currentBook = books.find((book) => book.title.includes("The Goal")) ?? books[0];
 
-function useLiveAge() {
-  const [age, setAge] = useState("21.338187960");
-
+function LiveAge() {
+  const ageRef = useRef<HTMLSpanElement>(null);
+  
   useEffect(() => {
     const birth = new Date(SITE_PROFILE.birthDateISO).getTime();
 
     const update = () => {
       const years = (Date.now() - birth) / YEAR_MS;
-      setAge(years.toFixed(9));
+      if (ageRef.current) {
+        ageRef.current.textContent = years.toFixed(9);
+      }
     };
 
     update();
-    const timer = window.setInterval(update, 90);
+    const timer = window.setInterval(update, 250);
     return () => window.clearInterval(timer);
   }, []);
 
-  return age;
+  return <span ref={ageRef}>21.338187960</span>;
 }
 
 export default function HomeHighlights() {
-  const age = useLiveAge();
-
   return (
     <section
       className="relative flex min-h-screen w-full items-center px-5 py-20 sm:px-8 lg:px-12"
@@ -47,7 +47,7 @@ export default function HomeHighlights() {
           transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
           className="flex flex-col items-center justify-center gap-3 text-center text-xl text-[var(--site-fg)]/82 sm:flex-row sm:text-2xl"
         >
-          <p>been here for {age} years</p>
+          <p>been here for <LiveAge /> years</p>
           <span className="hidden h-4 w-px bg-[var(--site-border)] sm:block" aria-hidden="true" />
           <p className="inline-flex items-center gap-2 text-base text-[var(--site-fg)]/66 sm:text-lg">
             <MapPin className="h-4 w-4" />

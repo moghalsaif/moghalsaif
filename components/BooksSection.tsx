@@ -32,23 +32,17 @@ function BookCover({ book, priority = false }: { book: Book; priority?: boolean 
 
 function BookCard({ book, index }: { book: Book; index: number }) {
   return (
-    <motion.article
-      initial={{ opacity: 0, y: 18 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-40px" }}
-      transition={{ duration: 0.36, delay: Math.min(index, 12) * 0.025, ease: [0.22, 1, 0.36, 1] }}
-      className="min-w-0"
-    >
+    <article className="content-auto min-w-0">
       <div
         className="relative w-full overflow-hidden rounded-xl bg-white/10 shadow-2xl shadow-black/30"
         style={{ aspectRatio: "2 / 3" }}
       >
-        <BookCover book={book} priority={index < 6} />
+        <BookCover book={book} priority={index < 4} />
       </div>
       <h3 className="mt-4 line-clamp-3 text-sm leading-snug text-[var(--site-fg)]/82">
         {book.title}
       </h3>
-    </motion.article>
+    </article>
   );
 }
 

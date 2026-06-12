@@ -6,16 +6,11 @@ import { useState } from "react";
 import { SocialIcon } from "@/components/SocialIcon";
 import { SITE_PROJECTS, type SiteProject } from "@/lib/site-config";
 
-function ProjectRow({ project, index }: { project: SiteProject; index: number }) {
+function ProjectRow({ project }: { project: SiteProject }) {
   const [demoOpen, setDemoOpen] = useState(false);
 
   return (
-    <motion.article
-      initial={{ opacity: 0, y: 18 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.36, delay: index * 0.04, ease: [0.22, 1, 0.36, 1] }}
-      className="py-8"
-    >
+    <article className="content-auto py-8">
       <div className="grid gap-6 sm:grid-cols-[minmax(0,0.68fr)_minmax(0,1fr)] sm:items-start">
         <div className="min-w-0">
           <h3 className="text-3xl font-medium leading-tight text-[var(--site-fg)] sm:text-4xl">
@@ -92,7 +87,7 @@ function ProjectRow({ project, index }: { project: SiteProject; index: number })
           </motion.div>
         )}
       </AnimatePresence>
-    </motion.article>
+    </article>
   );
 }
 
@@ -116,8 +111,8 @@ export default function ProjectsSection() {
         </motion.header>
 
         <div className="divide-y divide-[var(--site-border)]">
-          {SITE_PROJECTS.map((project, index) => (
-            <ProjectRow key={project.id} project={project} index={index} />
+          {SITE_PROJECTS.map((project) => (
+            <ProjectRow key={project.id} project={project} />
           ))}
         </div>
       </div>

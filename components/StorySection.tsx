@@ -79,7 +79,7 @@ export default function StorySection() {
                         fill
                         className="object-cover grayscale"
                         sizes="(max-width: 1024px) 54vw, 250px"
-                        priority
+                        priority={index === 2}
                       />
                     </div>
                   ))}

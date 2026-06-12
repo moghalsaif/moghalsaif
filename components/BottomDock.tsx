@@ -270,10 +270,7 @@ export default function BottomDock() {
         )}
       </AnimatePresence>
 
-      <motion.nav
-        initial={{ opacity: 0, y: 28, scale: 0.96 }}
-        animate={{ opacity: 1, y: 0, scale: 1 }}
-        transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+      <nav
         className="fixed bottom-3 left-1/2 z-[500] flex max-w-[calc(100vw-0.75rem)] -translate-x-1/2 items-center gap-0.5 rounded-full px-1.5 py-1.5 sm:bottom-6 sm:gap-1 sm:px-2 sm:py-2"
         style={{
           background:
@@ -324,7 +321,7 @@ export default function BottomDock() {
         >
           {isDark ? <Sun className="h-[1.15rem] w-[1.15rem]" /> : <Moon className="h-[1.15rem] w-[1.15rem]" />}
         </DockButton>
-      </motion.nav>
+      </nav>
     </>
   );
 }

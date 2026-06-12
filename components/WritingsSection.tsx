@@ -8,13 +8,9 @@ import { writings } from "@/lib/writings";
 
 type WritingType = (typeof writings)[0];
 
-function WritingRow({ writing, index }: { writing: WritingType; index: number }) {
+function WritingRow({ writing }: { writing: WritingType }) {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 18 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.36, delay: index * 0.035, ease: [0.22, 1, 0.36, 1] }}
-    >
+    <div className="content-auto">
       <Link
         href={`/writing/${writing.id}`}
         className="group block rounded-lg px-0 py-5 outline-none transition sm:py-6"
@@ -30,7 +26,7 @@ function WritingRow({ writing, index }: { writing: WritingType; index: number })
           <ArrowRight className="mt-2 h-5 w-5 shrink-0 text-[var(--site-muted)]/70 transition group-hover:translate-x-1 group-hover:text-[var(--site-fg)]/72" />
         </div>
       </Link>
-    </motion.div>
+    </div>
   );
 }
 
@@ -51,8 +47,8 @@ export default function WritingsSection() {
         </motion.h2>
 
         <div className="mt-14 divide-y divide-[var(--site-border)] sm:mt-18">
-          {writings.map((writing, index) => (
-            <WritingRow key={writing.id} writing={writing} index={index} />
+          {writings.map((writing) => (
+            <WritingRow key={writing.id} writing={writing} />
           ))}
         </div>
 

@@ -84,9 +84,16 @@
   body {
     background-color: var(--site-bg);
     color: var(--site-fg);
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
   }
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  button,
+  a {
+    -webkit-tap-highlight-color: transparent;
   }
   ::selection {
     background: rgba(26, 24, 20, 0.16);
@@ -115,26 +122,34 @@
 .float-b { animation: float-b 5.2s ease-in-out infinite; }
 .float-c { animation: float-c 3.7s ease-in-out infinite; }
 
-/* ── Haptic feedback animations (fallback for iOS / desktop) ── */
-@keyframes haptic-light-kf {
-  0%   { transform: scale(1); }
-  45%  { transform: scale(0.975); }
-  100% { transform: scale(1); }
-}
-@keyframes haptic-medium-kf {
-  0%   { transform: scale(1); }
-  45%  { transform: scale(0.955); }
-  100% { transform: scale(1); }
-}
-@keyframes haptic-heavy-kf {
-  0%   { transform: scale(1); }
-  45%  { transform: scale(0.94); }
-  100% { transform: scale(1); }
+.content-auto {
+  content-visibility: auto;
+  contain-intrinsic-size: 220px;
 }
 
-.haptic-light  { animation: haptic-light-kf   90ms ease-out forwards !important; }
-.haptic-medium { animation: haptic-medium-kf  130ms ease-out forwards !important; }
-.haptic-heavy  { animation: haptic-heavy-kf   180ms ease-out forwards !important; }
+.skeleton-block {
+  position: relative;
+  overflow: hidden;
+  background: color-mix(in srgb, var(--site-card) 84%, var(--site-fg) 4%);
+}
+
+.skeleton-block::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in srgb, var(--site-fg) 10%, transparent),
+    transparent
+  );
+  animation: skeleton-sweep 1.8s ease-in-out infinite;
+}
+
+@keyframes skeleton-sweep {
+  100% { transform: translateX(100%); }
+}
 
 @media (prefers-reduced-motion: reduce) {
   html {
@@ -148,5 +163,9 @@
     animation-iteration-count: 1 !important;
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
+  }
+
+  .skeleton-block::after {
+    animation: none;
   }
 }

@@ -57,14 +57,10 @@ export default function SphereNav() {
         </motion.div>
 
         <div className="divide-y divide-[var(--site-border)]">
-          {SECTIONS.map((section, index) => (
-            <motion.button
+          {SECTIONS.map((section) => (
+            <button
               key={section.id}
               type="button"
-              initial={{ opacity: 0, y: 18 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.2 }}
-              transition={{ duration: 0.38, delay: index * 0.05, ease: [0.22, 1, 0.36, 1] }}
               onClick={(event) => handleOpen(section.href, event.currentTarget)}
               className="group grid w-full gap-4 py-7 text-left sm:grid-cols-[minmax(0,0.7fr)_minmax(0,1fr)_auto] sm:items-center"
             >
@@ -75,7 +71,7 @@ export default function SphereNav() {
               <span className="text-sm text-[var(--site-muted)] transition group-hover:text-[var(--site-fg)]">
                 Open
               </span>
-            </motion.button>
+            </button>
           ))}
         </div>
       </div>

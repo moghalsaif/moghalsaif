@@ -2,7 +2,6 @@
 
 import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useRef } from "react";
-import { haptics } from "@/lib/haptics";
 import { useTheme } from "@/lib/theme";
 
 const SPRING          = 0.07;
@@ -21,7 +20,6 @@ type Dot = {
 
 export default function HeroSection() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const lastHapticRef = useRef<number>(0);
   const { isDark } = useTheme();
 
   useEffect(() => {
@@ -34,9 +32,13 @@ export default function HeroSection() {
     let disposed = false;
     let dots: Dot[] = [];
     let mouse = { x: -9999, y: -9999 };
+    const isCoarsePointer = window.matchMedia("(pointer: coarse)").matches;
+    const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const shouldAnimate = !isCoarsePointer && !prefersReducedMotion;
+    const sampleStep = isCoarsePointer ? 5 : SAMPLE_STEP;
 
     const setup = async () => {
-      const dpr  = window.devicePixelRatio || 1;
+      const dpr  = Math.min(window.devicePixelRatio || 1, isCoarsePointer ? 1 : 1.6);
       const cssW = canvas.offsetWidth;
       const cssH = canvas.offsetHeight;
       if (!cssW || !cssH) return;
@@ -61,8 +63,8 @@ export default function HeroSection() {
       const drawX = (cssW - drawW) / 2;
       const drawY = (cssH - drawH) / 2;
 
-      const sampW = Math.ceil(drawW / SAMPLE_STEP);
-      const sampH = Math.ceil(drawH / SAMPLE_STEP);
+      const sampW = Math.ceil(drawW / sampleStep);
+      const sampH = Math.ceil(drawH / sampleStep);
       const off    = document.createElement("canvas");
       off.width    = sampW;
       off.height   = sampH;
@@ -83,8 +85,8 @@ export default function HeroSection() {
           const eff = lum * a + (1 - a);
           if (eff > BRIGHT_CUTOFF) continue;
           const darkness = 1 - eff;
-          const hx = drawX + col * SAMPLE_STEP + SAMPLE_STEP / 2;
-          const hy = drawY + row * SAMPLE_STEP + SAMPLE_STEP / 2;
+          const hx = drawX + col * sampleStep + sampleStep / 2;
+          const hy = drawY + row * sampleStep + sampleStep / 2;
           next.push({
             homeX: hx, homeY: hy,
             x: hx, y: hy,
@@ -97,16 +99,33 @@ export default function HeroSection() {
       if (!disposed) dots = next;
     };
 
-    const draw = () => {
+    const paintBase = () => {
       const cssW = canvas.offsetWidth;
       const cssH = canvas.offsetHeight;
-      if (!cssW || !cssH) { rafId = requestAnimationFrame(draw); return; }
+      if (!cssW || !cssH) return false;
 
       ctx.clearRect(0, 0, cssW, cssH);
       const styles = getComputedStyle(document.documentElement);
       ctx.fillStyle = styles.getPropertyValue("--site-canvas-bg").trim() || "#050505";
       ctx.fillRect(0, 0, cssW, cssH);
       ctx.fillStyle = styles.getPropertyValue("--site-fg").trim() || "#F6F6F1";
+      return true;
+    };
+
+    const drawStatic = () => {
+      if (!paintBase()) return;
+
+      for (const d of dots) {
+        ctx.globalAlpha = d.alpha;
+        ctx.beginPath();
+        ctx.arc(d.homeX, d.homeY, d.r, 0, Math.PI * 2);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+    };
+
+    const draw = () => {
+      if (!paintBase()) { rafId = requestAnimationFrame(draw); return; }
 
       for (const d of dots) {
         let nvx = (d.vx + (d.homeX - d.x) * SPRING) * DAMPING;
@@ -131,8 +150,17 @@ export default function HeroSection() {
       rafId = requestAnimationFrame(draw);
     };
 
+    const startDrawing = () => {
+      cancelAnimationFrame(rafId);
+      if (shouldAnimate) {
+        rafId = requestAnimationFrame(draw);
+      } else {
+        drawStatic();
+      }
+    };
+
     setup().then(() => {
-      if (!disposed) { cancelAnimationFrame(rafId); rafId = requestAnimationFrame(draw); }
+      if (!disposed) startDrawing();
     });
 
     const onMove   = (e: MouseEvent) => {
@@ -140,28 +168,16 @@ export default function HeroSection() {
       mouse = { x: e.clientX - r.left, y: e.clientY - r.top };
     };
     const onLeave  = () => { mouse = { x: -9999, y: -9999 }; };
-    const onTouchMove = (e: TouchEvent) => {
-      const r = canvas.getBoundingClientRect();
-      const t = e.touches[0];
-      mouse = { x: t.clientX - r.left, y: t.clientY - r.top };
-      // Throttle haptic to once every 250 ms so it doesn't spam
-      const now = Date.now();
-      if (now - lastHapticRef.current > 250) {
-        lastHapticRef.current = now;
-        haptics.light();
-      }
-    };
-    const onTouchEnd = () => { mouse = { x: -9999, y: -9999 }; };
     const onResize = () => {
       setup().then(() => {
-        if (!disposed) { cancelAnimationFrame(rafId); rafId = requestAnimationFrame(draw); }
+        if (!disposed) startDrawing();
       });
     };
 
-    canvas.addEventListener("mousemove", onMove);
-    canvas.addEventListener("mouseleave", onLeave);
-    canvas.addEventListener("touchmove", onTouchMove, { passive: true });
-    canvas.addEventListener("touchend", onTouchEnd);
+    if (shouldAnimate) {
+      canvas.addEventListener("mousemove", onMove);
+      canvas.addEventListener("mouseleave", onLeave);
+    }
     window.addEventListener("resize", onResize);
 
     return () => {
@@ -169,11 +185,9 @@ export default function HeroSection() {
       cancelAnimationFrame(rafId);
       canvas.removeEventListener("mousemove", onMove);
       canvas.removeEventListener("mouseleave", onLeave);
-      canvas.removeEventListener("touchmove", onTouchMove);
-      canvas.removeEventListener("touchend", onTouchEnd);
       window.removeEventListener("resize", onResize);
     };
-  }, []);
+  }, [isDark]);
 
   return (
     <section

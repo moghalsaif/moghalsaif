@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { ArrowLeft, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 import type { ReactNode } from "react";
@@ -25,15 +24,10 @@ function ChromeButton({
   children: ReactNode;
 }) {
   return (
-    <motion.button
+    <button
       type="button"
       aria-label={label}
       title={label}
-      initial={{ opacity: 0, y: -8, scale: 0.96 }}
-      animate={{ opacity: 1, y: 0, scale: 1 }}
-      whileHover={{ scale: 1.04 }}
-      whileTap={{ scale: 0.96 }}
-      transition={{ duration: 0.24, ease: [0.22, 1, 0.36, 1] }}
       onClick={(event) => onClick(event.currentTarget)}
       className={`fixed top-5 z-[510] flex h-11 w-11 items-center justify-center rounded-full text-[var(--site-fg)] transition hover:bg-white/[0.1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 ${
         side === "left" ? "left-5" : "right-5"
@@ -47,7 +41,7 @@ function ChromeButton({
       }}
     >
       {children}
-    </motion.button>
+    </button>
   );
 }
 
