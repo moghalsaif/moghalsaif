@@ -1,6 +1,5 @@
 "use client";
 
-import { AnimatePresence, motion } from "framer-motion";
 import {
   Check,
   Code2,
@@ -174,45 +173,37 @@ function SocialPopoverButton({
         <SocialIcon name={item.icon} />
       </DockButton>
 
-      <AnimatePresence>
-        {open && (
-          <motion.div
-            initial={{ opacity: 0, y: 8, scale: 0.97 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            exit={{ opacity: 0, y: 6, scale: 0.98 }}
-            transition={{ duration: 0.18, ease: [0.22, 1, 0.36, 1] }}
-            role="menu"
-            aria-label={`${item.label} actions`}
-            className="absolute bottom-[calc(100%+0.7rem)] left-1/2 w-52 -translate-x-1/2 rounded-2xl p-2 text-[var(--site-fg)]"
-            style={{
-              background:
-                "linear-gradient(135deg, color-mix(in srgb, var(--site-card) 88%, transparent), color-mix(in srgb, var(--site-bg) 76%, transparent))",
-              boxShadow:
-                "0 18px 60px rgba(0,0,0,0.38), inset 0 1px 0 rgba(255,255,255,0.13), inset 0 0 0 1px rgba(255,255,255,0.1)",
-              WebkitBackdropFilter: "blur(22px) saturate(180%)",
-              backdropFilter: "blur(22px) saturate(180%)",
-            }}
-          >
-            {actions.map((action) => (
-              <button
-                key={action.label}
-                type="button"
-                role="menuitem"
-                className="flex min-h-10 w-full items-center gap-3 rounded-xl px-3 text-left text-sm text-[var(--site-fg)]/80 transition hover:bg-white/[0.1] hover:text-[var(--site-fg)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/60"
-                onClick={async () => {
-                  await action.run();
-                  onClose();
-                }}
-              >
-                <span className="flex h-5 w-5 items-center justify-center text-[var(--site-fg)]/70">
-                  <ActionIcon icon={action.icon} />
-                </span>
-                {action.label}
-              </button>
-            ))}
-          </motion.div>
-        )}
-      </AnimatePresence>
+      {open && (
+        <div
+          role="menu"
+          aria-label={`${item.label} actions`}
+          className="absolute bottom-[calc(100%+0.7rem)] left-1/2 w-52 -translate-x-1/2 rounded-2xl p-2 text-[var(--site-fg)]"
+          style={{
+            background:
+              "linear-gradient(135deg, color-mix(in srgb, var(--site-card) 88%, transparent), color-mix(in srgb, var(--site-bg) 76%, transparent))",
+            boxShadow:
+              "0 18px 60px rgba(0,0,0,0.38), inset 0 1px 0 rgba(255,255,255,0.13), inset 0 0 0 1px rgba(255,255,255,0.1)",
+          }}
+        >
+          {actions.map((action) => (
+            <button
+              key={action.label}
+              type="button"
+              role="menuitem"
+              className="flex min-h-10 w-full items-center gap-3 rounded-xl px-3 text-left text-sm text-[var(--site-fg)]/80 transition hover:bg-white/[0.1] hover:text-[var(--site-fg)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/60"
+              onClick={async () => {
+                await action.run();
+                onClose();
+              }}
+            >
+              <span className="flex h-5 w-5 items-center justify-center text-[var(--site-fg)]/70">
+                <ActionIcon icon={action.icon} />
+              </span>
+              {action.label}
+            </button>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
@@ -248,27 +239,19 @@ export default function BottomDock() {
 
   return (
     <>
-      <AnimatePresence>
-        {copiedLabel && (
-          <motion.div
-            initial={{ opacity: 0, y: 10, scale: 0.96 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            exit={{ opacity: 0, y: 8, scale: 0.98 }}
-            transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-            className="fixed bottom-20 left-1/2 z-[520] flex -translate-x-1/2 items-center gap-2 rounded-full px-4 py-2 text-sm text-[var(--site-fg)] sm:bottom-24"
-            style={{
-              background: "color-mix(in srgb, var(--site-card) 88%, transparent)",
-              boxShadow: "0 14px 50px rgba(0,0,0,0.35), inset 0 0 0 1px rgba(255,255,255,0.1)",
-              WebkitBackdropFilter: "blur(18px)",
-              backdropFilter: "blur(18px)",
-            }}
-            aria-live="polite"
-          >
-            <Check className="h-4 w-4" />
-            {copiedLabel}
-          </motion.div>
-        )}
-      </AnimatePresence>
+      {copiedLabel && (
+        <div
+          className="fixed bottom-20 left-1/2 z-[520] flex -translate-x-1/2 items-center gap-2 rounded-full px-4 py-2 text-sm text-[var(--site-fg)] sm:bottom-24"
+          style={{
+            background: "color-mix(in srgb, var(--site-card) 88%, transparent)",
+            boxShadow: "0 14px 50px rgba(0,0,0,0.35), inset 0 0 0 1px rgba(255,255,255,0.1)",
+          }}
+          aria-live="polite"
+        >
+          <Check className="h-4 w-4" />
+          {copiedLabel}
+        </div>
+      )}
 
       <nav
         className="fixed bottom-3 left-1/2 z-[500] flex max-w-[calc(100vw-0.75rem)] -translate-x-1/2 items-center gap-0.5 rounded-full px-1.5 py-1.5 sm:bottom-6 sm:gap-1 sm:px-2 sm:py-2"
@@ -277,8 +260,6 @@ export default function BottomDock() {
             "linear-gradient(135deg, color-mix(in srgb, var(--site-card) 72%, transparent), color-mix(in srgb, var(--site-bg) 48%, transparent))",
           boxShadow:
             "0 24px 80px rgba(0,0,0,0.42), inset 0 1px 0 rgba(255,255,255,0.16), inset 0 0 0 1px rgba(255,255,255,0.1)",
-          WebkitBackdropFilter: "blur(22px) saturate(180%)",
-          backdropFilter: "blur(22px) saturate(180%)",
         }}
         aria-label="Site navigation"
       >

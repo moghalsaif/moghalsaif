@@ -1,6 +1,5 @@
 "use client";
 
-import { AnimatePresence, motion } from "framer-motion";
 import { ChevronDown, ExternalLink, PlayCircle } from "lucide-react";
 import { useState } from "react";
 import { SocialIcon } from "@/components/SocialIcon";
@@ -10,7 +9,7 @@ function ProjectRow({ project }: { project: SiteProject }) {
   const [demoOpen, setDemoOpen] = useState(false);
 
   return (
-    <article className="content-auto py-8">
+    <article className="py-8">
       <div className="grid gap-6 sm:grid-cols-[minmax(0,0.68fr)_minmax(0,1fr)] sm:items-start">
         <div className="min-w-0">
           <h3 className="text-3xl font-medium leading-tight text-[var(--site-fg)] sm:text-4xl">
@@ -51,42 +50,36 @@ function ProjectRow({ project }: { project: SiteProject }) {
         </div>
       </div>
 
-      <AnimatePresence initial={false}>
-        {demoOpen && (
-          <motion.div
-            id={`${project.id}-demo`}
-            initial={{ opacity: 0, y: 12 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: 8 }}
-            transition={{ duration: 0.22, ease: [0.22, 1, 0.36, 1] }}
-            className="mt-7 overflow-hidden rounded-2xl border border-[var(--site-border)] bg-[var(--site-card)]"
-          >
-            <div className="flex items-center justify-between gap-4 border-b border-[var(--site-border)] px-5 py-4">
-              <p className="text-sm font-medium text-[var(--site-fg)]">{project.name} demo</p>
-              <ChevronDown className="h-4 w-4 rotate-180 text-[var(--site-muted)]" />
+      {demoOpen && (
+        <div
+          id={`${project.id}-demo`}
+          className="mt-7 overflow-hidden rounded-2xl border border-[var(--site-border)] bg-[var(--site-card)]"
+        >
+          <div className="flex items-center justify-between gap-4 border-b border-[var(--site-border)] px-5 py-4">
+            <p className="text-sm font-medium text-[var(--site-fg)]">{project.name} demo</p>
+            <ChevronDown className="h-4 w-4 rotate-180 text-[var(--site-muted)]" />
+          </div>
+          <div className="p-4 sm:p-5">
+            <div className="relative flex aspect-video w-full items-center justify-center overflow-hidden rounded-xl bg-black/35">
+              {project.demoVideo ? (
+                <video
+                  src={project.demoVideo}
+                  poster={project.demoPoster}
+                  controls
+                  className="h-full w-full object-cover"
+                />
+              ) : (
+                <div className="px-6 text-center">
+                  <PlayCircle className="mx-auto h-9 w-9 text-[var(--site-fg)]/50" />
+                  <p className="mt-4 text-sm text-[var(--site-muted)]">
+                    Demo video slot. Add a video URL in the project config when the product demo is ready.
+                  </p>
+                </div>
+              )}
             </div>
-            <div className="p-4 sm:p-5">
-              <div className="relative flex aspect-video w-full items-center justify-center overflow-hidden rounded-xl bg-black/35">
-                {project.demoVideo ? (
-                  <video
-                    src={project.demoVideo}
-                    poster={project.demoPoster}
-                    controls
-                    className="h-full w-full object-cover"
-                  />
-                ) : (
-                  <div className="px-6 text-center">
-                    <PlayCircle className="mx-auto h-9 w-9 text-[var(--site-fg)]/50" />
-                    <p className="mt-4 text-sm text-[var(--site-muted)]">
-                      Demo video slot. Add a video URL in the project config when the product demo is ready.
-                    </p>
-                  </div>
-                )}
-              </div>
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+          </div>
+        </div>
+      )}
     </article>
   );
 }
@@ -98,17 +91,12 @@ export default function ProjectsSection() {
       style={{ backgroundColor: "var(--site-bg)" }}
     >
       <div className="mx-auto w-full max-w-5xl">
-        <motion.header
-          initial={{ opacity: 0, y: 18 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
-          className="mb-12 sm:mb-16"
-        >
+        <header className="mb-12 sm:mb-16">
           <h2 className="text-5xl font-medium sm:text-6xl">projects</h2>
           <p className="mt-5 max-w-2xl text-base leading-8 text-[var(--site-muted)]">
             A short list of things I have built or keep returning to. No stack theater, just the work and where to find it.
           </p>
-        </motion.header>
+        </header>
 
         <div className="divide-y divide-[var(--site-border)]">
           {SITE_PROJECTS.map((project) => (

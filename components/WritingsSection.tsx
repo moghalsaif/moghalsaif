@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
 import { writings } from "@/lib/writings";
@@ -10,7 +9,7 @@ type WritingType = (typeof writings)[0];
 
 function WritingRow({ writing }: { writing: WritingType }) {
   return (
-    <div className="content-auto">
+    <div>
       <Link
         href={`/writing/${writing.id}`}
         className="group block rounded-lg px-0 py-5 outline-none transition sm:py-6"
@@ -37,14 +36,9 @@ export default function WritingsSection() {
       style={{ backgroundColor: "var(--site-bg)" }}
     >
       <div className="mx-auto w-full max-w-5xl">
-        <motion.h2
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
-          className="text-5xl font-medium text-[var(--site-fg)] sm:text-6xl"
-        >
+        <h2 className="text-5xl font-medium text-[var(--site-fg)] sm:text-6xl">
           writings
-        </motion.h2>
+        </h2>
 
         <div className="mt-14 divide-y divide-[var(--site-border)] sm:mt-18">
           {writings.map((writing) => (
@@ -52,13 +46,10 @@ export default function WritingsSection() {
           ))}
         </div>
 
-        <motion.a
+        <a
           href="https://ratios.substack.com"
           target="_blank"
           rel="noopener noreferrer"
-          initial={{ opacity: 0, y: 18 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.42, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
           className="mt-16 block overflow-hidden rounded-3xl px-7 py-8 text-white shadow-2xl shadow-red-950/20 transition hover:scale-[1.01] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 sm:px-10 sm:py-10"
           style={{
             background:
@@ -75,7 +66,7 @@ export default function WritingsSection() {
               Open Substack
             </span>
           </div>
-        </motion.a>
+        </a>
       </div>
     </section>
   );

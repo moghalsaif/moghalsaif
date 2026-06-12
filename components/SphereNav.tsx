@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 import { haptics } from "@/lib/haptics";
 
@@ -46,15 +45,9 @@ export default function SphereNav() {
       style={{ backgroundColor: "var(--site-bg)", color: "var(--site-fg)" }}
     >
       <div className="mx-auto w-full max-w-5xl">
-        <motion.div
-          initial={{ opacity: 0, y: 18 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.35 }}
-          transition={{ duration: 0.44, ease: [0.22, 1, 0.36, 1] }}
-          className="mb-10"
-        >
+        <div className="mb-10">
           <h2 className="text-4xl font-medium sm:text-5xl">sections</h2>
-        </motion.div>
+        </div>
 
         <div className="divide-y divide-[var(--site-border)]">
           {SECTIONS.map((section) => (

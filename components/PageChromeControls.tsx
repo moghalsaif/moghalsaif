@@ -35,8 +35,6 @@ function ChromeButton({
       style={{
         background: "color-mix(in srgb, var(--site-card) 74%, transparent)",
         boxShadow: "inset 0 0 0 1px rgba(255,255,255,0.1), 0 14px 50px rgba(0,0,0,0.24)",
-        WebkitBackdropFilter: "blur(18px) saturate(160%)",
-        backdropFilter: "blur(18px) saturate(160%)",
         outlineColor: "var(--site-accent)",
       }}
     >

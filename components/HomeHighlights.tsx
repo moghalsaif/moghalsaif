@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { MapPin } from "lucide-react";
 import { useEffect, useRef } from "react";
 import { SocialIcon } from "@/components/SocialIcon";
@@ -40,29 +39,17 @@ export default function HomeHighlights() {
       style={{ backgroundColor: "var(--site-bg)", color: "var(--site-fg)" }}
     >
       <div className="mx-auto flex w-full max-w-6xl flex-col gap-10">
-        <motion.div
-          initial={{ opacity: 0, y: 12 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
-          className="flex flex-col items-center justify-center gap-3 text-center text-xl text-[var(--site-fg)]/82 sm:flex-row sm:text-2xl"
-        >
+        <div className="flex flex-col items-center justify-center gap-3 text-center text-xl text-[var(--site-fg)]/82 sm:flex-row sm:text-2xl">
           <p>been here for <LiveAge /> years</p>
           <span className="hidden h-4 w-px bg-[var(--site-border)] sm:block" aria-hidden="true" />
           <p className="inline-flex items-center gap-2 text-base text-[var(--site-fg)]/66 sm:text-lg">
             <MapPin className="h-4 w-4" />
             {SITE_PROFILE.currentLocation}
           </p>
-        </motion.div>
+        </div>
 
         <div className="grid w-full gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(320px,0.92fr)]">
-          <motion.article
-            initial={{ opacity: 0, y: 28 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.28 }}
-            transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
-            className="flex min-h-[420px] flex-col justify-between rounded-[1.75rem] bg-[var(--site-card)]/80 p-7 shadow-2xl shadow-black/25 sm:p-9"
-          >
+          <article className="flex min-h-[420px] flex-col justify-between rounded-[1.75rem] bg-[var(--site-card)]/80 p-7 shadow-2xl shadow-black/25 sm:p-9">
             <div>
               <p className="text-sm font-medium text-[var(--site-fg)]/78">{"what's something interesting i'm working on"}</p>
               <h2 className="mt-10 text-4xl font-medium leading-[1.04] text-[var(--site-fg)] sm:text-5xl">
@@ -82,15 +69,9 @@ export default function HomeHighlights() {
               <SocialIcon name="github" className="h-4 w-4" />
               GitHub repo
             </a>
-          </motion.article>
+          </article>
 
-          <motion.article
-            initial={{ opacity: 0, y: 28 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.28 }}
-            transition={{ duration: 0.55, delay: 0.08, ease: [0.22, 1, 0.36, 1] }}
-            className="flex min-h-[420px] flex-col rounded-[1.75rem] bg-[var(--site-card)]/64 p-7 shadow-2xl shadow-black/20 sm:p-9"
-          >
+          <article className="flex min-h-[420px] flex-col rounded-[1.75rem] bg-[var(--site-card)]/64 p-7 shadow-2xl shadow-black/20 sm:p-9">
             <p className="text-sm font-medium text-[var(--site-fg)]/78">{"what's something interesting i'm reading"}</p>
 
             <div className="mt-10 grid flex-1 gap-8 sm:grid-cols-[150px_minmax(0,1fr)] sm:items-start lg:grid-cols-1">
@@ -120,7 +101,7 @@ export default function HomeHighlights() {
                 </p>
               </div>
             </div>
-          </motion.article>
+          </article>
         </div>
       </div>
     </section>

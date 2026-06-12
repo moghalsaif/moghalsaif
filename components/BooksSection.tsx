@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { motion } from "framer-motion";
 import BottomDock from "@/components/BottomDock";
 import PageChromeControls from "@/components/PageChromeControls";
 import { books, type Book } from "@/lib/books";
@@ -32,7 +31,7 @@ function BookCover({ book, priority = false }: { book: Book; priority?: boolean 
 
 function BookCard({ book, index }: { book: Book; index: number }) {
   return (
-    <article className="content-auto min-w-0">
+    <article className="min-w-0">
       <div
         className="relative w-full overflow-hidden rounded-xl bg-white/10 shadow-2xl shadow-black/30"
         style={{ aspectRatio: "2 / 3" }}
@@ -52,17 +51,12 @@ export default function BooksSection() {
       <PageChromeControls backHref="/" closeHref="/" backLabel="Back home" closeLabel="Close books" />
 
       <div className="mx-auto w-full max-w-6xl">
-        <motion.header
-          initial={{ opacity: 0, y: 18 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.42, ease: [0.22, 1, 0.36, 1] }}
-          className="mb-14"
-        >
+        <header className="mb-14">
           <h1 className="text-5xl font-medium sm:text-6xl">books</h1>
           <p className="mt-5 max-w-xl text-base leading-8 text-[var(--site-muted)]">
             A running shelf of books worth returning to.
           </p>
-        </motion.header>
+        </header>
 
         <div className="grid grid-cols-2 gap-x-5 gap-y-10 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
           {books.map((book, index) => (

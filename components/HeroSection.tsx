@@ -1,6 +1,5 @@
 "use client";
 
-import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useRef } from "react";
 import { useTheme } from "@/lib/theme";
 
@@ -231,19 +230,11 @@ export default function HeroSection() {
           ref={canvasRef}
           className="absolute inset-0 w-full h-full cursor-crosshair"
         />
-        <AnimatePresence>
-          {isDark && (
-            <motion.div
-              initial={{ opacity: 0, y: 10, scale: 0.96 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              exit={{ opacity: 0, y: 8, scale: 0.98 }}
-              transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
-              className="pointer-events-none absolute right-[7vw] top-[34%] max-w-[15rem] rounded-[1.35rem] rounded-bl-md bg-white px-4 py-3 text-sm leading-6 text-black shadow-2xl shadow-black/35 sm:right-[15vw] sm:top-[30%]"
-            >
-              I know I look much better in light mode, but anyways it&apos;s okay.
-            </motion.div>
-          )}
-        </AnimatePresence>
+        {isDark && (
+          <div className="pointer-events-none absolute right-[7vw] top-[34%] max-w-[15rem] rounded-[1.35rem] rounded-bl-md bg-white px-4 py-3 text-sm leading-6 text-black shadow-2xl shadow-black/35 sm:right-[15vw] sm:top-[30%]">
+            I know I look much better in light mode, but anyways it&apos;s okay.
+          </div>
+        )}
       </div>
     </section>
   );
