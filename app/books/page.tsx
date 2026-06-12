@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import BooksSection from "@/components/BooksSection";
+import BooksPageShell from "@/components/BooksPageShell";
 
 export const metadata: Metadata = {
   title: "Books · Moghal Saif",
@@ -7,5 +7,5 @@ export const metadata: Metadata = {
 };
 
 export default function BooksPage() {
-  return <BooksSection />;
+  return <BooksPageShell />;
 }

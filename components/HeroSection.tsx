@@ -1,8 +1,9 @@
 "use client";
 
+import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useRef } from "react";
-import { useRouter } from "next/navigation";
 import { haptics } from "@/lib/haptics";
+import { useTheme } from "@/lib/theme";
 
 const SPRING          = 0.07;
 const DAMPING         = 0.80;
@@ -18,14 +19,10 @@ type Dot = {
   r: number;     alpha: number;
 };
 
-function scrollTo(id: string) {
-  document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-}
-
 export default function HeroSection() {
-  const router = useRouter();
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const lastHapticRef = useRef<number>(0);
+  const { isDark } = useTheme();
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -106,9 +103,10 @@ export default function HeroSection() {
       if (!cssW || !cssH) { rafId = requestAnimationFrame(draw); return; }
 
       ctx.clearRect(0, 0, cssW, cssH);
-      ctx.fillStyle = "#FAF8F4";
+      const styles = getComputedStyle(document.documentElement);
+      ctx.fillStyle = styles.getPropertyValue("--site-canvas-bg").trim() || "#050505";
       ctx.fillRect(0, 0, cssW, cssH);
-      ctx.fillStyle = "#1A1814";
+      ctx.fillStyle = styles.getPropertyValue("--site-fg").trim() || "#F6F6F1";
 
       for (const d of dots) {
         let nvx = (d.vx + (d.homeX - d.x) * SPRING) * DAMPING;
@@ -180,44 +178,12 @@ export default function HeroSection() {
   return (
     <section
       className="relative h-screen w-full overflow-hidden flex flex-col"
-      style={{ backgroundColor: "#FAF8F4" }}
+      style={{ backgroundColor: "var(--site-canvas-bg)" }}
     >
-      {/* Nav pill — floats above everything */}
-      <nav
-        className="absolute top-6 left-1/2 z-20 flex -translate-x-1/2 items-center gap-px rounded-full border px-1 py-1 shadow-sm backdrop-blur-sm"
-        style={{ background: "#FAF8F4", borderColor: "#DDD8CE" }}
-      >
-        {["Project", "Story", "Writings", "Books"].map((label) => (
-          <button
-            key={label}
-            onClick={(e) => {
-              haptics.medium(e.currentTarget);
-              if (label === "Books") {
-                router.push("/books");
-                return;
-              }
-              scrollTo("sphere-nav");
-            }}
-            className="rounded-full px-3 sm:px-5 py-1.5 text-xs font-medium tracking-wide transition-all duration-200"
-            style={{ color: "#9C9590", fontFamily: "var(--font-inter)" }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.background = "#1A1814";
-              e.currentTarget.style.color      = "#FAF8F4";
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.background = "transparent";
-              e.currentTarget.style.color      = "#9C9590";
-            }}
-          >
-            {label}
-          </button>
-        ))}
-      </nav>
-
       {/* ── Name block — sits below nav, clearly separated ── */}
       <div
         className="flex-shrink-0 flex flex-col items-center z-10 select-none pointer-events-none"
-        style={{ paddingTop: "calc(24px + 36px + 28px)" /* nav top + nav height + gap */ }}
+        style={{ paddingTop: "clamp(3rem, 8vh, 5.5rem)" }}
       >
         <span
           style={{
@@ -225,7 +191,7 @@ export default function HeroSection() {
             fontSize: "clamp(2.6rem, 5.5vw, 5rem)",
             fontWeight: 400,
             lineHeight: 0.88,
-            color: "#1A1814",
+            color: "var(--site-fg)",
             letterSpacing: "0.02em",
           }}
         >
@@ -237,7 +203,7 @@ export default function HeroSection() {
             fontSize: "clamp(2.6rem, 5.5vw, 5rem)",
             fontWeight: 400,
             lineHeight: 0.88,
-            color: "#1A1814",
+            color: "var(--site-fg)",
             letterSpacing: "0.02em",
           }}
         >
@@ -251,6 +217,19 @@ export default function HeroSection() {
           ref={canvasRef}
           className="absolute inset-0 w-full h-full cursor-crosshair"
         />
+        <AnimatePresence>
+          {isDark && (
+            <motion.div
+              initial={{ opacity: 0, y: 10, scale: 0.96 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: 8, scale: 0.98 }}
+              transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+              className="pointer-events-none absolute right-[7vw] top-[34%] max-w-[15rem] rounded-[1.35rem] rounded-bl-md bg-white px-4 py-3 text-sm leading-6 text-black shadow-2xl shadow-black/35 sm:right-[15vw] sm:top-[30%]"
+            >
+              I know I look much better in light mode, but anyways it&apos;s okay.
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
     </section>
   );

@@ -1,126 +1,84 @@
 "use client";
 
-import { createRef, useMemo, useState, useCallback, useEffect } from "react";
+import { motion } from "framer-motion";
 import { useRouter } from "next/navigation";
 import { haptics } from "@/lib/haptics";
-import AmoebaSphere from "./AmoebaSphere";
-import ProjectsSection from "./ProjectsSection";
-import StorySection from "./StorySection";
-import WritingsSection from "./WritingsSection";
 
 const SECTIONS = [
-  { id: "projects", label: "Projects", timeOffset: 0 },
-  { id: "story", label: "Story", timeOffset: 2.8 },
-  { id: "writings", label: "Writings", timeOffset: 5.5 },
-  { id: "books", label: "Books", timeOffset: 8.1 },
+  {
+    id: "projects",
+    label: "Projects",
+    description: "Selected work and build notes.",
+    href: "/projects",
+  },
+  {
+    id: "story",
+    label: "Story",
+    description: "A short letter about the person behind the work.",
+    href: "/story",
+  },
+  {
+    id: "writing",
+    label: "Writings",
+    description: "Essays, notes, and thinking in public.",
+    href: "/writing",
+  },
+  {
+    id: "books",
+    label: "Books",
+    description: "A running shelf of what I am reading.",
+    href: "/books",
+  },
 ] as const;
-
-type SectionId = (typeof SECTIONS)[number]["id"];
-
-const BG: Record<SectionId, string> = {
-  projects: "#FAF8F4",
-  story: "#FAF8F4",
-  writings: "#FAF8F4",
-  books: "#FAF8F4",
-};
 
 export default function SphereNav() {
   const router = useRouter();
-  const [open, setOpen] = useState<SectionId | null>(null);
-  const [sphereSize, setSphereSize] = useState(168);
-  // Global mouse position in viewport coords (for cursor attraction)
-  const [mouse, setMouse] = useState({ x: -9999, y: -9999 });
 
-  useEffect(() => {
-    const update = () => setSphereSize(window.innerWidth < 640 ? 108 : 168);
-    update();
-    window.addEventListener("resize", update);
-    return () => window.removeEventListener("resize", update);
-  }, []);
-
-  // One ref per sphere button so we can compute relative positions
-  const sphereRefs = useMemo(
-    () => SECTIONS.map(() => createRef<HTMLButtonElement>()),
-    []
-  );
-
-  const handleMouseMove = useCallback((e: React.MouseEvent) => {
-    setMouse({ x: e.clientX, y: e.clientY });
-  }, []);
-  const handleMouseLeave = useCallback(() => {
-    setMouse({ x: -9999, y: -9999 });
-  }, []);
-
-  const handleOpen = (id: SectionId) => {
-    if (id === "books") {
-      router.push("/books");
-      return;
-    }
-    setOpen(id);
+  const handleOpen = (href: string, button: HTMLButtonElement) => {
+    haptics.medium(button);
+    router.push(href);
   };
-  const handleClose = () => setOpen(null);
 
   return (
-    <>
-      {/* Sphere navigation */}
-      <section
-        id="sphere-nav"
-        className="w-full py-16 sm:py-24 px-6 flex flex-col items-center gap-6"
-        style={{ backgroundColor: "var(--site-bg)" }}
-        onMouseMove={handleMouseMove}
-        onMouseLeave={handleMouseLeave}
-      >
-        <p
-          className="text-xs tracking-widest uppercase"
-          style={{ fontFamily: "var(--font-inter)", color: "var(--site-muted)" }}
+    <section
+      id="sphere-nav"
+      className="w-full px-6 py-24 sm:px-10 lg:px-16"
+      style={{ backgroundColor: "var(--site-bg)", color: "var(--site-fg)" }}
+    >
+      <div className="mx-auto w-full max-w-5xl">
+        <motion.div
+          initial={{ opacity: 0, y: 18 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.35 }}
+          transition={{ duration: 0.44, ease: [0.22, 1, 0.36, 1] }}
+          className="mb-10"
         >
-          Tap a section to explore
-        </p>
+          <h2 className="text-4xl font-medium sm:text-5xl">sections</h2>
+        </motion.div>
 
-        <div className="flex max-w-[560px] flex-wrap items-center justify-center gap-4 sm:max-w-none sm:gap-12 md:gap-20">
-          {SECTIONS.map(({ id, label, timeOffset }, i) => (
-            <AmoebaSphere
-              key={id}
-              label={label}
-              onClick={() => handleOpen(id)}
-              active={open === id}
-              timeOffset={timeOffset}
-              size={sphereSize}
-              sectionMouseX={mouse.x}
-              sectionMouseY={mouse.y}
-              sphereRef={sphereRefs[i]}
-            />
+        <div className="divide-y divide-[var(--site-border)]">
+          {SECTIONS.map((section, index) => (
+            <motion.button
+              key={section.id}
+              type="button"
+              initial={{ opacity: 0, y: 18 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, amount: 0.2 }}
+              transition={{ duration: 0.38, delay: index * 0.05, ease: [0.22, 1, 0.36, 1] }}
+              onClick={(event) => handleOpen(section.href, event.currentTarget)}
+              className="group grid w-full gap-4 py-7 text-left sm:grid-cols-[minmax(0,0.7fr)_minmax(0,1fr)_auto] sm:items-center"
+            >
+              <span className="text-3xl font-medium text-[var(--site-fg)] transition group-hover:text-[var(--site-fg)]/70 sm:text-4xl">
+                {section.label}
+              </span>
+              <span className="text-base leading-7 text-[var(--site-muted)]">{section.description}</span>
+              <span className="text-sm text-[var(--site-muted)] transition group-hover:text-[var(--site-fg)]">
+                Open
+              </span>
+            </motion.button>
           ))}
         </div>
-      </section>
-
-      {/* Full-screen overlay */}
-      {open && (
-        <div
-          className="fixed inset-0 z-[200] overflow-y-auto overscroll-contain animate-in fade-in duration-300"
-          style={{ backgroundColor: BG[open] }}
-        >
-          {/* Close button */}
-          <button
-            onClick={(e) => { haptics.medium(e.currentTarget); handleClose(); }}
-            className="fixed top-6 right-6 z-[201] w-10 h-10 rounded-full flex items-center justify-center border transition-all duration-200"
-            style={{
-              borderColor: "var(--site-accent)",
-              color: "var(--site-accent)",
-              background: "transparent",
-            }}
-            aria-label="Close"
-          >
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </button>
-
-          {open === "projects" && <ProjectsSection />}
-          {open === "story" && <StorySection />}
-          {open === "writings" && <WritingsSection />}
-        </div>
-      )}
-    </>
+      </div>
+    </section>
   );
 }

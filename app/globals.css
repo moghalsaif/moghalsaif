@@ -39,42 +39,42 @@
 }
 
 :root {
-  --background: #FAF8F4;
-  --foreground: #1A1814;
-  --card: #FAF8F4;
-  --card-foreground: #1A1814;
-  --popover: #FAF8F4;
-  --popover-foreground: #1A1814;
-  --primary: #1A1814;
-  --primary-foreground: #FAF8F4;
-  --secondary: #F0EDE7;
-  --secondary-foreground: #1A1814;
-  --muted: #E8E4DC;
-  --muted-foreground: #6B6560;
-  --accent: #E8E4DC;
-  --accent-foreground: #1A1814;
+  --background: #050505;
+  --foreground: #F6F6F1;
+  --card: #111111;
+  --card-foreground: #F6F6F1;
+  --popover: #111111;
+  --popover-foreground: #F6F6F1;
+  --primary: #F6F6F1;
+  --primary-foreground: #050505;
+  --secondary: #181818;
+  --secondary-foreground: #F6F6F1;
+  --muted: #171717;
+  --muted-foreground: #9A9A9A;
+  --accent: #1E1E1E;
+  --accent-foreground: #F6F6F1;
   --destructive: oklch(0.577 0.245 27.325);
-  --border: #DDD8CE;
-  --input: #DDD8CE;
-  --ring: #1A1814;
+  --border: #242424;
+  --input: #242424;
+  --ring: #F6F6F1;
   --radius: 0.75rem;
-  --sidebar: #FAF8F4;
-  --sidebar-foreground: #1A1814;
-  --sidebar-primary: #1A1814;
-  --sidebar-primary-foreground: #FAF8F4;
-  --sidebar-accent: #E8E4DC;
-  --sidebar-accent-foreground: #1A1814;
-  --sidebar-border: #DDD8CE;
-  --sidebar-ring: #1A1814;
+  --sidebar: #050505;
+  --sidebar-foreground: #F6F6F1;
+  --sidebar-primary: #F6F6F1;
+  --sidebar-primary-foreground: #050505;
+  --sidebar-accent: #1E1E1E;
+  --sidebar-accent-foreground: #F6F6F1;
+  --sidebar-border: #242424;
+  --sidebar-ring: #F6F6F1;
 
-  --site-bg: #FAF8F4;
-  --site-fg: #1A1814;
-  --site-accent: #1A1814;
-  --site-accent-soft: rgba(26,24,20,0.1);
-  --site-muted: #9C9590;
-  --site-border: #DDD8CE;
-  --site-card: #F4F1EB;
-  --site-canvas-bg: #FAF8F4;
+  --site-bg: #050505;
+  --site-fg: #F6F6F1;
+  --site-accent: #F6F6F1;
+  --site-accent-soft: rgba(246,246,241,0.1);
+  --site-muted: #9A9A9A;
+  --site-border: #242424;
+  --site-card: #111111;
+  --site-canvas-bg: #050505;
 }
 
 @layer base {
@@ -87,6 +87,9 @@
   }
   html {
     scroll-behavior: smooth;
+  }
+  ::selection {
+    background: rgba(26, 24, 20, 0.16);
   }
 }
 
@@ -112,45 +115,38 @@
 .float-b { animation: float-b 5.2s ease-in-out infinite; }
 .float-c { animation: float-c 3.7s ease-in-out infinite; }
 
-/* ── Marquee / ticker ── */
-@keyframes marquee-scroll {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
-}
-
-.marquee-track {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  width: max-content;
-  animation: marquee-scroll 38s linear infinite;
-}
-
-.marquee-track:hover {
-  animation-play-state: paused;
-}
-
 /* ── Haptic feedback animations (fallback for iOS / desktop) ── */
 @keyframes haptic-light-kf {
   0%   { transform: scale(1); }
-  35%  { transform: scale(0.97); }
+  45%  { transform: scale(0.975); }
   100% { transform: scale(1); }
 }
 @keyframes haptic-medium-kf {
   0%   { transform: scale(1); }
-  25%  { transform: scale(0.93); }
-  65%  { transform: scale(1.02); }
+  45%  { transform: scale(0.955); }
   100% { transform: scale(1); }
 }
 @keyframes haptic-heavy-kf {
   0%   { transform: scale(1); }
-  20%  { transform: scale(0.88); }
-  55%  { transform: scale(1.06); }
-  80%  { transform: scale(0.98); }
+  45%  { transform: scale(0.94); }
   100% { transform: scale(1); }
 }
 
 .haptic-light  { animation: haptic-light-kf   90ms ease-out forwards !important; }
 .haptic-medium { animation: haptic-medium-kf  130ms ease-out forwards !important; }
 .haptic-heavy  { animation: haptic-heavy-kf   180ms ease-out forwards !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

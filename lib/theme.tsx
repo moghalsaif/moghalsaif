@@ -17,31 +17,31 @@ interface ThemeValue {
 }
 
 const ThemeCtx = createContext<ThemeValue>({
-  theme: "default",
+  theme: "dark",
   setTheme: () => {},
-  isDark: false,
+  isDark: true,
 });
 
 const THEME_VARS: Record<Theme, Record<string, string>> = {
   default: {
-    "--site-bg": "#FAF8F4",
-    "--site-fg": "#1A1814",
-    "--site-accent": "#1A1814",
-    "--site-accent-soft": "rgba(26,24,20,0.12)",
-    "--site-muted": "#9C9590",
-    "--site-border": "#DDD8CE",
-    "--site-card": "#F4F1EB",
-    "--site-canvas-bg": "#FAF8F4",
+    "--site-bg": "#F4F2EC",
+    "--site-fg": "#10100F",
+    "--site-accent": "#10100F",
+    "--site-accent-soft": "rgba(16,16,15,0.1)",
+    "--site-muted": "#77736B",
+    "--site-border": "#DED9CF",
+    "--site-card": "#EDEAE2",
+    "--site-canvas-bg": "#F4F2EC",
   },
   dark: {
-    "--site-bg": "#0c0c0c",
-    "--site-fg": "#F0EDE6",
-    "--site-accent": "#F0EDE6",
-    "--site-accent-soft": "rgba(240,237,230,0.1)",
-    "--site-muted": "#666057",
-    "--site-border": "#2a2a2a",
-    "--site-card": "#161616",
-    "--site-canvas-bg": "#0c0c0c",
+    "--site-bg": "#050505",
+    "--site-fg": "#F6F6F1",
+    "--site-accent": "#F6F6F1",
+    "--site-accent-soft": "rgba(246,246,241,0.1)",
+    "--site-muted": "#9A9A9A",
+    "--site-border": "#242424",
+    "--site-card": "#111111",
+    "--site-canvas-bg": "#050505",
   },
   blue: {
     "--site-bg": "#FAF8F4",
@@ -87,18 +87,20 @@ function applyTheme(t: Theme) {
 }
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setThemeState] = useState<Theme>(() => {
-    if (typeof window === "undefined") {
-      return "default";
-    }
+  const [theme, setThemeState] = useState<Theme>("dark");
 
-    try {
-      const saved = localStorage.getItem("ms-theme") as Theme | null;
-      return saved && saved in THEME_VARS ? saved : "default";
-    } catch {
-      return "default";
-    }
-  });
+  useEffect(() => {
+    const frame = window.requestAnimationFrame(() => {
+      try {
+        const saved = localStorage.getItem("ms-theme") as Theme | null;
+        if (saved && saved in THEME_VARS) {
+          setThemeState(saved);
+        }
+      } catch {}
+    });
+
+    return () => window.cancelAnimationFrame(frame);
+  }, []);
 
   const setTheme = useCallback((t: Theme) => {
     setThemeState(t);
