@@ -29,12 +29,37 @@ const bebasNeue = Bebas_Neue({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.moghalsaif.com"),
   title: "Moghal Saif",
-  description: "Designer, builder, thinker.",
+  description: "Projects, writing, books, and notes by Moghal Saif.",
+  alternates: {
+    canonical: "/",
+  },
   icons: {
     icon: "/icon.svg",
     shortcut: "/icon.svg",
     apple: "/icon.svg",
+  },
+  openGraph: {
+    title: "Moghal Saif",
+    description: "Projects, writing, books, and notes by Moghal Saif.",
+    url: "https://www.moghalsaif.com",
+    siteName: "Moghal Saif",
+    type: "website",
+    images: [
+      {
+        url: "/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "Moghal Saif",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Moghal Saif",
+    description: "Projects, writing, books, and notes by Moghal Saif.",
+    images: ["/og-image.svg"],
   },
 };
 
