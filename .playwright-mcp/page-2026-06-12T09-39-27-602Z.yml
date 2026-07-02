@@ -1,0 +1,53 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - article [ref=e3]:
+      - link "Back to writings" [ref=e4] [cursor=pointer]:
+        - /url: /writing
+        - img [ref=e5]
+        - text: Back to writings
+      - generic [ref=e7]:
+        - generic [ref=e8]: Website
+        - generic [ref=e9]: May 2026
+      - heading "Everyone is talking about brand, but no one is talking about sales" [level=1] [ref=e10]
+      - generic [ref=e12]:
+        - paragraph [ref=e13]: I interviewed 5 successful businessmen and all of them gave me the same advice.
+        - paragraph [ref=e14]: Don't start your own brand if you want to make money.
+        - paragraph [ref=e15]: See, today everyone wants a founder tag on their LinkedIn. So they start a brand - a clothing brand, a tech agency, a marketing agency, a soft beverage brand, a coffee brand, or a café.
+        - paragraph [ref=e16]: Everyone wants to be a founder but nobody is focusing on the money. Most of the brands that people are starting out are losing all of their money, and very rarely do you see a brand succeeding past the 5-year mark.
+        - paragraph [ref=e17]: Time is the best filter to understand any business. You don't want to be in a space where your shelf life is less than 5 years. You need to invest your capital, time, and energy into businesses that will compound with time.
+        - paragraph [ref=e18]: And I have personally been a victim of this. I started out by first editing video and then pitching myself as a marketing agency, then an AI agency, and ended up with peanuts for the amount of work I put in.
+        - paragraph [ref=e19]: "Directionally it felt very wrong, so I started checking in with other founders who have been in this space — less than 10 years older than me — and all of them said the same thing: margins are razor thin, and that's just how the service industry works."
+        - paragraph [ref=e20]: After that, I spent some time asking founders in my network who have made some decent wealth and have a few grey hairs too.
+        - paragraph [ref=e21]: "The advice I landed on was: solve a problem for a bigger player than you."
+        - paragraph [ref=e22]: All big companies have very niche problems which, for an outsider, might not even be visible. Your first target is to get into the industry and understand the game. Next, you will automatically understand where the gaps are, go ahead and solve them.
+        - paragraph [ref=e23]: "A good example here is: instead of starting your own AI agency, become an Implementation Partner for Google's AI services. Each time you get a client, Google benefits and pays you for it too. And because the system is handled by Google, you don't have to reinvent the wheel each time."
+        - paragraph [ref=e24]: You are only a bridge that makes the sales.
+        - paragraph [ref=e25]: If you observe carefully, every D2C brand coming out of India is getting acquired in less than 5 years of launch because within that 5-year timeline, you can scale the brand with content, build hype, and sell out. Most D2C founders realise this and sell their brand off to a big FMCG company which systematises the whole operation but keeps the brand alive.
+        - paragraph [ref=e26]: This pattern is true for tech companies, FMCG companies, and clothing companies alike.
+        - paragraph [ref=e27]: But there is a problem here. You need to become an operator, not an owner — and that is your cap.
+        - paragraph [ref=e28]: When you get a client into the Google AI ecosystem, Google pays you 50% and keeps 50% for themselves. Now imagine, at scale, Google has hundreds of implementation partners and makes 50% from each — that's ownership.
+        - paragraph [ref=e29]: Google focuses on product, marketing, and branding. You focus on sales.
+        - paragraph [ref=e30]: Google can scale as big as they want, but for you, the scale is capped.
+        - paragraph [ref=e31]: When I asked this question back to the same 5 businessmen, all of them smiled and said it was a good question. They agreed that this model is capped and hard to scale — but it is a less risky bet than starting your own brand or product, because that requires a lot of capital to deploy upfront and the chances of going bankrupt are also very high.
+        - paragraph [ref=e32]: This strategy is good if you want to build a $10 million company, but it may not work past that. Still, it is wise to start here collect the cash, and then build your own products from there.
+      - paragraph [ref=e33]: Moghal Saif
+    - navigation "Site navigation" [ref=e34]:
+      - button "Home" [ref=e35]:
+        - img [ref=e36]
+      - button "GitHub" [ref=e40]:
+        - img [ref=e41]
+      - button "LinkedIn" [ref=e44]:
+        - img [ref=e45]
+      - button "Twitter" [ref=e48]:
+        - img [ref=e49]
+      - button "Instagram" [ref=e52]:
+        - img [ref=e53]
+      - button "Email" [ref=e56]:
+        - img [ref=e57]
+      - button "Switch to Agent View" [ref=e61]:
+        - img [ref=e62]
+      - button "Switch to light mode" [ref=e66]:
+        - img [ref=e67]
+  - button "Open Next.js Dev Tools" [ref=e78] [cursor=pointer]:
+    - img [ref=e79]
+  - alert [ref=e82]

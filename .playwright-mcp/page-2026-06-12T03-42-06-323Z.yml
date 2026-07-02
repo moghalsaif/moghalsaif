@@ -1,0 +1,38 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e38] [cursor=pointer]:
+    - img [ref=e39]
+  - alert [ref=e42]: Moghal Saif
+  - main [ref=e448]:
+    - generic [ref=e449]:
+      - navigation [ref=e450]:
+        - button "Project" [ref=e451]
+        - button "Story" [ref=e452]
+        - button "Writings" [ref=e453]
+        - button "Books" [ref=e454]
+      - generic:
+        - generic: Moghal
+        - generic: Saif
+    - generic [ref=e457]:
+      - paragraph [ref=e458]: Tap a section to explore
+      - generic [ref=e459]:
+        - button "Open Projects" [ref=e460]:
+          - img [ref=e461]:
+            - generic: Projects
+        - button "Open Story" [ref=e463]:
+          - img [ref=e464]:
+            - generic: Story
+        - button "Open Writings" [ref=e466]:
+          - img [ref=e467]:
+            - generic: Writings
+        - button "Open Books" [ref=e469]:
+          - img [ref=e470]:
+            - generic: Books
+    - generic [ref=e473]:
+      - generic [ref=e474]: Moghal Saif · 2026
+      - generic [ref=e475]:
+        - link "X" [ref=e476] [cursor=pointer]:
+          - /url: https://x.com/moghalsaifa
+        - link "Instagram" [ref=e477] [cursor=pointer]:
+          - /url: https://instagram.com/moghalsaif
+        - link "LinkedIn" [ref=e478] [cursor=pointer]:
+          - /url: https://linkedin.com/in/moghalsaifa

@@ -1,0 +1,94 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - navigation [ref=e4]:
+        - button "Home" [ref=e5]:
+          - img [ref=e6]
+        - button "Sections" [ref=e9]:
+          - img [ref=e10]
+        - link "GitHub" [ref=e13] [cursor=pointer]:
+          - /url: https://github.com/moghalsaif
+          - img [ref=e14]
+        - link "LinkedIn" [ref=e16] [cursor=pointer]:
+          - /url: https://linkedin.com/in/moghalsaifa
+          - text: in
+        - link "X" [ref=e17] [cursor=pointer]:
+          - /url: https://x.com/moghalsaifa
+        - button "Books" [ref=e19]:
+          - img [ref=e20]
+      - generic:
+        - generic: Moghal
+        - generic: Saif
+    - generic [ref=e25]:
+      - paragraph [ref=e26]: been here for 22.182468242 years
+      - generic [ref=e27]:
+        - generic [ref=e28]:
+          - generic [ref=e29]:
+            - generic [ref=e30]:
+              - paragraph [ref=e31]: what's something interesting i'm working on
+              - generic [ref=e32]:
+                - button "Previous working slide" [ref=e33]:
+                  - img [ref=e34]
+                - button "Next working slide" [ref=e36]:
+                  - img [ref=e37]
+            - generic [ref=e40]:
+              - img [ref=e42]
+              - paragraph [ref=e46]: project
+              - heading "Mosaic" [level=2] [ref=e47]
+              - paragraph [ref=e48]: A visual knowledge system that embeds what I save, clusters it, and brings the right idea back at the right time.
+              - paragraph [ref=e49]: Next.js / Pinecone / OpenAI
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - generic [ref=e52]:
+                - paragraph [ref=e53]: "01"
+                - paragraph [ref=e54]: save
+              - generic [ref=e55]:
+                - paragraph [ref=e56]: "02"
+                - paragraph [ref=e57]: embed
+              - generic [ref=e58]:
+                - paragraph [ref=e59]: "03"
+                - paragraph [ref=e60]: cluster
+              - generic [ref=e61]:
+                - paragraph [ref=e62]: "04"
+                - paragraph [ref=e63]: return
+            - link "Github repo" [ref=e64] [cursor=pointer]:
+              - /url: https://github.com/moghalsaif
+              - img [ref=e65]
+              - text: Github repo
+              - img [ref=e67]
+        - article [ref=e69]:
+          - paragraph [ref=e70]: what's something interesting i'm reading
+          - generic [ref=e71]:
+            - 'img "The Goal: A Process of Ongoing Improvement cover" [ref=e73]'
+            - generic [ref=e74]:
+              - img [ref=e76]
+              - 'heading "The Goal: A Process of Ongoing Improvement" [level=2] [ref=e78]'
+              - paragraph [ref=e79]: I keep coming back to systems books because they turn messy ambition into constraints, feedback loops, and better decisions.
+              - paragraph [ref=e80]: current shelf note
+    - generic [ref=e81]:
+      - paragraph [ref=e82]: Tap a section to explore
+      - generic [ref=e83]:
+        - button "Open Projects" [ref=e84]:
+          - img [ref=e85]:
+            - generic: Projects
+        - button "Open Story" [ref=e86]:
+          - img [ref=e87]:
+            - generic: Story
+        - button "Open Writings" [ref=e88]:
+          - img [ref=e89]:
+            - generic: Writings
+        - button "Open Books" [ref=e90]:
+          - img [ref=e91]:
+            - generic: Books
+    - generic [ref=e93]:
+      - generic [ref=e94]: Moghal Saif · 2026
+      - generic [ref=e95]:
+        - link "X" [ref=e96] [cursor=pointer]:
+          - /url: https://x.com/moghalsaifa
+        - link "Instagram" [ref=e97] [cursor=pointer]:
+          - /url: https://instagram.com/moghalsaif
+        - link "LinkedIn" [ref=e98] [cursor=pointer]:
+          - /url: https://linkedin.com/in/moghalsaifa
+  - button "Open Next.js Dev Tools" [ref=e104] [cursor=pointer]:
+    - img [ref=e105]
+  - alert [ref=e108]

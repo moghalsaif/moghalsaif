@@ -1,0 +1,104 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - heading "projects" [level=2] [ref=e5]
+      - paragraph [ref=e6]: A short list of things I have built or keep returning to. No stack theater, just the work and where to find it.
+    - generic [ref=e7]:
+      - article [ref=e8]:
+        - generic [ref=e9]:
+          - heading "Mosaic" [level=3] [ref=e11]
+          - generic [ref=e12]:
+            - paragraph [ref=e13]: A visual knowledge system that saves what I read, connects related ideas, and brings useful notes back when I need them.
+            - generic [ref=e14]:
+              - link "GitHub repo" [ref=e15] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif
+                - img [ref=e16]
+                - text: GitHub repo
+                - img [ref=e18]
+              - button "Show Mosaic video demo" [ref=e22]:
+                - img [ref=e23]
+      - article [ref=e26]:
+        - generic [ref=e27]:
+          - heading "Drift" [level=3] [ref=e29]
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: A calm productivity tool that adapts to energy levels throughout the day and gets out of the way when focus is high.
+            - generic [ref=e32]:
+              - link "GitHub repo" [ref=e33] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif
+                - img [ref=e34]
+                - text: GitHub repo
+                - img [ref=e36]
+              - button "Show Drift video demo" [ref=e40]:
+                - img [ref=e41]
+      - article [ref=e44]:
+        - generic [ref=e45]:
+          - heading "Volta" [level=3] [ref=e47]
+          - generic [ref=e48]:
+            - paragraph [ref=e49]: An energy-tracking dashboard that turns ambient consumption data into readable, decision-friendly patterns.
+            - generic [ref=e50]:
+              - link "GitHub repo" [ref=e51] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif
+                - img [ref=e52]
+                - text: GitHub repo
+                - img [ref=e54]
+              - button "Show Volta video demo" [ref=e58]:
+                - img [ref=e59]
+      - article [ref=e62]:
+        - generic [ref=e63]:
+          - heading "Reframe" [level=3] [ref=e65]
+          - generic [ref=e66]:
+            - paragraph [ref=e67]: A private journaling app that brings back old entries at meaningful intervals so past thinking can become useful again.
+            - generic [ref=e68]:
+              - link "GitHub repo" [ref=e69] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif
+                - img [ref=e70]
+                - text: GitHub repo
+                - img [ref=e72]
+              - button "Show Reframe video demo" [ref=e76]:
+                - img [ref=e77]
+      - article [ref=e80]:
+        - generic [ref=e81]:
+          - heading "Canvas" [level=3] [ref=e83]
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: A collaborative workspace for structured visual thinking, built around shared blocks and real-time editing.
+            - generic [ref=e86]:
+              - link "GitHub repo" [ref=e87] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif
+                - img [ref=e88]
+                - text: GitHub repo
+                - img [ref=e90]
+              - button "Show Canvas video demo" [ref=e94]:
+                - img [ref=e95]
+      - article [ref=e98]:
+        - generic [ref=e99]:
+          - heading "Signal" [level=3] [ref=e101]
+          - generic [ref=e102]:
+            - paragraph [ref=e103]: A minimal RSS reader for people who want the open web without algorithmic recommendations or engagement metrics.
+            - generic [ref=e104]:
+              - link "GitHub repo" [ref=e105] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif
+                - img [ref=e106]
+                - text: GitHub repo
+                - img [ref=e108]
+              - button "Show Signal video demo" [ref=e112]:
+                - img [ref=e113]
+  - navigation "Site navigation" [ref=e116]:
+    - button "Home" [ref=e117]:
+      - img [ref=e118]
+    - button "GitHub" [ref=e122]:
+      - img [ref=e123]
+    - button "LinkedIn" [ref=e126]:
+      - img [ref=e127]
+    - button "Twitter" [ref=e130]:
+      - img [ref=e131]
+    - button "Instagram" [ref=e134]:
+      - img [ref=e135]
+    - button "Email" [ref=e138]:
+      - img [ref=e139]
+    - button "Switch to Agent View" [ref=e142]:
+      - img [ref=e143]
+    - button "Switch to light mode" [ref=e147]:
+      - img [ref=e148]
+  - button "Open Next.js Dev Tools" [ref=e159] [cursor=pointer]:
+    - img [ref=e160]
+  - alert [ref=e163]

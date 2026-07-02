@@ -7,8 +7,6 @@ import {
   ExternalLink,
   FileText,
   Home,
-  Moon,
-  Sun,
 } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 import { type ReactNode, useEffect, useRef, useState } from "react";
@@ -215,7 +213,6 @@ export default function BottomDock() {
   const { mode, toggleMode } = useViewMode();
   const [copiedLabel, setCopiedLabel] = useState<string | null>(null);
   const [activePopover, setActivePopover] = useState<string | null>(null);
-  const isDark = theme === "dark";
   const isAgent = mode === "agent";
 
   const showCopied = (label: string) => {
@@ -292,17 +289,7 @@ export default function BottomDock() {
           {isAgent ? <FileText className="h-[1.15rem] w-[1.15rem]" /> : <Code2 className="h-[1.15rem] w-[1.15rem]" />}
         </DockButton>
 
-        <DockButton
-          label={isDark ? "Switch to light mode" : "Switch to dark mode"}
-          onClick={(button) => {
-            haptics.medium(button);
-            setActivePopover(null);
-            setTheme(isDark ? "default" : "dark");
-          }}
-        >
-          {isDark ? <Sun className="h-[1.15rem] w-[1.15rem]" /> : <Moon className="h-[1.15rem] w-[1.15rem]" />}
-        </DockButton>
-      </nav>
+        </nav>
     </>
   );
 }

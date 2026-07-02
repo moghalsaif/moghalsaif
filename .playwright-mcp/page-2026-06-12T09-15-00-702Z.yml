@@ -1,0 +1,157 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic:
+        - generic: Moghal
+        - generic: Saif
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - paragraph [ref=e9]: been here for 21.338191998 years
+        - paragraph [ref=e11]:
+          - img [ref=e12]
+          - text: Singapore
+      - generic [ref=e15]:
+        - article [ref=e16]:
+          - generic [ref=e17]:
+            - paragraph [ref=e18]: what's something interesting i'm working on
+            - heading "Mosaic" [level=2] [ref=e19]
+            - paragraph [ref=e20]: A visual knowledge system that saves what I read, connects related ideas, and brings useful notes back when I need them.
+          - link "GitHub repo" [ref=e21] [cursor=pointer]:
+            - /url: https://github.com/moghalsaif
+            - img [ref=e22]
+            - text: GitHub repo
+        - article [ref=e24]:
+          - paragraph [ref=e25]: what's something interesting i'm reading
+          - generic [ref=e26]:
+            - 'img "The Goal: A Process of Ongoing Improvement cover" [ref=e28]'
+            - generic [ref=e29]:
+              - 'heading "The Goal: A Process of Ongoing Improvement" [level=2] [ref=e30]'
+              - paragraph [ref=e31]: I keep coming back to systems books because they turn messy ambition into constraints, feedback loops, and better decisions.
+    - generic [ref=e33]:
+      - heading "sections" [level=2] [ref=e35]
+      - generic [ref=e36]:
+        - button "Projects Selected work and build notes. Open" [active] [ref=e37]:
+          - generic [ref=e38]: Projects
+          - generic [ref=e39]: Selected work and build notes.
+          - generic [ref=e40]: Open
+        - button "Story A short letter about the person behind the work. Open" [ref=e41]:
+          - generic [ref=e42]: Story
+          - generic [ref=e43]: A short letter about the person behind the work.
+          - generic [ref=e44]: Open
+        - button "Writings Essays, notes, and thinking in public. Open" [ref=e45]:
+          - generic [ref=e46]: Writings
+          - generic [ref=e47]: Essays, notes, and thinking in public.
+          - generic [ref=e48]: Open
+        - button "Books A running shelf of what I am reading. Open" [ref=e49]:
+          - generic [ref=e50]: Books
+          - generic [ref=e51]: A running shelf of what I am reading.
+          - generic [ref=e52]: Open
+    - generic [ref=e117]:
+      - button "Close" [ref=e118]:
+        - img [ref=e119]
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - heading "projects" [level=2] [ref=e125]
+          - paragraph [ref=e126]: A short list of things I have built or keep returning to. No stack theater, just the work and where to find it.
+        - generic [ref=e127]:
+          - article [ref=e128]:
+            - generic [ref=e129]:
+              - paragraph [ref=e130]: "2026"
+              - heading "Mosaic" [level=3] [ref=e131]
+            - generic [ref=e132]:
+              - paragraph [ref=e133]: A visual knowledge system that saves what I read, connects related ideas, and brings useful notes back when I need them.
+              - link "GitHub repo" [ref=e134] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif
+                - img [ref=e135]
+                - text: GitHub repo
+                - img [ref=e137]
+          - article [ref=e141]:
+            - generic [ref=e142]:
+              - paragraph [ref=e143]: "2024"
+              - heading "Drift" [level=3] [ref=e144]
+            - generic [ref=e145]:
+              - paragraph [ref=e146]: A calm productivity tool that adapts to energy levels throughout the day and gets out of the way when focus is high.
+              - link "GitHub repo" [ref=e147] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif
+                - img [ref=e148]
+                - text: GitHub repo
+                - img [ref=e150]
+          - article [ref=e154]:
+            - generic [ref=e155]:
+              - paragraph [ref=e156]: "2023"
+              - heading "Volta" [level=3] [ref=e157]
+            - generic [ref=e158]:
+              - paragraph [ref=e159]: An energy-tracking dashboard that turns ambient consumption data into readable, decision-friendly patterns.
+              - link "GitHub repo" [ref=e160] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif
+                - img [ref=e161]
+                - text: GitHub repo
+                - img [ref=e163]
+          - article [ref=e167]:
+            - generic [ref=e168]:
+              - paragraph [ref=e169]: "2023"
+              - heading "Reframe" [level=3] [ref=e170]
+            - generic [ref=e171]:
+              - paragraph [ref=e172]: A private journaling app that brings back old entries at meaningful intervals so past thinking can become useful again.
+              - link "GitHub repo" [ref=e173] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif
+                - img [ref=e174]
+                - text: GitHub repo
+                - img [ref=e176]
+          - article [ref=e180]:
+            - generic [ref=e181]:
+              - paragraph [ref=e182]: "2023"
+              - heading "Canvas" [level=3] [ref=e183]
+            - generic [ref=e184]:
+              - paragraph [ref=e185]: A collaborative workspace for structured visual thinking, built around shared blocks and real-time editing.
+              - link "GitHub repo" [ref=e186] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif
+                - img [ref=e187]
+                - text: GitHub repo
+                - img [ref=e189]
+          - article [ref=e193]:
+            - generic [ref=e194]:
+              - paragraph [ref=e195]: "2022"
+              - heading "Signal" [level=3] [ref=e196]
+            - generic [ref=e197]:
+              - paragraph [ref=e198]: A minimal RSS reader for people who want the open web without algorithmic recommendations or engagement metrics.
+              - link "GitHub repo" [ref=e199] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif
+                - img [ref=e200]
+                - text: GitHub repo
+                - img [ref=e202]
+    - generic [ref=e54]:
+      - generic [ref=e55]: Moghal Saif · 2026
+      - generic [ref=e56]:
+        - link "GitHub" [ref=e57] [cursor=pointer]:
+          - /url: https://github.com/moghalsaif
+        - link "LinkedIn" [ref=e58] [cursor=pointer]:
+          - /url: https://linkedin.com/in/moghalsaifa
+        - link "X" [ref=e59] [cursor=pointer]:
+          - /url: https://x.com/moghalsaifa
+        - link "Instagram" [ref=e60] [cursor=pointer]:
+          - /url: https://instagram.com/moghalsaif
+    - navigation "Site navigation" [ref=e61]:
+      - button "Home" [ref=e62]:
+        - img [ref=e63]
+      - button "Sections" [ref=e66]:
+        - img [ref=e67]
+      - button "Books" [ref=e69]:
+        - img [ref=e70]
+      - button "GitHub" [ref=e74]:
+        - img [ref=e75]
+      - button "LinkedIn" [ref=e78]:
+        - img [ref=e79]
+      - button "X" [ref=e82]:
+        - img [ref=e83]
+      - button "Instagram" [ref=e86]:
+        - img [ref=e87]
+      - button "Email" [ref=e90]:
+        - img [ref=e91]
+      - button "Switch to Agent View" [ref=e95]:
+        - img [ref=e96]
+      - button "Switch to light mode" [ref=e100]:
+        - img [ref=e101]
+  - button "Open Next.js Dev Tools" [ref=e112] [cursor=pointer]:
+    - img [ref=e113]
+  - alert [ref=e116]

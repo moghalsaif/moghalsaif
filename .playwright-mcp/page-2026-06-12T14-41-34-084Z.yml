@@ -1,0 +1,220 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - heading "projects" [level=2] [ref=e5]
+      - paragraph [ref=e6]: A short list of things I have built or keep returning to. No stack theater, just the work and where to find it.
+    - generic [ref=e7]:
+      - article [ref=e8]:
+        - generic [ref=e9]:
+          - heading "Personal Website" [level=3] [ref=e11]
+          - generic [ref=e12]:
+            - paragraph [ref=e13]: The personal website and portfolio you are looking at now, built as a dark, seamless home for work, writing, books, and contact.
+            - generic [ref=e14]:
+              - link "GitHub repo" [ref=e15] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif/moghalsaif
+                - img [ref=e16]
+                - text: GitHub repo
+                - img [ref=e18]
+              - button "Show Personal Website video demo" [ref=e22]:
+                - img [ref=e23]
+      - article [ref=e26]:
+        - generic [ref=e27]:
+          - heading "AI Reliability App" [level=3] [ref=e29]
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: A Python project for testing and improving reliability around AI outputs and workflows.
+            - generic [ref=e32]:
+              - link "GitHub repo" [ref=e33] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif/AI-reliability-app
+                - img [ref=e34]
+                - text: GitHub repo
+                - img [ref=e36]
+              - button "Show AI Reliability App video demo" [ref=e40]:
+                - img [ref=e41]
+      - article [ref=e44]:
+        - generic [ref=e45]:
+          - heading "LLM Guardrail Detector" [level=3] [ref=e47]
+          - generic [ref=e48]:
+            - paragraph [ref=e49]: A local-first LLM output guardrail classifier built with Hugging Face ML Intern, Ollama, and response-side safety data.
+            - generic [ref=e50]:
+              - link "GitHub repo" [ref=e51] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif/llm-guardrail-detector-using-ml-intern
+                - img [ref=e52]
+                - text: GitHub repo
+                - img [ref=e54]
+              - button "Show LLM Guardrail Detector video demo" [ref=e58]:
+                - img [ref=e59]
+      - article [ref=e62]:
+        - generic [ref=e63]:
+          - heading "Anything to Markdown" [level=3] [ref=e65]
+          - generic [ref=e66]:
+            - paragraph [ref=e67]: A TypeScript tool where you paste a URL or drop a file and get clean Markdown back.
+            - generic [ref=e68]:
+              - link "GitHub repo" [ref=e69] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif/anything-to-markdown
+                - img [ref=e70]
+                - text: GitHub repo
+                - img [ref=e72]
+              - button "Show Anything to Markdown video demo" [ref=e76]:
+                - img [ref=e77]
+      - article [ref=e80]:
+        - generic [ref=e81]:
+          - heading "Tribe V2 Test" [level=3] [ref=e83]
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: A public test repository for Tribe V2 experiments.
+            - generic [ref=e86]:
+              - link "GitHub repo" [ref=e87] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif/tribe_v2_test
+                - img [ref=e88]
+                - text: GitHub repo
+                - img [ref=e90]
+              - button "Show Tribe V2 Test video demo" [ref=e94]:
+                - img [ref=e95]
+      - article [ref=e98]:
+        - generic [ref=e99]:
+          - heading "Lingua Voice" [level=3] [ref=e101]
+          - generic [ref=e102]:
+            - paragraph [ref=e103]: A voice-based language learning PWA where you clone your own voice and practice speaking with an AI tutor.
+            - generic [ref=e104]:
+              - link "GitHub repo" [ref=e105] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif/Lingua_Voice
+                - img [ref=e106]
+                - text: GitHub repo
+                - img [ref=e108]
+              - button "Show Lingua Voice video demo" [ref=e112]:
+                - img [ref=e113]
+      - article [ref=e116]:
+        - generic [ref=e117]:
+          - heading "StandupLine" [level=3] [ref=e119]
+          - generic [ref=e120]:
+            - paragraph [ref=e121]: A voice-first async standup system for teams using ElevenLabs, Cloudflare Workers, Durable Objects, R2, and Telegram.
+            - generic [ref=e122]:
+              - link "GitHub repo" [ref=e123] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif/standup_line
+                - img [ref=e124]
+                - text: GitHub repo
+                - img [ref=e126]
+              - button "Show StandupLine video demo" [ref=e130]:
+                - img [ref=e131]
+      - article [ref=e134]:
+        - generic [ref=e135]:
+          - heading "Dispatch Agent" [level=3] [ref=e137]
+          - generic [ref=e138]:
+            - paragraph [ref=e139]: An AI-powered procurement assistant that calls vendors, collects pricing, reports lead times, and sends live updates.
+            - generic [ref=e140]:
+              - link "GitHub repo" [ref=e141] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif/dispatch_agent
+                - img [ref=e142]
+                - text: GitHub repo
+                - img [ref=e144]
+              - button "Show Dispatch Agent video demo" [ref=e148]:
+                - img [ref=e149]
+      - article [ref=e152]:
+        - generic [ref=e153]:
+          - heading "MTC" [level=3] [ref=e155]
+          - generic [ref=e156]:
+            - paragraph [ref=e157]: A professional equipment tracking dashboard for virtual production studios managing gear movement and inventory control.
+            - generic [ref=e158]:
+              - link "GitHub repo" [ref=e159] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif/MTC
+                - img [ref=e160]
+                - text: GitHub repo
+                - img [ref=e162]
+              - button "Show MTC video demo" [ref=e166]:
+                - img [ref=e167]
+      - article [ref=e170]:
+        - generic [ref=e171]:
+          - heading "LinkedIn Psychology Writer Skill" [level=3] [ref=e173]
+          - generic [ref=e174]:
+            - paragraph [ref=e175]: A Claude skill for writing LinkedIn posts that trigger emotional responses instead of only delivering information.
+            - generic [ref=e176]:
+              - link "GitHub repo" [ref=e177] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif/linkedin-psy-writer-skill
+                - img [ref=e178]
+                - text: GitHub repo
+                - img [ref=e180]
+              - button "Show LinkedIn Psychology Writer Skill video demo" [ref=e184]:
+                - img [ref=e185]
+      - article [ref=e188]:
+        - generic [ref=e189]:
+          - heading "AI Powered Recruitment Pipeline" [level=3] [ref=e191]
+          - generic [ref=e192]:
+            - paragraph [ref=e193]: A recruitment automation pipeline that turns messy resume PDFs into a clean PowerPoint deck through Telegram.
+            - generic [ref=e194]:
+              - link "GitHub repo" [ref=e195] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif/AI-Powered-Recruitment-Pipeline-
+                - img [ref=e196]
+                - text: GitHub repo
+                - img [ref=e198]
+              - button "Show AI Powered Recruitment Pipeline video demo" [ref=e202]:
+                - img [ref=e203]
+      - article [ref=e206]:
+        - generic [ref=e207]:
+          - heading "Instagram Reel Transcriber" [level=3] [ref=e209]
+          - generic [ref=e210]:
+            - paragraph [ref=e211]: A local web app that downloads Instagram Reels and transcribes them with OpenAI Whisper without paid APIs.
+            - generic [ref=e212]:
+              - link "GitHub repo" [ref=e213] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif/Instagram-Reel-Transcriber
+                - img [ref=e214]
+                - text: GitHub repo
+                - img [ref=e216]
+              - button "Show Instagram Reel Transcriber video demo" [ref=e220]:
+                - img [ref=e221]
+      - article [ref=e224]:
+        - generic [ref=e225]:
+          - heading "AI Paper Reader Skill" [level=3] [ref=e227]
+          - generic [ref=e228]:
+            - paragraph [ref=e229]: A Claude skill for reading and understanding AI research papers deeply instead of only summarizing them.
+            - generic [ref=e230]:
+              - link "GitHub repo" [ref=e231] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif/ai-paper-reader-skill
+                - img [ref=e232]
+                - text: GitHub repo
+                - img [ref=e234]
+              - button "Show AI Paper Reader Skill video demo" [ref=e238]:
+                - img [ref=e239]
+      - article [ref=e242]:
+        - generic [ref=e243]:
+          - heading "Intelligent Agent System" [level=3] [ref=e245]
+          - generic [ref=e246]:
+            - paragraph [ref=e247]: A multi-agent AI system where specialized agents collaborate through hierarchical orchestration to solve complex tasks.
+            - generic [ref=e248]:
+              - link "GitHub repo" [ref=e249] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif/intelligent-agent-system
+                - img [ref=e250]
+                - text: GitHub repo
+                - img [ref=e252]
+              - button "Show Intelligent Agent System video demo" [ref=e256]:
+                - img [ref=e257]
+      - article [ref=e260]:
+        - generic [ref=e261]:
+          - heading "You Should Take Action" [level=3] [ref=e263]
+          - generic [ref=e264]:
+            - paragraph [ref=e265]: A public HTML project around the idea of pushing people toward action.
+            - generic [ref=e266]:
+              - link "GitHub repo" [ref=e267] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif/youshould-take-action
+                - img [ref=e268]
+                - text: GitHub repo
+                - img [ref=e270]
+              - button "Show You Should Take Action video demo" [ref=e274]:
+                - img [ref=e275]
+  - navigation "Site navigation" [ref=e278]:
+    - button "Home" [ref=e279]:
+      - img [ref=e280]
+    - button "GitHub" [ref=e284]:
+      - img [ref=e285]
+    - button "LinkedIn" [ref=e288]:
+      - img [ref=e289]
+    - button "Twitter" [ref=e292]:
+      - img [ref=e293]
+    - button "Instagram" [ref=e296]:
+      - img [ref=e297]
+    - button "Email" [ref=e300]:
+      - img [ref=e301]
+    - button "Switch to Agent View" [ref=e305]:
+      - img [ref=e306]
+    - button "Switch to light mode" [ref=e310]:
+      - img [ref=e311]
+  - button "Open Next.js Dev Tools" [ref=e322] [cursor=pointer]:
+    - img [ref=e323]

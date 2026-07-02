@@ -1,0 +1,263 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - navigation [ref=e4]:
+        - button "Project" [ref=e5]
+        - button "Story" [ref=e6]
+        - button "Writings" [ref=e7]
+        - button "Books" [ref=e8]
+      - generic:
+        - generic: Moghal
+        - generic: Saif
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - paragraph [ref=e16]: what's something interesting i'm working on
+            - generic [ref=e17]:
+              - button "Previous working slide" [ref=e18]:
+                - img [ref=e19]
+              - button "Next working slide" [ref=e21]:
+                - img [ref=e22]
+          - generic [ref=e25]:
+            - img [ref=e27]
+            - paragraph [ref=e31]: project
+            - heading "Mosaic" [level=2] [ref=e32]
+            - paragraph [ref=e33]: A visual knowledge system that embeds what I save, clusters it, and brings the right idea back at the right time.
+            - paragraph [ref=e34]: Next.js / Pinecone / OpenAI
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - generic [ref=e37]:
+              - paragraph [ref=e38]: "01"
+              - paragraph [ref=e39]: save
+            - generic [ref=e40]:
+              - paragraph [ref=e41]: "02"
+              - paragraph [ref=e42]: embed
+            - generic [ref=e43]:
+              - paragraph [ref=e44]: "03"
+              - paragraph [ref=e45]: cluster
+            - generic [ref=e46]:
+              - paragraph [ref=e47]: "04"
+              - paragraph [ref=e48]: return
+          - link "Github repo" [ref=e49] [cursor=pointer]:
+            - /url: https://github.com/moghalsaif
+            - img [ref=e50]
+            - text: Github repo
+            - img [ref=e52]
+      - article [ref=e54]:
+        - paragraph [ref=e55]: what's something interesting i'm reading
+        - generic [ref=e56]:
+          - 'img "The Goal: A Process of Ongoing Improvement cover" [ref=e58]'
+          - generic [ref=e59]:
+            - img [ref=e61]
+            - 'heading "The Goal: A Process of Ongoing Improvement" [level=2] [ref=e63]'
+            - paragraph [ref=e64]: I keep coming back to systems books because they turn messy ambition into constraints, feedback loops, and better decisions.
+            - paragraph [ref=e65]: current shelf note
+    - generic [ref=e66]:
+      - paragraph [ref=e67]: Tap a section to explore
+      - generic [ref=e68]:
+        - button "Open Projects" [ref=e69]:
+          - img [ref=e70]:
+            - generic: Projects
+        - button "Open Story" [ref=e71]:
+          - img [ref=e72]:
+            - generic: Story
+        - button "Open Writings" [active] [ref=e73]:
+          - img [ref=e74]:
+            - generic: Writings
+        - button "Open Books" [ref=e75]:
+          - img [ref=e76]:
+            - generic: Books
+    - generic [ref=e98]:
+      - button "Close" [ref=e99]:
+        - img [ref=e100]
+      - generic [ref=e103]:
+        - heading "blog" [level=2] [ref=e104]
+        - generic [ref=e105]:
+          - link "Everyone is talking about brand, but no one is talking about sales May 2026" [ref=e107] [cursor=pointer]:
+            - /url: /writings/25
+            - generic [ref=e108]:
+              - generic [ref=e109]:
+                - heading "Everyone is talking about brand, but no one is talking about sales" [level=3] [ref=e110]
+                - paragraph [ref=e111]: May 2026
+              - img [ref=e112]
+          - link "If you want something no one has, endure what no one will Mar 2026" [ref=e115] [cursor=pointer]:
+            - /url: /writings/1
+            - generic [ref=e116]:
+              - generic [ref=e117]:
+                - heading "If you want something no one has, endure what no one will" [level=3] [ref=e118]
+                - paragraph [ref=e119]: Mar 2026
+              - img [ref=e120]
+          - link "All outliers are rebels, but not all rebels are outliers Feb 2026" [ref=e123] [cursor=pointer]:
+            - /url: /writings/2
+            - generic [ref=e124]:
+              - generic [ref=e125]:
+                - heading "All outliers are rebels, but not all rebels are outliers" [level=3] [ref=e126]
+                - paragraph [ref=e127]: Feb 2026
+              - img [ref=e128]
+          - link "If religion teaches us to be good, why are history's powerful people bad? Dec 2025" [ref=e131] [cursor=pointer]:
+            - /url: /writings/3
+            - generic [ref=e132]:
+              - generic [ref=e133]:
+                - heading "If religion teaches us to be good, why are history's powerful people bad?" [level=3] [ref=e134]
+                - paragraph [ref=e135]: Dec 2025
+              - img [ref=e136]
+          - link "Why you need to live an intentional life Sep 2025" [ref=e139] [cursor=pointer]:
+            - /url: /writings/4
+            - generic [ref=e140]:
+              - generic [ref=e141]:
+                - heading "Why you need to live an intentional life" [level=3] [ref=e142]
+                - paragraph [ref=e143]: Sep 2025
+              - img [ref=e144]
+          - link "The next era of human survival Sep 2025" [ref=e147] [cursor=pointer]:
+            - /url: /writings/5
+            - generic [ref=e148]:
+              - generic [ref=e149]:
+                - heading "The next era of human survival" [level=3] [ref=e150]
+                - paragraph [ref=e151]: Sep 2025
+              - img [ref=e152]
+          - link "Most of your efforts are BS Jan 2025" [ref=e155] [cursor=pointer]:
+            - /url: /writings/6
+            - generic [ref=e156]:
+              - generic [ref=e157]:
+                - heading "Most of your efforts are BS" [level=3] [ref=e158]
+                - paragraph [ref=e159]: Jan 2025
+              - img [ref=e160]
+          - link "dog & bull Jan 2024" [ref=e163] [cursor=pointer]:
+            - /url: /writings/7
+            - generic [ref=e164]:
+              - generic [ref=e165]:
+                - heading "dog & bull" [level=3] [ref=e166]
+                - paragraph [ref=e167]: Jan 2024
+              - img [ref=e168]
+          - link "revival Jan 2024" [ref=e171] [cursor=pointer]:
+            - /url: /writings/8
+            - generic [ref=e172]:
+              - generic [ref=e173]:
+                - heading "revival" [level=3] [ref=e174]
+                - paragraph [ref=e175]: Jan 2024
+              - img [ref=e176]
+          - link "beauty of darkness Nov 2023" [ref=e179] [cursor=pointer]:
+            - /url: /writings/9
+            - generic [ref=e180]:
+              - generic [ref=e181]:
+                - heading "beauty of darkness" [level=3] [ref=e182]
+                - paragraph [ref=e183]: Nov 2023
+              - img [ref=e184]
+          - link "respect & attention games Oct 2023" [ref=e187] [cursor=pointer]:
+            - /url: /writings/10
+            - generic [ref=e188]:
+              - generic [ref=e189]:
+                - heading "respect & attention games" [level=3] [ref=e190]
+                - paragraph [ref=e191]: Oct 2023
+              - img [ref=e192]
+          - link "kabir & zaalima Aug 2023" [ref=e195] [cursor=pointer]:
+            - /url: /writings/11
+            - generic [ref=e196]:
+              - generic [ref=e197]:
+                - heading "kabir & zaalima" [level=3] [ref=e198]
+                - paragraph [ref=e199]: Aug 2023
+              - img [ref=e200]
+          - link "dispose purpose Aug 2023" [ref=e203] [cursor=pointer]:
+            - /url: /writings/12
+            - generic [ref=e204]:
+              - generic [ref=e205]:
+                - heading "dispose purpose" [level=3] [ref=e206]
+                - paragraph [ref=e207]: Aug 2023
+              - img [ref=e208]
+          - link "at the end, its love Jul 2023" [ref=e211] [cursor=pointer]:
+            - /url: /writings/13
+            - generic [ref=e212]:
+              - generic [ref=e213]:
+                - heading "at the end, its love" [level=3] [ref=e214]
+                - paragraph [ref=e215]: Jul 2023
+              - img [ref=e216]
+          - link "masks Jun 2023" [ref=e219] [cursor=pointer]:
+            - /url: /writings/14
+            - generic [ref=e220]:
+              - generic [ref=e221]:
+                - heading "masks" [level=3] [ref=e222]
+                - paragraph [ref=e223]: Jun 2023
+              - img [ref=e224]
+          - link "white horse Jun 2023" [ref=e227] [cursor=pointer]:
+            - /url: /writings/15
+            - generic [ref=e228]:
+              - generic [ref=e229]:
+                - heading "white horse" [level=3] [ref=e230]
+                - paragraph [ref=e231]: Jun 2023
+              - img [ref=e232]
+          - link "Enigma of happiness May 2023" [ref=e235] [cursor=pointer]:
+            - /url: /writings/16
+            - generic [ref=e236]:
+              - generic [ref=e237]:
+                - heading "Enigma of happiness" [level=3] [ref=e238]
+                - paragraph [ref=e239]: May 2023
+              - img [ref=e240]
+          - link "why you don't matter Apr 2023" [ref=e243] [cursor=pointer]:
+            - /url: /writings/17
+            - generic [ref=e244]:
+              - generic [ref=e245]:
+                - heading "why you don't matter" [level=3] [ref=e246]
+                - paragraph [ref=e247]: Apr 2023
+              - img [ref=e248]
+          - link "space, emptiness and silence Mar 2023" [ref=e251] [cursor=pointer]:
+            - /url: /writings/18
+            - generic [ref=e252]:
+              - generic [ref=e253]:
+                - heading "space, emptiness and silence" [level=3] [ref=e254]
+                - paragraph [ref=e255]: Mar 2023
+              - img [ref=e256]
+          - link "delusional Mar 2023" [ref=e259] [cursor=pointer]:
+            - /url: /writings/19
+            - generic [ref=e260]:
+              - generic [ref=e261]:
+                - heading "delusional" [level=3] [ref=e262]
+                - paragraph [ref=e263]: Mar 2023
+              - img [ref=e264]
+          - link "levels of experience Feb 2023" [ref=e267] [cursor=pointer]:
+            - /url: /writings/20
+            - generic [ref=e268]:
+              - generic [ref=e269]:
+                - heading "levels of experience" [level=3] [ref=e270]
+                - paragraph [ref=e271]: Feb 2023
+              - img [ref=e272]
+          - link "Letting go... Feb 2023" [ref=e275] [cursor=pointer]:
+            - /url: /writings/21
+            - generic [ref=e276]:
+              - generic [ref=e277]:
+                - heading "Letting go..." [level=3] [ref=e278]
+                - paragraph [ref=e279]: Feb 2023
+              - img [ref=e280]
+          - link "best thing to do when you feel low Jan 2023" [ref=e283] [cursor=pointer]:
+            - /url: /writings/22
+            - generic [ref=e284]:
+              - generic [ref=e285]:
+                - heading "best thing to do when you feel low" [level=3] [ref=e286]
+                - paragraph [ref=e287]: Jan 2023
+              - img [ref=e288]
+          - link "Why intellectuals live a miserable life Jan 2023" [ref=e291] [cursor=pointer]:
+            - /url: /writings/23
+            - generic [ref=e292]:
+              - generic [ref=e293]:
+                - heading "Why intellectuals live a miserable life" [level=3] [ref=e294]
+                - paragraph [ref=e295]: Jan 2023
+              - img [ref=e296]
+          - link "12 Realizations of 2021 Dec 2021" [ref=e299] [cursor=pointer]:
+            - /url: /writings/24
+            - generic [ref=e300]:
+              - generic [ref=e301]:
+                - heading "12 Realizations of 2021" [level=3] [ref=e302]
+                - paragraph [ref=e303]: Dec 2021
+              - img [ref=e304]
+    - generic [ref=e78]:
+      - generic [ref=e79]: Moghal Saif · 2026
+      - generic [ref=e80]:
+        - link "X" [ref=e81] [cursor=pointer]:
+          - /url: https://x.com/moghalsaifa
+        - link "Instagram" [ref=e82] [cursor=pointer]:
+          - /url: https://instagram.com/moghalsaif
+        - link "LinkedIn" [ref=e83] [cursor=pointer]:
+          - /url: https://linkedin.com/in/moghalsaifa
+  - button "Open Next.js Dev Tools" [ref=e89] [cursor=pointer]:
+    - img [ref=e90]
+  - alert [ref=e93]

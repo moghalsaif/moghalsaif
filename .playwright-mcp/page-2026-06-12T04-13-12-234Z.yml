@@ -1,0 +1,77 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic:
+        - generic: Moghal
+        - generic: Saif
+    - generic [ref=e7]:
+      - paragraph [ref=e8]: been here for 22.183631429 years
+      - generic [ref=e9]:
+        - article [ref=e10]:
+          - generic [ref=e11]:
+            - paragraph [ref=e12]: what's something interesting i'm working on
+            - heading "Mosaic" [level=2] [ref=e13]
+            - paragraph [ref=e14]: A visual knowledge system that saves what I read, connects related ideas, and brings useful notes back when I need them.
+          - link "Github repo" [ref=e15] [cursor=pointer]:
+            - /url: https://github.com/moghalsaif
+        - article [ref=e16]:
+          - paragraph [ref=e17]: what's something interesting i'm reading
+          - generic [ref=e18]:
+            - 'img "The Goal: A Process of Ongoing Improvement cover" [ref=e20]'
+            - generic [ref=e21]:
+              - 'heading "The Goal: A Process of Ongoing Improvement" [level=2] [ref=e22]'
+              - paragraph [ref=e23]: I keep coming back to systems books because they turn messy ambition into constraints, feedback loops, and better decisions.
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - paragraph [ref=e27]: explore
+        - heading "sections" [level=2] [ref=e28]
+      - generic [ref=e29]:
+        - button "Projects Selected work and build notes. Open" [ref=e30]:
+          - generic [ref=e31]: Projects
+          - generic [ref=e32]: Selected work and build notes.
+          - generic [ref=e33]: Open
+        - button "Story A short letter about the person behind the work. Open" [ref=e34]:
+          - generic [ref=e35]: Story
+          - generic [ref=e36]: A short letter about the person behind the work.
+          - generic [ref=e37]: Open
+        - button "Writings Essays, notes, and thinking in public. Open" [ref=e38]:
+          - generic [ref=e39]: Writings
+          - generic [ref=e40]: Essays, notes, and thinking in public.
+          - generic [ref=e41]: Open
+        - button "Books A running shelf of what I am reading. Open" [ref=e42]:
+          - generic [ref=e43]: Books
+          - generic [ref=e44]: A running shelf of what I am reading.
+          - generic [ref=e45]: Open
+    - generic [ref=e47]:
+      - generic [ref=e48]: Moghal Saif · 2026
+      - generic [ref=e49]:
+        - link "X" [ref=e50] [cursor=pointer]:
+          - /url: https://x.com/moghalsaifa
+        - link "Instagram" [ref=e51] [cursor=pointer]:
+          - /url: https://instagram.com/moghalsaif
+        - link "LinkedIn" [ref=e52] [cursor=pointer]:
+          - /url: https://linkedin.com/in/moghalsaifa
+    - navigation "Site navigation" [ref=e53]:
+      - button "Home" [ref=e54]:
+        - img [ref=e55]
+      - button "Sections" [ref=e58]:
+        - img [ref=e59]
+      - button "Books" [ref=e61]:
+        - img [ref=e62]
+      - link "GitHub" [ref=e65] [cursor=pointer]:
+        - /url: https://github.com/moghalsaif
+        - img [ref=e66]
+      - link "LinkedIn" [ref=e68] [cursor=pointer]:
+        - /url: https://linkedin.com/in/moghalsaifa
+        - img [ref=e69]
+      - link "X" [ref=e71] [cursor=pointer]:
+        - /url: https://x.com/moghalsaifa
+        - img [ref=e72]
+      - link "Instagram" [ref=e74] [cursor=pointer]:
+        - /url: https://instagram.com/moghalsaif
+        - img [ref=e75]
+      - button "Switch to light mode" [ref=e78]:
+        - img [ref=e79]
+  - button "Open Next.js Dev Tools" [ref=e90] [cursor=pointer]:
+    - img [ref=e91]
+  - alert [ref=e94]

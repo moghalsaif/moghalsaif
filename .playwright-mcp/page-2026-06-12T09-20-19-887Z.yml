@@ -1,0 +1,1071 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e112] [cursor=pointer]:
+    - img [ref=e113]
+  - alert [ref=e116]: Books · Moghal Saif
+  - generic [ref=e211]:
+    - button "Close books" [ref=e212]:
+      - img [ref=e213]
+    - generic [ref=e216]:
+      - generic [ref=e217]:
+        - heading "books" [level=1] [ref=e218]
+        - paragraph [ref=e219]: A running shelf of books worth returning to.
+      - generic [ref=e220]:
+        - article [ref=e221]:
+          - img "Greatest Minds And Ideas Of All Times cover" [ref=e223]
+          - heading "Greatest Minds And Ideas Of All Times" [level=3] [ref=e224]
+        - article [ref=e225]:
+          - 'img "Modern Poker Theory: Building an Unbeata cover" [ref=e227]'
+          - 'heading "Modern Poker Theory: Building an Unbeata" [level=3] [ref=e228]'
+        - article [ref=e229]:
+          - img "Operation Mind Control cover" [ref=e231]
+          - heading "Operation Mind Control" [level=3] [ref=e232]
+        - article [ref=e233]:
+          - img "A Man for All Markets cover" [ref=e235]
+          - heading "A Man for All Markets" [level=3] [ref=e236]
+        - article [ref=e237]:
+          - 'img "The Goal: A Process of Ongoing Improvement cover" [ref=e239]'
+          - 'heading "The Goal: A Process of Ongoing Improvement" [level=3] [ref=e240]'
+        - article [ref=e241]:
+          - img "THE FORBIDDEN UNIVERSE cover" [ref=e243]
+          - heading "THE FORBIDDEN UNIVERSE" [level=3] [ref=e244]
+        - article [ref=e245]:
+          - 'img "Pregnant Darkness: Alchemy and the Rebirth of Consciousness cover" [ref=e247]'
+          - 'heading "Pregnant Darkness: Alchemy and the Rebirth of Consciousness" [level=3] [ref=e248]'
+        - article [ref=e249]:
+          - img "The Rosicrucian Cosmo-Conception cover" [ref=e251]
+          - heading "The Rosicrucian Cosmo-Conception" [level=3] [ref=e252]
+        - article [ref=e253]:
+          - 'img "Tarot of Ceremonial Magick: A Pictorial Synthesis of Three Great Pillars of Magick : Enochian, Goetia, Astrology cover" [ref=e255]'
+          - 'heading "Tarot of Ceremonial Magick: A Pictorial Synthesis of Three Great Pillars of Magick : Enochian, Goetia, Astrology" [level=3] [ref=e256]'
+        - article [ref=e257]:
+          - img "On the Art of the Kabbalah/De Arte Cabalistica cover" [ref=e259]
+          - heading "On the Art of the Kabbalah/De Arte Cabalistica" [level=3] [ref=e260]
+        - article [ref=e261]:
+          - img "The Hermetic and Alchemical Writings of Paracelsus cover" [ref=e263]
+          - heading "The Hermetic and Alchemical Writings of Paracelsus" [level=3] [ref=e264]
+        - article [ref=e265]:
+          - 'img "Greek Magical Papyri in Translation: Texts Volume 1 cover" [ref=e267]'
+          - 'heading "Greek Magical Papyri in Translation: Texts Volume 1" [level=3] [ref=e268]'
+        - article [ref=e269]:
+          - 'img "Zohar: The Book of Splendor: Basic Readings from the Kabbalah cover" [ref=e271]'
+          - 'heading "Zohar: The Book of Splendor: Basic Readings from the Kabbalah" [level=3] [ref=e272]'
+        - article [ref=e273]:
+          - img "Three books of occult philosophy or magic cover" [ref=e275]
+          - heading "Three books of occult philosophy or magic" [level=3] [ref=e276]
+        - article [ref=e277]:
+          - img "Initiation into Hermetics cover" [ref=e279]
+          - heading "Initiation into Hermetics" [level=3] [ref=e280]
+        - article [ref=e281]:
+          - 'img "Real Magic: An Introductory Treatise on the Basic Principles of Yellow Light cover" [ref=e283]'
+          - 'heading "Real Magic: An Introductory Treatise on the Basic Principles of Yellow Light" [level=3] [ref=e284]'
+        - article [ref=e285]:
+          - 'img "The Masonic Initiation: Expanded Centennial Edition cover" [ref=e287]'
+          - 'heading "The Masonic Initiation: Expanded Centennial Edition" [level=3] [ref=e288]'
+        - article [ref=e289]:
+          - img "Freemasonry And The Ancient Gods cover" [ref=e291]
+          - heading "Freemasonry And The Ancient Gods" [level=3] [ref=e292]
+        - article [ref=e293]:
+          - img "The History of Magic cover" [ref=e295]
+          - heading "The History of Magic" [level=3] [ref=e296]
+        - article [ref=e297]:
+          - img "The Hieroglyphic Monad cover" [ref=e299]
+          - heading "The Hieroglyphic Monad" [level=3] [ref=e300]
+        - article [ref=e301]:
+          - 'img "The Complete Picatrix: The Occult Classic of Astrological Magic Liber Atratus Edition cover" [ref=e303]'
+          - 'heading "The Complete Picatrix: The Occult Classic of Astrological Magic Liber Atratus Edition" [level=3] [ref=e304]'
+        - article [ref=e305]:
+          - img "The Chymical Wedding of Christian Rosenkreutz cover" [ref=e307]
+          - heading "The Chymical Wedding of Christian Rosenkreutz" [level=3] [ref=e308]
+        - article [ref=e309]:
+          - paragraph [ref=e312]: "Sefer Yetzira/The Book of Creation: In Theory and Practice"
+          - 'heading "Sefer Yetzira/The Book of Creation: In Theory and Practice" [level=3] [ref=e313]'
+        - article [ref=e314]:
+          - img "Napoleon's Rules cover" [ref=e316]
+          - heading "Napoleon's Rules" [level=3] [ref=e317]
+        - article [ref=e318]:
+          - img "The Military Maxims of Napoleon cover" [ref=e320]
+          - heading "The Military Maxims of Napoleon" [level=3] [ref=e321]
+        - article [ref=e322]:
+          - img "World Order cover" [ref=e324]
+          - heading "World Order" [level=3] [ref=e325]
+        - article [ref=e326]:
+          - img "Diplomacy cover" [ref=e328]
+          - heading "Diplomacy" [level=3] [ref=e329]
+        - article [ref=e330]:
+          - 'img "Leadership: Six Studies in World Strategy cover" [ref=e332]'
+          - 'heading "Leadership: Six Studies in World Strategy" [level=3] [ref=e333]'
+        - article [ref=e334]:
+          - img "Gospel Of Mary Magdalene cover" [ref=e336]
+          - heading "Gospel Of Mary Magdalene" [level=3] [ref=e337]
+        - article [ref=e338]:
+          - 'img "The Magus: A Complete System of Occult Philosophy cover" [ref=e340]'
+          - 'heading "The Magus: A Complete System of Occult Philosophy" [level=3] [ref=e341]'
+        - article [ref=e342]:
+          - 'img "Passport to Magonia: From Folklore to Flying Saucers cover" [ref=e344]'
+          - 'heading "Passport to Magonia: From Folklore to Flying Saucers" [level=3] [ref=e345]'
+        - article [ref=e346]:
+          - img "The White Goddess cover" [ref=e348]
+          - heading "The White Goddess" [level=3] [ref=e349]
+        - article [ref=e350]:
+          - img "The Kingdom of God Is Within You cover" [ref=e352]
+          - heading "The Kingdom of God Is Within You" [level=3] [ref=e353]
+        - article [ref=e354]:
+          - paragraph [ref=e357]: Love's Body, Reissue of 1966 edition
+          - heading "Love's Body, Reissue of 1966 edition" [level=3] [ref=e358]
+        - article [ref=e359]:
+          - 'img "The Idea of the Holy: An Inquiry into the Non-rational Factor in the Idea of the Divine and Its Relation to the Rational cover" [ref=e361]'
+          - 'heading "The Idea of the Holy: An Inquiry into the Non-rational Factor in the Idea of the Divine and Its Relation to the Rational" [level=3] [ref=e362]'
+        - article [ref=e363]:
+          - img "SACRED AND PROFANE PA cover" [ref=e365]
+          - heading "SACRED AND PROFANE PA" [level=3] [ref=e366]
+        - article [ref=e367]:
+          - img "Esoteric Christianity or the Lesser Mysteries cover" [ref=e369]
+          - heading "Esoteric Christianity or the Lesser Mysteries" [level=3] [ref=e370]
+        - article [ref=e371]:
+          - img "The Spirit of Masonry cover" [ref=e373]
+          - heading "The Spirit of Masonry" [level=3] [ref=e374]
+        - article [ref=e375]:
+          - img "The Perennial Philosophy cover" [ref=e377]
+          - heading "The Perennial Philosophy" [level=3] [ref=e378]
+        - article [ref=e379]:
+          - 'img "Mystical Christ: Religion as a Personal Spiritual Experience cover" [ref=e381]'
+          - 'heading "Mystical Christ: Religion as a Personal Spiritual Experience" [level=3] [ref=e382]'
+        - article [ref=e383]:
+          - img "Crowds and Power cover" [ref=e385]
+          - heading "Crowds and Power" [level=3] [ref=e386]
+        - article [ref=e387]:
+          - 'img "Owning Your Own Shadow: Understanding the Dark Side of the Psyche cover" [ref=e389]'
+          - 'heading "Owning Your Own Shadow: Understanding the Dark Side of the Psyche" [level=3] [ref=e390]'
+        - article [ref=e391]:
+          - paragraph [ref=e394]: "The Sacred Gathas of Zarathushtra & the Old Avestan Canon: A Modern Translation of Ancient Wisdom"
+          - 'heading "The Sacred Gathas of Zarathushtra & the Old Avestan Canon: A Modern Translation of Ancient Wisdom" [level=3] [ref=e395]'
+        - article [ref=e396]:
+          - paragraph [ref=e399]: "Lessons in Diplomacy: Politics, Power and Parties"
+          - 'heading "Lessons in Diplomacy: Politics, Power and Parties" [level=3] [ref=e400]'
+        - article [ref=e401]:
+          - paragraph [ref=e404]: "The Superhumanities: Historical Precedents, Moral Objections, New Realities"
+          - 'heading "The Superhumanities: Historical Precedents, Moral Objections, New Realities" [level=3] [ref=e405]'
+        - article [ref=e406]:
+          - 'img "Visual Thinking: The Hidden Gifts of People Who Think in Pictures, Patterns and Abstractions cover" [ref=e408]'
+          - 'heading "Visual Thinking: The Hidden Gifts of People Who Think in Pictures, Patterns and Abstractions" [level=3] [ref=e409]'
+        - article [ref=e410]:
+          - 'img "Status and Culture: How Our Desire for Social Rank Creates Taste, Identity, Art, Fashion, and Constant Change cover" [ref=e412]'
+          - 'heading "Status and Culture: How Our Desire for Social Rank Creates Taste, Identity, Art, Fashion, and Constant Change" [level=3] [ref=e413]'
+        - article [ref=e414]:
+          - img "Working Backwards cover" [ref=e416]
+          - heading "Working Backwards" [level=3] [ref=e417]
+        - article [ref=e418]:
+          - 'img "The Great CEO Within: The Tactical Guide to Company Building cover" [ref=e420]'
+          - 'heading "The Great CEO Within: The Tactical Guide to Company Building" [level=3] [ref=e421]'
+        - article [ref=e422]:
+          - img "High Output Management cover" [ref=e424]
+          - heading "High Output Management" [level=3] [ref=e425]
+        - article [ref=e426]:
+          - 'img "Pimp: The Story Of My Life cover" [ref=e428]'
+          - 'heading "Pimp: The Story Of My Life" [level=3] [ref=e429]'
+        - article [ref=e430]:
+          - 'img "The Pineal Gland: The Eye of God cover" [ref=e432]'
+          - 'heading "The Pineal Gland: The Eye of God" [level=3] [ref=e433]'
+        - article [ref=e434]:
+          - img "The Oxford Handbook of Human Motivation (Oxford Library of Psychology) cover" [ref=e436]
+          - heading "The Oxford Handbook of Human Motivation (Oxford Library of Psychology)" [level=3] [ref=e437]
+        - article [ref=e438]:
+          - paragraph [ref=e441]: "Building a StoryBrand 2.0 : Clarify Your Message So Customers Will Listen"
+          - 'heading "Building a StoryBrand 2.0 : Clarify Your Message So Customers Will Listen" [level=3] [ref=e442]'
+        - article [ref=e443]:
+          - 'img "Dark Money: how a secretive group of billionaires is trying to buy political control in the US cover" [ref=e445]'
+          - 'heading "Dark Money: how a secretive group of billionaires is trying to buy political control in the US" [level=3] [ref=e446]'
+        - article [ref=e447]:
+          - 'img "Thinking in Systems: International Bestseller cover" [ref=e449]'
+          - 'heading "Thinking in Systems: International Bestseller" [level=3] [ref=e450]'
+        - article [ref=e451]:
+          - img "Jewish Mystique cover" [ref=e453]
+          - heading "Jewish Mystique" [level=3] [ref=e454]
+        - article [ref=e455]:
+          - 'img "Caesar: Life of a Colossus cover" [ref=e457]'
+          - 'heading "Caesar: Life of a Colossus" [level=3] [ref=e458]'
+        - article [ref=e459]:
+          - img "Alexander The Great cover" [ref=e461]
+          - heading "Alexander The Great" [level=3] [ref=e462]
+        - article [ref=e463]:
+          - 'img "Napoleon: A Life cover" [ref=e465]'
+          - 'heading "Napoleon: A Life" [level=3] [ref=e466]'
+        - article [ref=e467]:
+          - img "How to Fail at Almost Everything and Still Win Big cover" [ref=e469]
+          - heading "How to Fail at Almost Everything and Still Win Big" [level=3] [ref=e470]
+        - article [ref=e471]:
+          - img "Competitive Strategy cover" [ref=e473]
+          - heading "Competitive Strategy" [level=3] [ref=e474]
+        - article [ref=e475]:
+          - img "PARALLEL UNIVERSES OF SELF cover" [ref=e477]
+          - heading "PARALLEL UNIVERSES OF SELF" [level=3] [ref=e478]
+        - article [ref=e479]:
+          - 'img "Trump : The Art of the Deal cover" [ref=e481]'
+          - 'heading "Trump : The Art of the Deal" [level=3] [ref=e482]'
+        - article [ref=e483]:
+          - img "Theory of Games and Economic Behavior cover" [ref=e485]
+          - heading "Theory of Games and Economic Behavior" [level=3] [ref=e486]
+        - article [ref=e487]:
+          - img "Dead Companies Walking cover" [ref=e489]
+          - heading "Dead Companies Walking" [level=3] [ref=e490]
+        - article [ref=e491]:
+          - 'img "Excellent Advice for Living: Wisdom I Wish I''d Known Earlier cover" [ref=e493]'
+          - 'heading "Excellent Advice for Living: Wisdom I Wish I''d Known Earlier" [level=3] [ref=e494]'
+        - article [ref=e495]:
+          - img "Talleyrand cover" [ref=e497]
+          - heading "Talleyrand" [level=3] [ref=e498]
+        - article [ref=e499]:
+          - img "My Inventions and Other Writings cover" [ref=e501]
+          - heading "My Inventions and Other Writings" [level=3] [ref=e502]
+        - article [ref=e503]:
+          - 'img "My Inventions: The Autobiography of Nikola Tesla cover" [ref=e505]'
+          - 'heading "My Inventions: The Autobiography of Nikola Tesla" [level=3] [ref=e506]'
+        - article [ref=e507]:
+          - 'img "Cyropaedia: The Education of Cyrus cover" [ref=e509]'
+          - 'heading "Cyropaedia: The Education of Cyrus" [level=3] [ref=e510]'
+        - article [ref=e511]:
+          - 'img "The Map of Consciousness Explained: A Proven Energy Scale to Actualize Your Ultimate Potential cover" [ref=e513]'
+          - 'heading "The Map of Consciousness Explained: A Proven Energy Scale to Actualize Your Ultimate Potential" [level=3] [ref=e514]'
+        - article [ref=e515]:
+          - paragraph [ref=e518]: "The Gene Keys: Embracing Your Higher Purpose"
+          - 'heading "The Gene Keys: Embracing Your Higher Purpose" [level=3] [ref=e519]'
+        - article [ref=e520]:
+          - img "Breaking the Habit of Being Yourself English Paperback Edition by Zolo Press cover" [ref=e522]
+          - heading "Breaking the Habit of Being Yourself English Paperback Edition by Zolo Press" [level=3] [ref=e523]
+        - article [ref=e524]:
+          - 'img "Transcending the Levels of Consciousness: The Stairway to Enlightenment cover" [ref=e526]'
+          - 'heading "Transcending the Levels of Consciousness: The Stairway to Enlightenment" [level=3] [ref=e527]'
+        - article [ref=e528]:
+          - 'img "Tiny Habits: Why Starting Small Makes Lasting Change Easy cover" [ref=e530]'
+          - 'heading "Tiny Habits: Why Starting Small Makes Lasting Change Easy" [level=3] [ref=e531]'
+        - article [ref=e532]:
+          - img "Masters of Magical Powers cover" [ref=e534]
+          - heading "Masters of Magical Powers" [level=3] [ref=e535]
+        - article [ref=e536]:
+          - 'img "Creators: From Chaucer and Durer to Picasso and Disney (P.S.) cover" [ref=e538]'
+          - 'heading "Creators: From Chaucer and Durer to Picasso and Disney (P.S.)" [level=3] [ref=e539]'
+        - article [ref=e540]:
+          - 'img "Heroes: From Alexander the Great and Julius Caesar to Churchill and De Gaulle (P.S.) cover" [ref=e542]'
+          - 'heading "Heroes: From Alexander the Great and Julius Caesar to Churchill and De Gaulle (P.S.)" [level=3] [ref=e543]'
+        - article [ref=e544]:
+          - 'img "Socrates: A Man for Our Times cover" [ref=e546]'
+          - 'heading "Socrates: A Man for Our Times" [level=3] [ref=e547]'
+        - article [ref=e548]:
+          - 'img "The Technological Republic: Hard Power, Soft Belief, and the Future of the West cover" [ref=e550]'
+          - 'heading "The Technological Republic: Hard Power, Soft Belief, and the Future of the West" [level=3] [ref=e551]'
+        - article [ref=e552]:
+          - img "Death of A Salesman cover" [ref=e554]
+          - heading "Death of A Salesman" [level=3] [ref=e555]
+        - article [ref=e556]:
+          - 'img "Martin Eden: Jack London: Novel cover" [ref=e558]'
+          - 'heading "Martin Eden: Jack London: Novel" [level=3] [ref=e559]'
+        - article [ref=e560]:
+          - img "Great Expectations cover" [ref=e562]
+          - heading "Great Expectations" [level=3] [ref=e563]
+        - article [ref=e564]:
+          - img "An American Tragedy cover" [ref=e566]
+          - heading "An American Tragedy" [level=3] [ref=e567]
+        - article [ref=e568]:
+          - 'img "The Financier: A Novel cover" [ref=e570]'
+          - 'heading "The Financier: A Novel" [level=3] [ref=e571]'
+        - article [ref=e572]:
+          - 'img "How to Get Rich: One of the World''s Greatest Entrepreneurs Shares His Secrets cover" [ref=e574]'
+          - 'heading "How to Get Rich: One of the World''s Greatest Entrepreneurs Shares His Secrets" [level=3] [ref=e575]'
+        - article [ref=e576]:
+          - 'img "NEWYE Contagious: The Gripping Novel by Jonah Berger | English Language | JONAH BERGER [Paperback] JONAH BERGER cover" [ref=e578]'
+          - 'heading "NEWYE Contagious: The Gripping Novel by Jonah Berger | English Language | JONAH BERGER [Paperback] JONAH BERGER" [level=3] [ref=e579]'
+        - article [ref=e580]:
+          - 'img "Thank You for Arguing, Fourth Edition (Revised and Updated): What Aristotle, Lincoln, and Homer Simpson Can Teach Us About the Art of Persuasion cover" [ref=e582]'
+          - 'heading "Thank You for Arguing, Fourth Edition (Revised and Updated): What Aristotle, Lincoln, and Homer Simpson Can Teach Us About the Art of Persuasion" [level=3] [ref=e583]'
+        - article [ref=e584]:
+          - img "The Elephant in the Brain cover" [ref=e586]
+          - heading "The Elephant in the Brain" [level=3] [ref=e587]
+        - article [ref=e588]:
+          - 'img "Games People Play: The Psychology of Human Relationships cover" [ref=e590]'
+          - 'heading "Games People Play: The Psychology of Human Relationships" [level=3] [ref=e591]'
+        - article [ref=e592]:
+          - img "PITCH ANYTHING cover" [ref=e594]
+          - heading "PITCH ANYTHING" [level=3] [ref=e595]
+        - article [ref=e596]:
+          - img "The Secret Teachings of All Ages | Complete edition | Illustrated (HERMETIC TRADITION) cover" [ref=e598]
+          - heading "The Secret Teachings of All Ages | Complete edition | Illustrated (HERMETIC TRADITION)" [level=3] [ref=e599]
+        - article [ref=e600]:
+          - img "ON WRITING (REISSUES) cover" [ref=e602]
+          - heading "ON WRITING (REISSUES)" [level=3] [ref=e603]
+        - article [ref=e604]:
+          - 'img "Very Important People: Status and Beauty in the Global Party Circuit cover" [ref=e606]'
+          - 'heading "Very Important People: Status and Beauty in the Global Party Circuit" [level=3] [ref=e607]'
+        - article [ref=e608]:
+          - 'img "Zohar: Pritzker Edition, Volume One: 1 cover" [ref=e610]'
+          - 'heading "Zohar: Pritzker Edition, Volume One: 1" [level=3] [ref=e611]'
+        - article [ref=e612]:
+          - 'img "Unreasonable Hospitality: The Remarkable Power of Giving People More Than They Expect cover" [ref=e614]'
+          - 'heading "Unreasonable Hospitality: The Remarkable Power of Giving People More Than They Expect" [level=3] [ref=e615]'
+        - article [ref=e616]:
+          - paragraph [ref=e619]: "Distinction: A Social Critique of the Judgement of Taste (Routledge Classics)"
+          - 'heading "Distinction: A Social Critique of the Judgement of Taste (Routledge Classics)" [level=3] [ref=e620]'
+        - article [ref=e621]:
+          - img "Gospel Of Thomas cover" [ref=e623]
+          - heading "Gospel Of Thomas" [level=3] [ref=e624]
+        - article [ref=e625]:
+          - 'img "Impact Players : How to Take the Lead, Play Bigger, and Multiply Your Impact cover" [ref=e627]'
+          - 'heading "Impact Players : How to Take the Lead, Play Bigger, and Multiply Your Impact" [level=3] [ref=e628]'
+        - article [ref=e629]:
+          - img "The Serpent Power | The Secrets Of Tantrik And Shaktik Yoga | Kundalini Yoga | Sir John Woodroffe | Arthur Avalon Books | Sir John George Woodroffe | Sir John Woodroffe (Arthur Avalon) | Shastra Book in English | तंत्र शास्त्र तंत्रशास्त्र | Esoteric Teachings | Mantra Yantra of Sri Vidya | The Serpent Power | Principles of Tantra | The Garland of Letters | Shakti and Shakta | Mahanirvana Tantra | Self-Realization, Spiritual Wisdom, Consciousness Hindu Meditation | तंत्र मंत्र साधना यंत्र सिद्धि तंत्रसार तंत्र सार बुक किताब | Shri Vijnana Bhairava Tantra The Ascent | Sadhana Bhairav Vigyan Prayog Prabhav Siddhi | cover" [ref=e631]
+          - heading "The Serpent Power | The Secrets Of Tantrik And Shaktik Yoga | Kundalini Yoga | Sir John Woodroffe | Arthur Avalon Books | Sir John George Woodroffe | Sir John Woodroffe (Arthur Avalon) | Shastra Book in English | तंत्र शास्त्र तंत्रशास्त्र | Esoteric Teachings | Mantra Yantra of Sri Vidya | The Serpent Power | Principles of Tantra | The Garland of Letters | Shakti and Shakta | Mahanirvana Tantra | Self-Realization, Spiritual Wisdom, Consciousness Hindu Meditation | तंत्र मंत्र साधना यंत्र सिद्धि तंत्रसार तंत्र सार बुक किताब | Shri Vijnana Bhairava Tantra The Ascent | Sadhana Bhairav Vigyan Prayog Prabhav Siddhi |" [level=3] [ref=e632]
+        - article [ref=e633]:
+          - 'img "Rise to the 1%: The Smart Indian''s Playbook for Wealth and Early Retirement | Personal Finance Guide to Learn Investing, Tax Saving, and Wealth Creation by Sharan Hegde cover" [ref=e635]'
+          - 'heading "Rise to the 1%: The Smart Indian''s Playbook for Wealth and Early Retirement | Personal Finance Guide to Learn Investing, Tax Saving, and Wealth Creation by Sharan Hegde" [level=3] [ref=e636]'
+        - article [ref=e637]:
+          - 'img "The Message of the Divine Iliad: 1 cover" [ref=e639]'
+          - 'heading "The Message of the Divine Iliad: 1" [level=3] [ref=e640]'
+        - article [ref=e641]:
+          - img "The Man Who Talks With the Flowers cover" [ref=e643]
+          - heading "The Man Who Talks With the Flowers" [level=3] [ref=e644]
+        - article [ref=e645]:
+          - img "Inward Journey cover" [ref=e647]
+          - heading "Inward Journey" [level=3] [ref=e648]
+        - article [ref=e649]:
+          - img "Ogilvy On Advertising cover" [ref=e651]
+          - heading "Ogilvy On Advertising" [level=3] [ref=e652]
+        - article [ref=e653]:
+          - img "Pandeymonium Piyush Pandey on Advertising | Learn Creativity, Leadership & Life Lessons from India's Most Iconic Ad Man & Master Storyteller cover" [ref=e655]
+          - heading "Pandeymonium Piyush Pandey on Advertising | Learn Creativity, Leadership & Life Lessons from India's Most Iconic Ad Man & Master Storyteller" [level=3] [ref=e656]
+        - article [ref=e657]:
+          - img "The Power Broker cover" [ref=e659]
+          - heading "The Power Broker" [level=3] [ref=e660]
+        - article [ref=e661]:
+          - paragraph [ref=e664]: Eternal Pursuit of Unhappiness Being Very Good Is No Good,You Have to Be Very, Very, Very, Very, Very Good by Ogilvy & Mather (David Ogilvy) (2009-01-01)
+          - heading "Eternal Pursuit of Unhappiness Being Very Good Is No Good,You Have to Be Very, Very, Very, Very, Very Good by Ogilvy & Mather (David Ogilvy) (2009-01-01)" [level=3] [ref=e665]
+        - article [ref=e666]:
+          - img "Peak of Eloquence, Nahjul-Balagha cover" [ref=e668]
+          - heading "Peak of Eloquence, Nahjul-Balagha" [level=3] [ref=e669]
+        - article [ref=e670]:
+          - img "WHAT THEY DON'T TEACH YOU AT HARVARD BUSINESS SCHOOL (A FORMAT) cover" [ref=e672]
+          - heading "WHAT THEY DON'T TEACH YOU AT HARVARD BUSINESS SCHOOL (A FORMAT)" [level=3] [ref=e673]
+        - article [ref=e674]:
+          - 'img "What They Teach You at Harvard Business School: The Internationally-Bestselling Business Classic cover" [ref=e676]'
+          - 'heading "What They Teach You at Harvard Business School: The Internationally-Bestselling Business Classic" [level=3] [ref=e677]'
+        - article [ref=e678]:
+          - img "A Layman's Guide to Psychiatry and Psychoanalysis. cover" [ref=e680]
+          - heading "A Layman's Guide to Psychiatry and Psychoanalysis." [level=3] [ref=e681]
+        - article [ref=e682]:
+          - 'img "Your Unique Path to Wealth: Create a life you love overflowing with abundance, joy, and purpose cover" [ref=e684]'
+          - 'heading "Your Unique Path to Wealth: Create a life you love overflowing with abundance, joy, and purpose" [level=3] [ref=e685]'
+        - article [ref=e686]:
+          - 'img "Let My People Go Surfing: The Education of a Reluctant Businessman--Including 10 More Years of Business Unusual cover" [ref=e688]'
+          - 'heading "Let My People Go Surfing: The Education of a Reluctant Businessman--Including 10 More Years of Business Unusual" [level=3] [ref=e689]'
+        - article [ref=e690]:
+          - 'img "Unseen: The Untold Story of Deepinder Goyal and the Making of Zomato | Inside the Mind of India''s Billion-Dollar Brand Founder | Startup, Entrepreneurship & Business Biography cover" [ref=e692]'
+          - 'heading "Unseen: The Untold Story of Deepinder Goyal and the Making of Zomato | Inside the Mind of India''s Billion-Dollar Brand Founder | Startup, Entrepreneurship & Business Biography" [level=3] [ref=e693]'
+        - article [ref=e694]:
+          - 'img "Book of Wisdom Volume 1 and 2: The Hidden Order Behind All Things cover" [ref=e696]'
+          - 'heading "Book of Wisdom Volume 1 and 2: The Hidden Order Behind All Things" [level=3] [ref=e697]'
+        - article [ref=e698]:
+          - img "Transurfing in 78 Days - A Practical Course in Creating Your Own Reality cover" [ref=e700]
+          - heading "Transurfing in 78 Days - A Practical Course in Creating Your Own Reality" [level=3] [ref=e701]
+        - article [ref=e702]:
+          - 'img "Expectation Effect: How Your Mindset Can Transform Your Life cover" [ref=e704]'
+          - 'heading "Expectation Effect: How Your Mindset Can Transform Your Life" [level=3] [ref=e705]'
+        - article [ref=e706]:
+          - 'img "Manifest: Understand the art of manifestation to achieve your best life cover" [ref=e708]'
+          - 'heading "Manifest: Understand the art of manifestation to achieve your best life" [level=3] [ref=e709]'
+        - article [ref=e710]:
+          - img "Ashtavakra Gita cover" [ref=e712]
+          - heading "Ashtavakra Gita" [level=3] [ref=e713]
+        - article [ref=e714]:
+          - img "Astavakra Gita/Song Of Self-realisation (LATEST EDITION) cover" [ref=e716]
+          - heading "Astavakra Gita/Song Of Self-realisation (LATEST EDITION)" [level=3] [ref=e717]
+        - article [ref=e718]:
+          - img "Abhinavagupta Tantraloka Set Five Volumes (H.B.) cover" [ref=e720]
+          - heading "Abhinavagupta Tantraloka Set Five Volumes (H.B.)" [level=3] [ref=e721]
+        - article [ref=e722]:
+          - img "The Enneads cover" [ref=e724]
+          - heading "The Enneads" [level=3] [ref=e725]
+        - article [ref=e726]:
+          - img "The Yoga Sutras of Patanjali cover" [ref=e728]
+          - heading "The Yoga Sutras of Patanjali" [level=3] [ref=e729]
+        - article [ref=e730]:
+          - 'img "112 Meditations for Self Realization: Vigyan Bhairava Tantra cover" [ref=e732]'
+          - 'heading "112 Meditations for Self Realization: Vigyan Bhairava Tantra" [level=3] [ref=e733]'
+        - article [ref=e734]:
+          - 'img "Shri Vijnana Bhairava Tantra: The Ascent cover" [ref=e736]'
+          - 'heading "Shri Vijnana Bhairava Tantra: The Ascent" [level=3] [ref=e737]'
+        - article [ref=e738]:
+          - img "Creative Visualization cover" [ref=e740]
+          - heading "Creative Visualization" [level=3] [ref=e741]
+        - article [ref=e742]:
+          - img "Master Key System cover" [ref=e744]
+          - heading "Master Key System" [level=3] [ref=e745]
+        - article [ref=e746]:
+          - img "The Science of Getting Rich with The Science of Being Great cover" [ref=e748]
+          - heading "The Science of Getting Rich with The Science of Being Great" [level=3] [ref=e749]
+        - article [ref=e750]:
+          - 'img "Meditations: A New Translation cover" [ref=e752]'
+          - 'heading "Meditations: A New Translation" [level=3] [ref=e753]'
+        - article [ref=e754]:
+          - 'img "The Dhammapada : The Teachings of The Buddha (Hardcover Library Edition) cover" [ref=e756]'
+          - 'heading "The Dhammapada : The Teachings of The Buddha (Hardcover Library Edition)" [level=3] [ref=e757]'
+        - article [ref=e758]:
+          - img "The Complete I Ching 10Th Anniversary Edition cover" [ref=e760]
+          - heading "The Complete I Ching 10Th Anniversary Edition" [level=3] [ref=e761]
+        - article [ref=e762]:
+          - img "Numerology Of The I Ching cover" [ref=e764]
+          - heading "Numerology Of The I Ching" [level=3] [ref=e765]
+        - article [ref=e766]:
+          - img "Katha Upanishad cover" [ref=e768]
+          - heading "Katha Upanishad" [level=3] [ref=e769]
+        - article [ref=e770]:
+          - img "Kena Upanishad cover" [ref=e772]
+          - heading "Kena Upanishad" [level=3] [ref=e773]
+        - article [ref=e774]:
+          - 'img "Chandogya Upanisad: With Commentary of Sankaracarya cover" [ref=e776]'
+          - 'heading "Chandogya Upanisad: With Commentary of Sankaracarya" [level=3] [ref=e777]'
+        - article [ref=e778]:
+          - img "Mundaka Upanishad With Commentary of Shankara cover" [ref=e780]
+          - heading "Mundaka Upanishad With Commentary of Shankara" [level=3] [ref=e781]
+        - article [ref=e782]:
+          - 'img "The Hermetica: The Lost Wisdom of the Pharaohs cover" [ref=e784]'
+          - 'heading "The Hermetica: The Lost Wisdom of the Pharaohs" [level=3] [ref=e785]'
+        - article [ref=e786]:
+          - 'img "The Kybalion: Centenary Edition cover" [ref=e788]'
+          - 'heading "The Kybalion: Centenary Edition" [level=3] [ref=e789]'
+        - article [ref=e790]:
+          - 'img "Dark Psychology : Secrets And Manipulation cover" [ref=e792]'
+          - 'heading "Dark Psychology : Secrets And Manipulation" [level=3] [ref=e793]'
+        - article [ref=e794]:
+          - paragraph [ref=e797]: "Me, My Customer & AI: The New Rules of Entrepreneurship"
+          - 'heading "Me, My Customer & AI: The New Rules of Entrepreneurship" [level=3] [ref=e798]'
+        - article [ref=e799]:
+          - 'img "The Hour Between Dog and Wolf: How Risk Taking Transforms Us, Body and Mind cover" [ref=e801]'
+          - 'heading "The Hour Between Dog and Wolf: How Risk Taking Transforms Us, Body and Mind" [level=3] [ref=e802]'
+        - article [ref=e803]:
+          - paragraph [ref=e806]: "World's Greatest Leaders: Biographies of Inspirational Personalities For Kids"
+          - 'heading "World''s Greatest Leaders: Biographies of Inspirational Personalities For Kids" [level=3] [ref=e807]'
+        - article [ref=e808]:
+          - 'img "Focus: The ASML way - Inside the power struggle over the most complex machine on earth cover" [ref=e810]'
+          - 'heading "Focus: The ASML way - Inside the power struggle over the most complex machine on earth" [level=3] [ref=e811]'
+        - article [ref=e812]:
+          - 'img "The Lucifer Effect: Understanding How Good People Turn Evil cover" [ref=e814]'
+          - 'heading "The Lucifer Effect: Understanding How Good People Turn Evil" [level=3] [ref=e815]'
+        - article [ref=e816]:
+          - 'img "Data Science for Business: What You Need to Know about Data Mining and Data-Analytic Thinking cover" [ref=e818]'
+          - 'heading "Data Science for Business: What You Need to Know about Data Mining and Data-Analytic Thinking" [level=3] [ref=e819]'
+        - article [ref=e820]:
+          - img "Conversion cover" [ref=e822]
+          - heading "Conversion" [level=3] [ref=e823]
+        - article [ref=e824]:
+          - 'img "Traffic Secrets: The Underground Playbook for Filling Your Websites and Funnels with Your Dream Customers cover" [ref=e826]'
+          - 'heading "Traffic Secrets: The Underground Playbook for Filling Your Websites and Funnels with Your Dream Customers" [level=3] [ref=e827]'
+        - article [ref=e828]:
+          - img "The Slight Edge cover" [ref=e830]
+          - heading "The Slight Edge" [level=3] [ref=e831]
+        - article [ref=e832]:
+          - 'img "The Book of Mirdad: The Strange Story of a Monastery Which Was Once Called the Ark (Hardcover Library Edition) Hardcover cover" [ref=e834]'
+          - 'heading "The Book of Mirdad: The Strange Story of a Monastery Which Was Once Called the Ark (Hardcover Library Edition) Hardcover" [level=3] [ref=e835]'
+        - article [ref=e836]:
+          - 'img "Blue Truth: A Spiritual Guide to Life & Death and Love & Sex cover" [ref=e838]'
+          - 'heading "Blue Truth: A Spiritual Guide to Life & Death and Love & Sex" [level=3] [ref=e839]'
+        - article [ref=e840]:
+          - img "King, Warrior, Magician, Lover cover" [ref=e842]
+          - heading "King, Warrior, Magician, Lover" [level=3] [ref=e843]
+        - article [ref=e844]:
+          - img "Iron John cover" [ref=e846]
+          - heading "Iron John" [level=3] [ref=e847]
+        - article [ref=e848]:
+          - img "Alchemy cover" [ref=e850]
+          - heading "Alchemy" [level=3] [ref=e851]
+        - article [ref=e852]:
+          - 'img "The Making of Prince of Persia: Journals 1985-1993 cover" [ref=e854]'
+          - 'heading "The Making of Prince of Persia: Journals 1985-1993" [level=3] [ref=e855]'
+        - article [ref=e856]:
+          - 'img "Little Red Book Of Selling: 12.5 Principles Of Sales Greatness cover" [ref=e858]'
+          - 'heading "Little Red Book Of Selling: 12.5 Principles Of Sales Greatness" [level=3] [ref=e859]'
+        - article [ref=e860]:
+          - img "Cost Of Discipleship cover" [ref=e862]
+          - heading "Cost Of Discipleship" [level=3] [ref=e863]
+        - article [ref=e864]:
+          - img "Memoirs cover" [ref=e866]
+          - heading "Memoirs" [level=3] [ref=e867]
+        - article [ref=e868]:
+          - 'img "Nikola Tesla: Colorado Springs Notes, 1899-1900 cover" [ref=e870]'
+          - 'heading "Nikola Tesla: Colorado Springs Notes, 1899-1900" [level=3] [ref=e871]'
+        - article [ref=e872]:
+          - 'img "Deep Simplicity: Bringing Order to Chaos and Complexity cover" [ref=e874]'
+          - 'heading "Deep Simplicity: Bringing Order to Chaos and Complexity" [level=3] [ref=e875]'
+        - article [ref=e876]:
+          - 'img "What Every Body is Saying : An Ex-FBI Agent''s Guide to Speed-Reading People cover" [ref=e878]'
+          - 'heading "What Every Body is Saying : An Ex-FBI Agent''s Guide to Speed-Reading People" [level=3] [ref=e879]'
+        - article [ref=e880]:
+          - 'img "The Infidel and the Professor: David Hume, Adam Smith, and the Friendship That Shaped Modern Thought cover" [ref=e882]'
+          - 'heading "The Infidel and the Professor: David Hume, Adam Smith, and the Friendship That Shaped Modern Thought" [level=3] [ref=e883]'
+        - article [ref=e884]:
+          - 'img "Cargill: Trading the World''s Grain cover" [ref=e886]'
+          - 'heading "Cargill: Trading the World''s Grain" [level=3] [ref=e887]'
+        - article [ref=e888]:
+          - 'img "Private Empire: ExxonMobil and American Power cover" [ref=e890]'
+          - 'heading "Private Empire: ExxonMobil and American Power" [level=3] [ref=e891]'
+        - article [ref=e892]:
+          - 'img "Inside Money: Brown Brothers Harriman and the American Way of Power cover" [ref=e894]'
+          - 'heading "Inside Money: Brown Brothers Harriman and the American Way of Power" [level=3] [ref=e895]'
+        - article [ref=e896]:
+          - img "Perspective on Mckinsey cover" [ref=e898]
+          - heading "Perspective on Mckinsey" [level=3] [ref=e899]
+        - article [ref=e900]:
+          - 'img "The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma cover" [ref=e902]'
+          - 'heading "The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma" [level=3] [ref=e903]'
+        - article [ref=e904]:
+          - paragraph [ref=e907]: "Zero To Scale: A Playbook To Build Consumer Brands In India"
+          - 'heading "Zero To Scale: A Playbook To Build Consumer Brands In India" [level=3] [ref=e908]'
+        - article [ref=e909]:
+          - img "TRILLION DOLLAR COACH (B PB) cover" [ref=e911]
+          - heading "TRILLION DOLLAR COACH (B PB)" [level=3] [ref=e912]
+        - article [ref=e913]:
+          - img "KNOWLEDGE AND DECISIONS cover" [ref=e915]
+          - heading "KNOWLEDGE AND DECISIONS" [level=3] [ref=e916]
+        - article [ref=e917]:
+          - 'img "Apple in China: The Capture of the World''s Greatest Company cover" [ref=e919]'
+          - 'heading "Apple in China: The Capture of the World''s Greatest Company" [level=3] [ref=e920]'
+        - article [ref=e921]:
+          - 'img "Endurance: Shackleton''s Incredible Voyage cover" [ref=e923]'
+          - 'heading "Endurance: Shackleton''s Incredible Voyage" [level=3] [ref=e924]'
+        - article [ref=e925]:
+          - 'img "The Art of Doing Science and Engineering: Learning to Learn cover" [ref=e927]'
+          - 'heading "The Art of Doing Science and Engineering: Learning to Learn" [level=3] [ref=e928]'
+        - article [ref=e929]:
+          - 'img "Culpability (Oprah''s Book Club): A Novel cover" [ref=e931]'
+          - 'heading "Culpability (Oprah''s Book Club): A Novel" [level=3] [ref=e932]'
+        - article [ref=e933]:
+          - paragraph [ref=e936]: SPIRITUAL AWAKENING SHRI HIT PREMANAND GOVIND SHARAN JI MAHARAJ VOLUME 1 (PB 2024)
+          - heading "SPIRITUAL AWAKENING SHRI HIT PREMANAND GOVIND SHARAN JI MAHARAJ VOLUME 1 (PB 2024)" [level=3] [ref=e937]
+        - article [ref=e938]:
+          - img "THE ART OF HAPPINESS cover" [ref=e940]
+          - heading "THE ART OF HAPPINESS" [level=3] [ref=e941]
+        - article [ref=e942]:
+          - paragraph [ref=e945]: "Becoming Ageless: The Four Secrets to Looking and Feeling Younger Than Ever"
+          - 'heading "Becoming Ageless: The Four Secrets to Looking and Feeling Younger Than Ever" [level=3] [ref=e946]'
+        - article [ref=e947]:
+          - 'img "The Pig that Wants to Be Eaten: And 99+ Other Thought Experiments cover" [ref=e949]'
+          - 'heading "The Pig that Wants to Be Eaten: And 99+ Other Thought Experiments" [level=3] [ref=e950]'
+        - article [ref=e951]:
+          - 'img "Ultimate Journey: More than 150 Crowd-Pleasing Recipes for Relaxed, Family-Style Entertaining: A Cookbook cover" [ref=e953]'
+          - 'heading "Ultimate Journey: More than 150 Crowd-Pleasing Recipes for Relaxed, Family-Style Entertaining: A Cookbook" [level=3] [ref=e954]'
+        - article [ref=e955]:
+          - paragraph [ref=e958]: Far Journeys (Journeys Trilogy)
+          - heading "Far Journeys (Journeys Trilogy)" [level=3] [ref=e959]
+        - article [ref=e960]:
+          - img "Journeys Out of the Body cover" [ref=e962]
+          - heading "Journeys Out of the Body" [level=3] [ref=e963]
+        - article [ref=e964]:
+          - 'img "Life of the Cosmos: Alone in Bad Company cover" [ref=e966]'
+          - 'heading "Life of the Cosmos: Alone in Bad Company" [level=3] [ref=e967]'
+        - article [ref=e968]:
+          - 'img "Monetizing Innovation: How Smart Companies Design the Product Around the Price cover" [ref=e970]'
+          - 'heading "Monetizing Innovation: How Smart Companies Design the Product Around the Price" [level=3] [ref=e971]'
+        - article [ref=e972]:
+          - 'img "From Third World to Firs: Singapore and the Asian Economic Boom cover" [ref=e974]'
+          - 'heading "From Third World to Firs: Singapore and the Asian Economic Boom" [level=3] [ref=e975]'
+        - article [ref=e976]:
+          - 'img "Divine Love: Islamic Literature and the Path to God cover" [ref=e978]'
+          - 'heading "Divine Love: Islamic Literature and the Path to God" [level=3] [ref=e979]'
+        - article [ref=e980]:
+          - 'img "The Self-Disclosure of God: Principles of Ibn al-''Arabi''s Cosmology cover" [ref=e982]'
+          - 'heading "The Self-Disclosure of God: Principles of Ibn al-''Arabi''s Cosmology" [level=3] [ref=e983]'
+        - article [ref=e984]:
+          - img "How to Make a Few Billion Dollars cover" [ref=e986]
+          - heading "How to Make a Few Billion Dollars" [level=3] [ref=e987]
+        - article [ref=e988]:
+          - 'img "Napoleon and Modern War: His Military Maxims cover" [ref=e990]'
+          - 'heading "Napoleon and Modern War: His Military Maxims" [level=3] [ref=e991]'
+        - article [ref=e992]:
+          - 'img "Superabundance: The Story of Population Growth, Innovation, and Human Flourishing on an Infinitely Bountiful Planet cover" [ref=e994]'
+          - 'heading "Superabundance: The Story of Population Growth, Innovation, and Human Flourishing on an Infinitely Bountiful Planet" [level=3] [ref=e995]'
+        - article [ref=e996]:
+          - 'img "The New Map: Energy, Climate, and the Clash of Nations cover" [ref=e998]'
+          - 'heading "The New Map: Energy, Climate, and the Clash of Nations" [level=3] [ref=e999]'
+        - article [ref=e1000]:
+          - paragraph [ref=e1003]: "Napoleon Never Slept: How Great Leaders Leverage Social Energy: Microtechniques of success from Jesus to Steve Jobs"
+          - 'heading "Napoleon Never Slept: How Great Leaders Leverage Social Energy: Microtechniques of success from Jesus to Steve Jobs" [level=3] [ref=e1004]'
+        - article [ref=e1005]:
+          - 'img "Message From The Middle Of Nowhere: Icelandic Viking philosophy for Conquering the challenges of Business and life cover" [ref=e1007]'
+          - 'heading "Message From The Middle Of Nowhere: Icelandic Viking philosophy for Conquering the challenges of Business and life" [level=3] [ref=e1008]'
+        - article [ref=e1009]:
+          - 'img "The Sufi Path of Love: The Spiritual Teachings of Rumi cover" [ref=e1011]'
+          - 'heading "The Sufi Path of Love: The Spiritual Teachings of Rumi" [level=3] [ref=e1012]'
+        - article [ref=e1013]:
+          - 'img "The Sufi Path of Knowledge: Ibn al-Arabi''s Metaphysics of Imagination cover" [ref=e1015]'
+          - 'heading "The Sufi Path of Knowledge: Ibn al-Arabi''s Metaphysics of Imagination" [level=3] [ref=e1016]'
+        - article [ref=e1017]:
+          - img "Expectation Value cover" [ref=e1019]
+          - heading "Expectation Value" [level=3] [ref=e1020]
+        - article [ref=e1021]:
+          - img "Dangerous Men and Adventurous Women cover" [ref=e1023]
+          - heading "Dangerous Men and Adventurous Women" [level=3] [ref=e1024]
+        - article [ref=e1025]:
+          - 'img "A Living Messiah: Himalayan Yoga Maharishi Swami Dev Murti Ji (Yoga Books of Swami Dev Murti Ji) cover" [ref=e1027]'
+          - 'heading "A Living Messiah: Himalayan Yoga Maharishi Swami Dev Murti Ji (Yoga Books of Swami Dev Murti Ji)" [level=3] [ref=e1028]'
+        - article [ref=e1029]:
+          - 'img "Lucid Dreaming: Gateway to the Inner Self cover" [ref=e1031]'
+          - 'heading "Lucid Dreaming: Gateway to the Inner Self" [level=3] [ref=e1032]'
+        - article [ref=e1033]:
+          - 'img "Polymath: Unlocking the Power of Human Versatility cover" [ref=e1035]'
+          - 'heading "Polymath: Unlocking the Power of Human Versatility" [level=3] [ref=e1036]'
+        - article [ref=e1037]:
+          - img "Avalon-The Serpent Power cover" [ref=e1039]
+          - heading "Avalon-The Serpent Power" [level=3] [ref=e1040]
+        - article [ref=e1041]:
+          - img "A Technique for Producing Ideas cover" [ref=e1043]
+          - heading "A Technique for Producing Ideas" [level=3] [ref=e1044]
+        - article [ref=e1045]:
+          - img "The Secret Teachings of All Ages cover" [ref=e1047]
+          - heading "The Secret Teachings of All Ages" [level=3] [ref=e1048]
+        - article [ref=e1049]:
+          - img "Sum cover" [ref=e1051]
+          - heading "Sum" [level=3] [ref=e1052]
+        - article [ref=e1053]:
+          - img "The Secret of the Golden Flower; A Chinese Book of Life cover" [ref=e1055]
+          - heading "The Secret of the Golden Flower; A Chinese Book of Life" [level=3] [ref=e1056]
+        - article [ref=e1057]:
+          - 'img "SHAH RUKH KHAN : Legend, Icon, Star cover" [ref=e1059]'
+          - 'heading "SHAH RUKH KHAN : Legend, Icon, Star" [level=3] [ref=e1060]'
+        - article [ref=e1061]:
+          - img "The Holy Science cover" [ref=e1063]
+          - heading "The Holy Science" [level=3] [ref=e1064]
+        - article [ref=e1065]:
+          - img "The Unknown Life of Jesus Christ cover" [ref=e1067]
+          - heading "The Unknown Life of Jesus Christ" [level=3] [ref=e1068]
+        - article [ref=e1069]:
+          - img "The Win Without Pitching Manifesto cover" [ref=e1071]
+          - heading "The Win Without Pitching Manifesto" [level=3] [ref=e1072]
+        - article [ref=e1073]:
+          - paragraph [ref=e1076]: "Shamanic Power Animals: Embracing the Teachings of Our Nonhuman Friends (Shamanic Wisdom Series)"
+          - 'heading "Shamanic Power Animals: Embracing the Teachings of Our Nonhuman Friends (Shamanic Wisdom Series)" [level=3] [ref=e1077]'
+        - article [ref=e1078]:
+          - img "WAY SHAMAN PB cover" [ref=e1080]
+          - heading "WAY SHAMAN PB" [level=3] [ref=e1081]
+        - article [ref=e1082]:
+          - 'img "Four Obsessions of an Extraordinary Executive: A Leadership Fable: 12 (J-B Lencioni Series) cover" [ref=e1084]'
+          - 'heading "Four Obsessions of an Extraordinary Executive: A Leadership Fable: 12 (J-B Lencioni Series)" [level=3] [ref=e1085]'
+        - article [ref=e1086]:
+          - 'img "The Value of Others: Understanding the Economic Model of Relationships to Get (and Keep) More of What You Want in the Sexual Marketplace cover" [ref=e1088]'
+          - 'heading "The Value of Others: Understanding the Economic Model of Relationships to Get (and Keep) More of What You Want in the Sexual Marketplace" [level=3] [ref=e1089]'
+        - article [ref=e1090]:
+          - img "GODEL, ESCHER, BACH cover" [ref=e1092]
+          - heading "GODEL, ESCHER, BACH" [level=3] [ref=e1093]
+        - article [ref=e1094]:
+          - 'img "Barking Up the Wrong Tree: The Surprising Science Behind Why Everything You Know About Success is (Mostly) Wrong cover" [ref=e1096]'
+          - 'heading "Barking Up the Wrong Tree: The Surprising Science Behind Why Everything You Know About Success is (Mostly) Wrong" [level=3] [ref=e1097]'
+        - article [ref=e1098]:
+          - 'img "Never Split the Difference: Negotiating as if Your Life Depended on It cover" [ref=e1100]'
+          - 'heading "Never Split the Difference: Negotiating as if Your Life Depended on It" [level=3] [ref=e1101]'
+        - article [ref=e1102]:
+          - 'img "Jony Ive: The Genius Behind Apple''s Greatest Products cover" [ref=e1104]'
+          - 'heading "Jony Ive: The Genius Behind Apple''s Greatest Products" [level=3] [ref=e1105]'
+        - article [ref=e1106]:
+          - 'img "Behave: The bestselling exploration of why humans behave as they do cover" [ref=e1108]'
+          - 'heading "Behave: The bestselling exploration of why humans behave as they do" [level=3] [ref=e1109]'
+        - article [ref=e1110]:
+          - paragraph [ref=e1113]: "Win the Inside Game : How to Move from Surviving to Thriving, and Free Yourself Up to Perform"
+          - 'heading "Win the Inside Game : How to Move from Surviving to Thriving, and Free Yourself Up to Perform" [level=3] [ref=e1114]'
+        - article [ref=e1115]:
+          - 'img "Tiny Experiments: How to Live Freely in a Goal-obsessed World cover" [ref=e1117]'
+          - 'heading "Tiny Experiments: How to Live Freely in a Goal-obsessed World" [level=3] [ref=e1118]'
+        - article [ref=e1119]:
+          - 'img "Amplify Your Influence: Transform How You Communicate and Lead cover" [ref=e1121]'
+          - 'heading "Amplify Your Influence: Transform How You Communicate and Lead" [level=3] [ref=e1122]'
+        - article [ref=e1123]:
+          - paragraph [ref=e1126]: "The Heart-Led Leader: How Living and Leading from the Heart Will Change Your Organization and Your Life"
+          - 'heading "The Heart-Led Leader: How Living and Leading from the Heart Will Change Your Organization and Your Life" [level=3] [ref=e1127]'
+        - article [ref=e1128]:
+          - img "The Prince cover" [ref=e1130]
+          - heading "The Prince" [level=3] [ref=e1131]
+        - article [ref=e1132]:
+          - 'img "Creative Selection: Inside Apple''s Design Process During the Golden Age of Steve Jobs cover" [ref=e1134]'
+          - 'heading "Creative Selection: Inside Apple''s Design Process During the Golden Age of Steve Jobs" [level=3] [ref=e1135]'
+        - article [ref=e1136]:
+          - 'img "What''s Our Problem?: A Self-Help Book for Societies cover" [ref=e1138]'
+          - 'heading "What''s Our Problem?: A Self-Help Book for Societies" [level=3] [ref=e1139]'
+        - article [ref=e1140]:
+          - img "Think Faster, Talk Smarter cover" [ref=e1142]
+          - heading "Think Faster, Talk Smarter" [level=3] [ref=e1143]
+        - article [ref=e1144]:
+          - 'img "How to Live: 27 conflicting answers and one weird conclusion cover" [ref=e1146]'
+          - 'heading "How to Live: 27 conflicting answers and one weird conclusion" [level=3] [ref=e1147]'
+        - article [ref=e1148]:
+          - 'img "Chatter: The Voice in Our Head and How to Harness It cover" [ref=e1150]'
+          - 'heading "Chatter: The Voice in Our Head and How to Harness It" [level=3] [ref=e1151]'
+        - article [ref=e1152]:
+          - img "CRUCIAL CONVERSATIONS cover" [ref=e1154]
+          - heading "CRUCIAL CONVERSATIONS" [level=3] [ref=e1155]
+        - article [ref=e1156]:
+          - img "Things Hidden Since the Foundation of the World (Bloomsbury Revelations) cover" [ref=e1158]
+          - heading "Things Hidden Since the Foundation of the World (Bloomsbury Revelations)" [level=3] [ref=e1159]
+        - article [ref=e1160]:
+          - img "Doublespeak cover" [ref=e1162]
+          - heading "Doublespeak" [level=3] [ref=e1163]
+        - article [ref=e1164]:
+          - 'img "Double-Speak: From Revenue Enhancement to Terminal Living--How Government, Business, Advertisers and Others Use Language to Deceive You cover" [ref=e1166]'
+          - 'heading "Double-Speak: From Revenue Enhancement to Terminal Living--How Government, Business, Advertisers and Others Use Language to Deceive You" [level=3] [ref=e1167]'
+        - article [ref=e1168]:
+          - img "The Man Who Tapped the Secrets of the Universe cover" [ref=e1170]
+          - heading "The Man Who Tapped the Secrets of the Universe" [level=3] [ref=e1171]
+        - article [ref=e1172]:
+          - img "The Universal One cover" [ref=e1174]
+          - heading "The Universal One" [level=3] [ref=e1175]
+        - article [ref=e1176]:
+          - img "The Science of Rapid Skill Acquisition cover" [ref=e1178]
+          - heading "The Science of Rapid Skill Acquisition" [level=3] [ref=e1179]
+        - article [ref=e1180]:
+          - 'img "DOPAMINE NATION: FINDING BALANCE IN THE AGE OF INDULGENCE cover" [ref=e1182]'
+          - 'heading "DOPAMINE NATION: FINDING BALANCE IN THE AGE OF INDULGENCE" [level=3] [ref=e1183]'
+        - article [ref=e1184]:
+          - img "Supercommunicators cover" [ref=e1186]
+          - heading "Supercommunicators" [level=3] [ref=e1187]
+        - article [ref=e1188]:
+          - 'img "SAME AS EVER: Timeless Lessons on Risk, Opportunity and Living a Good Life (From the author of The Psychology Of Money) cover" [ref=e1190]'
+          - 'heading "SAME AS EVER: Timeless Lessons on Risk, Opportunity and Living a Good Life (From the author of The Psychology Of Money)" [level=3] [ref=e1191]'
+        - article [ref=e1192]:
+          - img "SUPERINTELLIGENCE cover" [ref=e1194]
+          - heading "SUPERINTELLIGENCE" [level=3] [ref=e1195]
+        - article [ref=e1196]:
+          - 'img "All I Want To Know Is Where I''m Going To Die So I''ll Never Go There: Buffett & Munger - A Study in Simplicity and Uncommon, Common Sense cover" [ref=e1198]'
+          - 'heading "All I Want To Know Is Where I''m Going To Die So I''ll Never Go There: Buffett & Munger - A Study in Simplicity and Uncommon, Common Sense" [level=3] [ref=e1199]'
+        - article [ref=e1200]:
+          - paragraph [ref=e1203]: "It Happened In India: The Story of Pantaloons, Big Bazaar, Central and the Great Indian Consumer"
+          - 'heading "It Happened In India: The Story of Pantaloons, Big Bazaar, Central and the Great Indian Consumer" [level=3] [ref=e1204]'
+        - article [ref=e1205]:
+          - 'img "James Turrell: A Retrospective cover" [ref=e1207]'
+          - 'heading "James Turrell: A Retrospective" [level=3] [ref=e1208]'
+        - article [ref=e1209]:
+          - img "DIP cover" [ref=e1211]
+          - heading "DIP" [level=3] [ref=e1212]
+        - article [ref=e1213]:
+          - img "Why Greatness Cannot Be Planned cover" [ref=e1215]
+          - heading "Why Greatness Cannot Be Planned" [level=3] [ref=e1216]
+        - article [ref=e1217]:
+          - img "Discovered, Not Designed cover" [ref=e1219]
+          - heading "Discovered, Not Designed" [level=3] [ref=e1220]
+        - article [ref=e1221]:
+          - img "Good Energy Book | Guide to Sustainable Living Paperback cover" [ref=e1223]
+          - heading "Good Energy Book | Guide to Sustainable Living Paperback" [level=3] [ref=e1224]
+        - article [ref=e1225]:
+          - 'img "Conquerors: How Portugal Forged the First Global Empire cover" [ref=e1227]'
+          - 'heading "Conquerors: How Portugal Forged the First Global Empire" [level=3] [ref=e1228]'
+        - article [ref=e1229]:
+          - 'img "Design for How People Think: Using Brain Science to Build Better Products cover" [ref=e1231]'
+          - 'heading "Design for How People Think: Using Brain Science to Build Better Products" [level=3] [ref=e1232]'
+        - article [ref=e1233]:
+          - img "The Fountainhead cover" [ref=e1235]
+          - heading "The Fountainhead" [level=3] [ref=e1236]
+        - article [ref=e1237]:
+          - paragraph [ref=e1240]: "The Sales Development Playbook: Build Repeatable Pipeline and Accelerate Growth with Inside Sales"
+          - 'heading "The Sales Development Playbook: Build Repeatable Pipeline and Accelerate Growth with Inside Sales" [level=3] [ref=e1241]'
+        - article [ref=e1242]:
+          - 'img "The Lean Startup: The Million Copy Bestseller Driving Entrepreneurs to Success cover" [ref=e1244]'
+          - 'heading "The Lean Startup: The Million Copy Bestseller Driving Entrepreneurs to Success" [level=3] [ref=e1245]'
+        - article [ref=e1246]:
+          - 'img "Copywriting Secrets: How Everyone Can Use The Power Of Words To Get More Clicks, Sales and Profits . . . No Matter What You Sell Or Who You Sell It To! cover" [ref=e1248]'
+          - 'heading "Copywriting Secrets: How Everyone Can Use The Power Of Words To Get More Clicks, Sales and Profits . . . No Matter What You Sell Or Who You Sell It To!" [level=3] [ref=e1249]'
+        - article [ref=e1250]:
+          - 'img "Never Split the Difference: Negotiating as if Your Life Depended on It [Paperback] Voss, Chris and Raz, Tahl [Perfect Paperback] TSP cover" [ref=e1252]'
+          - 'heading "Never Split the Difference: Negotiating as if Your Life Depended on It [Paperback] Voss, Chris and Raz, Tahl [Perfect Paperback] TSP" [level=3] [ref=e1253]'
+        - article [ref=e1254]:
+          - 'img "The Parasitic Mind: How Infectious Ideas Are Killing Common Sense cover" [ref=e1256]'
+          - 'heading "The Parasitic Mind: How Infectious Ideas Are Killing Common Sense" [level=3] [ref=e1257]'
+        - article [ref=e1258]:
+          - 'img "Counseling with Choice Theory: The New Reality Therapy cover" [ref=e1260]'
+          - 'heading "Counseling with Choice Theory: The New Reality Therapy" [level=3] [ref=e1261]'
+        - article [ref=e1262]:
+          - 'img "THE UNFAIR ADVANTAGE: HOW YOU ALREADY HAVE WHAT IT TAKES TO SUCCEED cover" [ref=e1264]'
+          - 'heading "THE UNFAIR ADVANTAGE: HOW YOU ALREADY HAVE WHAT IT TAKES TO SUCCEED" [level=3] [ref=e1265]'
+        - article [ref=e1266]:
+          - 'img "The Sovereign Individual: Mastering the Transition to the Information Age cover" [ref=e1268]'
+          - 'heading "The Sovereign Individual: Mastering the Transition to the Information Age" [level=3] [ref=e1269]'
+        - article [ref=e1270]:
+          - 'img "Economical Writing, Third Edition: Thirty-Five Rules for Clear and Persuasive Prose (Chicago Guides to Writing, Editing, and Publishing) cover" [ref=e1272]'
+          - 'heading "Economical Writing, Third Edition: Thirty-Five Rules for Clear and Persuasive Prose (Chicago Guides to Writing, Editing, and Publishing)" [level=3] [ref=e1273]'
+        - article [ref=e1274]:
+          - img "The Modern Maverick cover" [ref=e1276]
+          - heading "The Modern Maverick" [level=3] [ref=e1277]
+        - article [ref=e1278]:
+          - 'img "The Marwaris: From Jagat Seth to the Birlas cover" [ref=e1280]'
+          - 'heading "The Marwaris: From Jagat Seth to the Birlas" [level=3] [ref=e1281]'
+        - article [ref=e1282]:
+          - 'img "Be Water, My Friend: The True Teachings of Bruce Lee cover" [ref=e1284]'
+          - 'heading "Be Water, My Friend: The True Teachings of Bruce Lee" [level=3] [ref=e1285]'
+        - article [ref=e1286]:
+          - 'img "The Power Of Nunchi: The Korean Secret To Happiness And Success cover" [ref=e1288]'
+          - 'heading "The Power Of Nunchi: The Korean Secret To Happiness And Success" [level=3] [ref=e1289]'
+        - article [ref=e1290]:
+          - paragraph [ref=e1293]: "Founding Sales: The Early Stage Go-to-Market Handbook"
+          - 'heading "Founding Sales: The Early Stage Go-to-Market Handbook" [level=3] [ref=e1294]'
+        - article [ref=e1295]:
+          - paragraph [ref=e1298]: "Pattern Breakers: Why Some Start-ups Change the Future"
+          - 'heading "Pattern Breakers: Why Some Start-ups Change the Future" [level=3] [ref=e1299]'
+        - article [ref=e1300]:
+          - 'img "Who Not How: The Formula to Achieve Bigger Goals Through Accelerating Teamwork cover" [ref=e1302]'
+          - 'heading "Who Not How: The Formula to Achieve Bigger Goals Through Accelerating Teamwork" [level=3] [ref=e1303]'
+        - article [ref=e1304]:
+          - img "LITTLE, BIG cover" [ref=e1306]
+          - heading "LITTLE, BIG" [level=3] [ref=e1307]
+        - article [ref=e1308]:
+          - 'img "Build: An Unorthodox Guide to Making Things Worth Making - The New York Times bestseller cover" [ref=e1310]'
+          - 'heading "Build: An Unorthodox Guide to Making Things Worth Making - The New York Times bestseller" [level=3] [ref=e1311]'
+        - article [ref=e1312]:
+          - paragraph [ref=e1315]: "Choose Your Enemies Wisely: Business Planning for the Audacious Few"
+          - 'heading "Choose Your Enemies Wisely: Business Planning for the Audacious Few" [level=3] [ref=e1316]'
+        - article [ref=e1317]:
+          - img "Reality transurfing. Steps I-V cover" [ref=e1319]
+          - heading "Reality transurfing. Steps I-V" [level=3] [ref=e1320]
+        - article [ref=e1321]:
+          - img "LEONARDO DA VINCI Paperback cover" [ref=e1323]
+          - heading "LEONARDO DA VINCI Paperback" [level=3] [ref=e1324]
+        - article [ref=e1325]:
+          - img "1ST PRINCS cover" [ref=e1327]
+          - heading "1ST PRINCS" [level=3] [ref=e1328]
+        - article [ref=e1329]:
+          - img "FINITE AND INFINITE GAMES cover" [ref=e1331]
+          - heading "FINITE AND INFINITE GAMES" [level=3] [ref=e1332]
+        - article [ref=e1333]:
+          - paragraph [ref=e1336]: "Pyramid Mind: Rugby Laid Bare"
+          - 'heading "Pyramid Mind: Rugby Laid Bare" [level=3] [ref=e1337]'
+        - article [ref=e1338]:
+          - img "THE CONCISE ART OF SEDUCTION cover" [ref=e1340]
+          - heading "THE CONCISE ART OF SEDUCTION" [level=3] [ref=e1341]
+        - article [ref=e1342]:
+          - 'img "The Way of the Superior Man: A Spiritual Guide to Mastering the Challenges of Women, Work, and Sexual Desire (20th Anniversary Edition) cover" [ref=e1344]'
+          - 'heading "The Way of the Superior Man: A Spiritual Guide to Mastering the Challenges of Women, Work, and Sexual Desire (20th Anniversary Edition)" [level=3] [ref=e1345]'
+        - article [ref=e1346]:
+          - 'img "The Wisdom of Insecurity: A Message for an Age of Anxiety cover" [ref=e1348]'
+          - 'heading "The Wisdom of Insecurity: A Message for an Age of Anxiety" [level=3] [ref=e1349]'
+        - article [ref=e1350]:
+          - 'img "Becoming Supernatural: How Common People Are Doing the Uncommon, by Dr. Joe Dispenza | Science and Spirituality, Meditation and Healing cover" [ref=e1352]'
+          - 'heading "Becoming Supernatural: How Common People Are Doing the Uncommon, by Dr. Joe Dispenza | Science and Spirituality, Meditation and Healing" [level=3] [ref=e1353]'
+        - article [ref=e1354]:
+          - img "Wisdom of Psychopaths cover" [ref=e1356]
+          - heading "Wisdom of Psychopaths" [level=3] [ref=e1357]
+        - article [ref=e1358]:
+          - img "Rumi's Little Book of Love and Laughter cover" [ref=e1360]
+          - heading "Rumi's Little Book of Love and Laughter" [level=3] [ref=e1361]
+        - article [ref=e1362]:
+          - img "Modern Man in Search of a Soul cover" [ref=e1364]
+          - heading "Modern Man in Search of a Soul" [level=3] [ref=e1365]
+        - article [ref=e1366]:
+          - 'img "The Seeker of Nothing: A fable on owning your life cover" [ref=e1368]'
+          - 'heading "The Seeker of Nothing: A fable on owning your life" [level=3] [ref=e1369]'
+        - article [ref=e1370]:
+          - img "Endure cover" [ref=e1372]
+          - heading "Endure" [level=3] [ref=e1373]
+        - article [ref=e1374]:
+          - paragraph [ref=e1377]: Don't Shut Up - How To Talk So The World Listens
+          - heading "Don't Shut Up - How To Talk So The World Listens" [level=3] [ref=e1378]
+        - article [ref=e1379]:
+          - img "Emotional Intelligence cover" [ref=e1381]
+          - heading "Emotional Intelligence" [level=3] [ref=e1382]
+        - article [ref=e1383]:
+          - img "No More Mr. Nice Guys cover" [ref=e1385]
+          - heading "No More Mr. Nice Guys" [level=3] [ref=e1386]
+        - article [ref=e1387]:
+          - 'img "The Art of Noticing: Rediscover What Really Matters to You cover" [ref=e1389]'
+          - 'heading "The Art of Noticing: Rediscover What Really Matters to You" [level=3] [ref=e1390]'
+        - article [ref=e1391]:
+          - 'img "In Search of the Divine: Living Histories of Sufism in India cover" [ref=e1393]'
+          - 'heading "In Search of the Divine: Living Histories of Sufism in India" [level=3] [ref=e1394]'
+        - article [ref=e1395]:
+          - 'img "The Way to Love: The Last Meditations of Anthony de Mello (Image Pocket Classics) cover" [ref=e1397]'
+          - 'heading "The Way to Love: The Last Meditations of Anthony de Mello (Image Pocket Classics)" [level=3] [ref=e1398]'
+        - article [ref=e1399]:
+          - img "Life and Death in One Breath cover" [ref=e1401]
+          - heading "Life and Death in One Breath" [level=3] [ref=e1402]
+        - article [ref=e1403]:
+          - 'img "Influence : The Psychology of Persuasion (New and Expanded) cover" [ref=e1405]'
+          - 'heading "Influence : The Psychology of Persuasion (New and Expanded)" [level=3] [ref=e1406]'
+        - article [ref=e1407]:
+          - img "The Book of Five Rings cover" [ref=e1409]
+          - heading "The Book of Five Rings" [level=3] [ref=e1410]
+        - article [ref=e1411]:
+          - img "GREENLIGHTS cover" [ref=e1413]
+          - heading "GREENLIGHTS" [level=3] [ref=e1414]
+        - article [ref=e1415]:
+          - paragraph [ref=e1418]: "What It Takes To Be Free: A Practical Guide to Personal Freedom, Self-Mastery & Living Life on Your Own Terms | Unlock the Power to Create the Life You Truly Want"
+          - 'heading "What It Takes To Be Free: A Practical Guide to Personal Freedom, Self-Mastery & Living Life on Your Own Terms | Unlock the Power to Create the Life You Truly Want" [level=3] [ref=e1419]'
+        - article [ref=e1420]:
+          - 'img "Beyond Order: 12 More Rules for Life cover" [ref=e1422]'
+          - 'heading "Beyond Order: 12 More Rules for Life" [level=3] [ref=e1423]'
+        - article [ref=e1424]:
+          - 'img "12 Rules for Life: An Antidote to Chaos cover" [ref=e1426]'
+          - 'heading "12 Rules for Life: An Antidote to Chaos" [level=3] [ref=e1427]'
+        - article [ref=e1428]:
+          - img "Master Your Emotions cover" [ref=e1430]
+          - heading "Master Your Emotions" [level=3] [ref=e1431]
+        - article [ref=e1432]:
+          - img "Siddhartha by Hermann Hesse | Philosophy, Spiritual Awakening & Self-Realization | A Classic Novel of Self-Awareness, Mindfulness & Purpose | Original Premium Paperback Edition cover" [ref=e1434]
+          - heading "Siddhartha by Hermann Hesse | Philosophy, Spiritual Awakening & Self-Realization | A Classic Novel of Self-Awareness, Mindfulness & Purpose | Original Premium Paperback Edition" [level=3] [ref=e1435]
+        - article [ref=e1436]:
+          - 'img "Man''s Search For Meaning: The classic tribute to hope from the Holocaust cover" [ref=e1438]'
+          - 'heading "Man''s Search For Meaning: The classic tribute to hope from the Holocaust" [level=3] [ref=e1439]'
+        - article [ref=e1440]:
+          - 'img "You''re Too Good to Feel This Bad: An Orthodox Approach to Living an Unorthodox Life cover" [ref=e1442]'
+          - 'heading "You''re Too Good to Feel This Bad: An Orthodox Approach to Living an Unorthodox Life" [level=3] [ref=e1443]'
+        - article [ref=e1444]:
+          - 'img "Inner Engineering: A Yogi''s Guide to Joy | Million Copy Bestseller by Sadhguru | Spiritual and Self-Improvement cover" [ref=e1446]'
+          - 'heading "Inner Engineering: A Yogi''s Guide to Joy | Million Copy Bestseller by Sadhguru | Spiritual and Self-Improvement" [level=3] [ref=e1447]'
+        - article [ref=e1448]:
+          - img "The Monk Who Sold His Ferrari cover" [ref=e1450]
+          - heading "The Monk Who Sold His Ferrari" [level=3] [ref=e1451]
+        - article [ref=e1452]:
+          - 'img "Let''s Talk Money: You''ve Worked Hard for It, Now Make It Work for You cover" [ref=e1454]'
+          - 'heading "Let''s Talk Money: You''ve Worked Hard for It, Now Make It Work for You" [level=3] [ref=e1455]'
+        - article [ref=e1456]:
+          - 'img "Don''t Believe Everything You Think: Why Your Thinking Is The Beginning & End Of Suffering cover" [ref=e1458]'
+          - 'heading "Don''t Believe Everything You Think: Why Your Thinking Is The Beginning & End Of Suffering" [level=3] [ref=e1459]'
+        - article [ref=e1460]:
+          - 'img "Letters from a Stoic: Epistulae Morales Ad Lucilium cover" [ref=e1462]'
+          - 'heading "Letters from a Stoic: Epistulae Morales Ad Lucilium" [level=3] [ref=e1463]'
+        - article [ref=e1464]:
+          - 'img "The Brain: The Story of You cover" [ref=e1466]'
+          - 'heading "The Brain: The Story of You" [level=3] [ref=e1467]'
+        - article [ref=e1468]:
+          - img "How to Stop Worrying and Start Living cover" [ref=e1470]
+          - heading "How to Stop Worrying and Start Living" [level=3] [ref=e1471]
+        - article [ref=e1472]:
+          - img "The Everyday Hero Manifesto cover" [ref=e1474]
+          - heading "The Everyday Hero Manifesto" [level=3] [ref=e1475]
+        - article [ref=e1476]:
+          - img "Wings Of Fire An Autobiography cover" [ref=e1478]
+          - heading "Wings Of Fire An Autobiography" [level=3] [ref=e1479]
+        - article [ref=e1480]:
+          - 'img "DEEP WORK: RULES FOR FOCUSED SUCCESS IN A DISTRACTED WORLD cover" [ref=e1482]'
+          - 'heading "DEEP WORK: RULES FOR FOCUSED SUCCESS IN A DISTRACTED WORLD" [level=3] [ref=e1483]'
+        - article [ref=e1484]:
+          - 'img "Just Keep Buying: Proven ways to save money and build your wealth cover" [ref=e1486]'
+          - 'heading "Just Keep Buying: Proven ways to save money and build your wealth" [level=3] [ref=e1487]'
+        - article [ref=e1488]:
+          - img "The Intelligent Investor (English) Paperback – 2013 cover" [ref=e1490]
+          - heading "The Intelligent Investor (English) Paperback – 2013" [level=3] [ref=e1491]
+        - article [ref=e1492]:
+          - img "The 5 AM Club – Own Your Morning. Elevate Your Life – Paperback – 19 December 2018 cover" [ref=e1494]
+          - heading "The 5 AM Club – Own Your Morning. Elevate Your Life – Paperback – 19 December 2018" [level=3] [ref=e1495]
+        - article [ref=e1496]:
+          - 'img "How to Talk to Anyone: 92 Little Tricks for Big Success in Relationships cover" [ref=e1498]'
+          - 'heading "How to Talk to Anyone: 92 Little Tricks for Big Success in Relationships" [level=3] [ref=e1499]'
+        - article [ref=e1500]:
+          - img "Think And Grow Rich cover" [ref=e1502]
+          - heading "Think And Grow Rich" [level=3] [ref=e1503]
+        - article [ref=e1504]:
+          - img "Business Maharajas (R/J Edn.) cover" [ref=e1506]
+          - heading "Business Maharajas (R/J Edn.)" [level=3] [ref=e1507]
+        - article [ref=e1508]:
+          - 'img "''BELIEVE IN YOURSELF'': LIFE LESSONS FROM VIVEKANANDA cover" [ref=e1510]'
+          - 'heading "''BELIEVE IN YOURSELF'': LIFE LESSONS FROM VIVEKANANDA" [level=3] [ref=e1511]'
+        - article [ref=e1512]:
+          - 'img "Reflections: Swami Vivekananda cover" [ref=e1514]'
+          - 'heading "Reflections: Swami Vivekananda" [level=3] [ref=e1515]'
+        - article [ref=e1516]:
+          - 'img "Breath: The New Science of a Lost Art cover" [ref=e1518]'
+          - 'heading "Breath: The New Science of a Lost Art" [level=3] [ref=e1519]'
+        - article [ref=e1520]:
+          - 'img "As a Man Thinketh (PREMIUM PAPERBACK, PENGUIN INDIA): The number 1# inspirational and motivational classic for personal growth, success, and a happy life cover" [ref=e1522]'
+          - 'heading "As a Man Thinketh (PREMIUM PAPERBACK, PENGUIN INDIA): The number 1# inspirational and motivational classic for personal growth, success, and a happy life" [level=3] [ref=e1523]'
+        - article [ref=e1524]:
+          - 'img "Death; An Inside Story: A book for all those who shall die cover" [ref=e1526]'
+          - 'heading "Death; An Inside Story: A book for all those who shall die" [level=3] [ref=e1527]'
+        - article [ref=e1528]:
+          - 'img "Homo Deus: ''An intoxicating brew of science, philosophy and futurism'' Mail on Sunday cover" [ref=e1530]'
+          - 'heading "Homo Deus: ''An intoxicating brew of science, philosophy and futurism'' Mail on Sunday" [level=3] [ref=e1531]'
+        - article [ref=e1532]:
+          - 'img "Hyperfocus: How to Work Less to Achieve More cover" [ref=e1534]'
+          - 'heading "Hyperfocus: How to Work Less to Achieve More" [level=3] [ref=e1535]'
+        - article [ref=e1536]:
+          - 'img "Essentialism: The Disciplined Pursuit of Less cover" [ref=e1538]'
+          - 'heading "Essentialism: The Disciplined Pursuit of Less" [level=3] [ref=e1539]'
+        - article [ref=e1540]:
+          - img "ARTHASHASTRA cover" [ref=e1542]
+          - heading "ARTHASHASTRA" [level=3] [ref=e1543]
+        - article [ref=e1544]:
+          - img "The Black Swan cover" [ref=e1546]
+          - heading "The Black Swan" [level=3] [ref=e1547]
+        - article [ref=e1548]:
+          - 'img "Antifragile: Things That Gain from Disorder: 3 (Incerto) cover" [ref=e1550]'
+          - 'heading "Antifragile: Things That Gain from Disorder: 3 (Incerto)" [level=3] [ref=e1551]'
+        - article [ref=e1552]:
+          - 'img "Skin in the Game: Hidden Asymmetries in Daily Life cover" [ref=e1554]'
+          - 'heading "Skin in the Game: Hidden Asymmetries in Daily Life" [level=3] [ref=e1555]'
+        - article [ref=e1556]:
+          - 'img "The Second Mountain: The Quest for a Moral Life cover" [ref=e1558]'
+          - 'heading "The Second Mountain: The Quest for a Moral Life" [level=3] [ref=e1559]'
+        - article [ref=e1560]:
+          - img "Pyjama Profit cover" [ref=e1562]
+          - heading "Pyjama Profit" [level=3] [ref=e1563]
+        - article [ref=e1564]:
+          - img "Chanakya Neeti cover" [ref=e1566]
+          - heading "Chanakya Neeti" [level=3] [ref=e1567]
+        - article [ref=e1568]:
+          - img "Shoe Dog cover" [ref=e1570]
+          - heading "Shoe Dog" [level=3] [ref=e1571]
+        - article [ref=e1572]:
+          - 'img "The 10X Rule: The Only Difference Between Success and Failure cover" [ref=e1574]'
+          - 'heading "The 10X Rule: The Only Difference Between Success and Failure" [level=3] [ref=e1575]'
+        - article [ref=e1576]:
+          - img "TUESDAYS WITH MORRIE (EXPORT) (A FORMAT) cover" [ref=e1578]
+          - heading "TUESDAYS WITH MORRIE (EXPORT) (A FORMAT)" [level=3] [ref=e1579]
+        - article [ref=e1580]:
+          - 'img "ReWork: Change the Way You Work Forever cover" [ref=e1582]'
+          - 'heading "ReWork: Change the Way You Work Forever" [level=3] [ref=e1583]'
+        - article [ref=e1584]:
+          - 'img "The Defining Decade: Why Your Twenties Matter and How to Make the Most of Them Now cover" [ref=e1586]'
+          - 'heading "The Defining Decade: Why Your Twenties Matter and How to Make the Most of Them Now" [level=3] [ref=e1587]'
+        - article [ref=e1588]:
+          - img "MINDSET (REVISED AND UPDATED) cover" [ref=e1590]
+          - heading "MINDSET (REVISED AND UPDATED)" [level=3] [ref=e1591]
+        - article [ref=e1592]:
+          - paragraph [ref=e1595]: The Compound Effect (English)
+          - heading "The Compound Effect (English)" [level=3] [ref=e1596]
+        - article [ref=e1597]:
+          - 'img "Learning How to Fly: Life Lessons for the Youth cover" [ref=e1599]'
+          - 'heading "Learning How to Fly: Life Lessons for the Youth" [level=3] [ref=e1600]'
+        - article [ref=e1601]:
+          - 'img "The 4-Hour Work Week: Escape the 9-5, Live Anywhere and Join the New Rich cover" [ref=e1603]'
+          - 'heading "The 4-Hour Work Week: Escape the 9-5, Live Anywhere and Join the New Rich" [level=3] [ref=e1604]'
+        - article [ref=e1605]:
+          - 'img "The Hard Thing about Hard Thing: Building a Business When There are No Easy Answers cover" [ref=e1607]'
+          - 'heading "The Hard Thing about Hard Thing: Building a Business When There are No Easy Answers" [level=3] [ref=e1608]'
+        - article [ref=e1609]:
+          - 'img "Zero to One: Notes on Start Ups, or How to Build the Future | International Bestseller by Peter Thiel and Blake Masters cover" [ref=e1611]'
+          - 'heading "Zero to One: Notes on Start Ups, or How to Build the Future | International Bestseller by Peter Thiel and Blake Masters" [level=3] [ref=e1612]'
+        - article [ref=e1613]:
+          - 'img "THE ONE THING (HB): The Suprisingly Simple Truth Behind Extraordinary Results cover" [ref=e1615]'
+          - 'heading "THE ONE THING (HB): The Suprisingly Simple Truth Behind Extraordinary Results" [level=3] [ref=e1616]'
+        - article [ref=e1617]:
+          - 'img "Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not! cover" [ref=e1619]'
+          - 'heading "Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not!" [level=3] [ref=e1620]'
+        - article [ref=e1621]:
+          - 'img "Coffee Can Investing: The Low Risk Road to Stupendous Wealth | A perfect read to understand wealth creating via Investing in Stocks | A Book On Trading and Wealth Management cover" [ref=e1623]'
+          - 'heading "Coffee Can Investing: The Low Risk Road to Stupendous Wealth | A perfect read to understand wealth creating via Investing in Stocks | A Book On Trading and Wealth Management" [level=3] [ref=e1624]'
+        - article [ref=e1625]:
+          - 'img "Can''T Hurt Me: Master Your Mind Self-Discipline, Mental Toughness, And Hard Work cover" [ref=e1627]'
+          - 'heading "Can''T Hurt Me: Master Your Mind Self-Discipline, Mental Toughness, And Hard Work" [level=3] [ref=e1628]'
+        - article [ref=e1629]:
+          - img "THE 48 LAWS OF POWER cover" [ref=e1631]
+          - heading "THE 48 LAWS OF POWER" [level=3] [ref=e1632]
+    - navigation "Site navigation" [ref=e1633]:
+      - button "Home" [ref=e1634]:
+        - img [ref=e1635]
+      - button "Sections" [ref=e1638]:
+        - img [ref=e1639]
+      - button "Books" [ref=e1641]:
+        - img [ref=e1642]
+      - button "GitHub" [ref=e1646]:
+        - img [ref=e1647]
+      - button "LinkedIn" [ref=e1650]:
+        - img [ref=e1651]
+      - button "X" [ref=e1654]:
+        - img [ref=e1655]
+      - button "Instagram" [ref=e1658]:
+        - img [ref=e1659]
+      - button "Email" [ref=e1662]:
+        - img [ref=e1663]
+      - button "Switch to Agent View" [ref=e1667]:
+        - img [ref=e1668]
+      - button "Switch to light mode" [ref=e1672]:
+        - img [ref=e1673]

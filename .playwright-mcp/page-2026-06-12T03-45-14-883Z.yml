@@ -1,0 +1,202 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - navigation [ref=e4]:
+        - button "Project" [ref=e5]
+        - button "Story" [ref=e6]
+        - button "Writings" [ref=e7]
+        - button "Books" [ref=e8]
+      - generic:
+        - generic: Moghal
+        - generic: Saif
+    - generic [ref=e11]:
+      - paragraph [ref=e12]: Tap a section to explore
+      - generic [ref=e13]:
+        - button "Open Projects" [active] [ref=e14]:
+          - img [ref=e15]:
+            - generic: Projects
+        - button "Open Story" [ref=e16]:
+          - img [ref=e17]:
+            - generic: Story
+        - button "Open Writings" [ref=e18]:
+          - img [ref=e19]:
+            - generic: Writings
+        - button "Open Books" [ref=e20]:
+          - img [ref=e21]:
+            - generic: Books
+    - generic [ref=e43]:
+      - button "Close" [ref=e44]:
+        - img [ref=e45]
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - paragraph [ref=e51]: Selected work
+            - heading "Projects" [level=2] [ref=e52]
+          - paragraph [ref=e53]: A tighter archive of products, experiments, and systems work. Filter by stack, then open a project for the longer note.
+        - generic [ref=e54]:
+          - generic [ref=e55]: 6 of 6 works
+          - generic "Filter projects by tool" [ref=e56]:
+            - button "All" [pressed] [ref=e57]:
+              - img [ref=e59]
+              - text: All
+            - button "OpenAI" [ref=e64]:
+              - img [ref=e66]
+              - text: OpenAI
+            - button "Anthropic" [ref=e68]:
+              - img [ref=e70]
+              - text: Anthropic
+            - button "Supabase" [ref=e72]:
+              - img [ref=e74]
+              - text: Supabase
+            - button "Next.js" [ref=e76]:
+              - img [ref=e78]
+              - text: Next.js
+            - button "React" [ref=e80]:
+              - img [ref=e82]
+              - text: React
+            - button "LangChain" [ref=e87]:
+              - img [ref=e89]
+              - text: LangChain
+            - button "Pinecone" [ref=e93]:
+              - img [ref=e95]
+              - text: Pinecone
+            - button "SwiftUI" [ref=e97]:
+              - img [ref=e99]
+              - text: SwiftUI
+            - button "D3.js" [ref=e101]:
+              - img [ref=e103]
+              - text: D3.js
+            - button "Core ML" [ref=e105]:
+              - img [ref=e107]
+              - text: Core ML
+            - button "Yjs" [ref=e114]:
+              - img [ref=e116]
+              - text: Yjs
+            - button "Vercel AI" [ref=e119]:
+              - img [ref=e121]
+              - text: Vercel AI
+            - button "HuggingFace" [ref=e123]:
+              - img [ref=e125]
+              - text: HuggingFace
+        - generic [ref=e127]:
+          - button "2024 Drift A calm productivity tool that adapts to your energy levels throughout the day. Uses passive signals — typing rhythm, app switching patterns — to model your energy state. iOS SwiftUI AI View" [ref=e128]:
+            - generic [ref=e130]: "2024"
+            - heading "Drift" [level=3] [ref=e132]
+            - paragraph [ref=e133]: A calm productivity tool that adapts to your energy levels throughout the day. Uses passive signals — typing rhythm, app switching patterns — to model your energy state.
+            - generic [ref=e134]:
+              - generic [ref=e135]: iOS
+              - generic [ref=e136]: SwiftUI
+              - generic [ref=e137]: AI
+            - generic [ref=e138]:
+              - generic [ref=e139]:
+                - generic "SwiftUI" [ref=e140]:
+                  - img [ref=e141]
+                - generic "Core ML" [ref=e143]:
+                  - img [ref=e144]
+                - generic "OpenAI" [ref=e151]:
+                  - img [ref=e152]
+              - generic [ref=e154]:
+                - text: View
+                - img [ref=e155]
+          - button "2024 Mosaic Visual bookmarking and knowledge graph for curious minds. Everything you save gets embedded, clustered, and surfaced at the right moment. Web AI Vectors View" [ref=e157]:
+            - generic [ref=e159]: "2024"
+            - heading "Mosaic" [level=3] [ref=e161]
+            - paragraph [ref=e162]: Visual bookmarking and knowledge graph for curious minds. Everything you save gets embedded, clustered, and surfaced at the right moment.
+            - generic [ref=e163]:
+              - generic [ref=e164]: Web
+              - generic [ref=e165]: AI
+              - generic [ref=e166]: Vectors
+            - generic [ref=e167]:
+              - generic [ref=e168]:
+                - generic "Pinecone" [ref=e169]:
+                  - img [ref=e170]
+                - generic "Next.js" [ref=e172]:
+                  - img [ref=e173]
+                - generic "OpenAI" [ref=e175]:
+                  - img [ref=e176]
+              - generic [ref=e178]:
+                - text: View
+                - img [ref=e179]
+          - button "2023 Volta Energy tracking dashboard with ambient data visualisations. Electricity usage rendered as weather — a sunny day means low consumption, a storm means you left the AC running. Dashboard D3 React View" [ref=e181]:
+            - generic [ref=e183]: "2023"
+            - heading "Volta" [level=3] [ref=e185]
+            - paragraph [ref=e186]: Energy tracking dashboard with ambient data visualisations. Electricity usage rendered as weather — a sunny day means low consumption, a storm means you left the AC running.
+            - generic [ref=e187]:
+              - generic [ref=e188]: Dashboard
+              - generic [ref=e189]: D3
+              - generic [ref=e190]: React
+            - generic [ref=e191]:
+              - generic [ref=e192]:
+                - generic "React" [ref=e193]:
+                  - img [ref=e194]
+                - generic "D3.js" [ref=e199]:
+                  - img [ref=e200]
+                - generic "Supabase" [ref=e202]:
+                  - img [ref=e203]
+              - generic [ref=e205]:
+                - text: View
+                - img [ref=e206]
+          - button "2023 Reframe A journaling app that surfaces entries from exactly one week, one month, and one year ago. Your past self is your best therapist. iOS Privacy AI View" [ref=e208]:
+            - generic [ref=e210]: "2023"
+            - heading "Reframe" [level=3] [ref=e212]
+            - paragraph [ref=e213]: A journaling app that surfaces entries from exactly one week, one month, and one year ago. Your past self is your best therapist.
+            - generic [ref=e214]:
+              - generic [ref=e215]: iOS
+              - generic [ref=e216]: Privacy
+              - generic [ref=e217]: AI
+            - generic [ref=e218]:
+              - generic [ref=e219]:
+                - generic "SwiftUI" [ref=e220]:
+                  - img [ref=e221]
+                - generic "Core ML" [ref=e223]:
+                  - img [ref=e224]
+              - generic [ref=e231]:
+                - text: View
+                - img [ref=e232]
+          - button "2023 Canvas Collaborative whiteboard for distributed design teams. Structured content blocks snap to a grid. SaaS CRDT Design View" [ref=e234]:
+            - generic [ref=e236]: "2023"
+            - heading "Canvas" [level=3] [ref=e238]
+            - paragraph [ref=e239]: Collaborative whiteboard for distributed design teams. Structured content blocks snap to a grid.
+            - generic [ref=e240]:
+              - generic [ref=e241]: SaaS
+              - generic [ref=e242]: CRDT
+              - generic [ref=e243]: Design
+            - generic [ref=e244]:
+              - generic [ref=e245]:
+                - generic "React" [ref=e246]:
+                  - img [ref=e247]
+                - generic "Yjs" [ref=e252]:
+                  - img [ref=e253]
+                - generic "Supabase" [ref=e256]:
+                  - img [ref=e257]
+              - generic [ref=e259]:
+                - text: View
+                - img [ref=e260]
+          - button "2022 Signal Minimal RSS reader for people who still believe in the open web. Pure RSS, no recommendations, no engagement metrics. Open Source RSS View" [ref=e262]:
+            - generic [ref=e264]: "2022"
+            - heading "Signal" [level=3] [ref=e266]
+            - paragraph [ref=e267]: Minimal RSS reader for people who still believe in the open web. Pure RSS, no recommendations, no engagement metrics.
+            - generic [ref=e268]:
+              - generic [ref=e269]: Open Source
+              - generic [ref=e270]: RSS
+            - generic [ref=e271]:
+              - generic [ref=e272]:
+                - generic "Next.js" [ref=e273]:
+                  - img [ref=e274]
+                - generic "React" [ref=e276]:
+                  - img [ref=e277]
+              - generic [ref=e282]:
+                - text: View
+                - img [ref=e283]
+    - generic [ref=e23]:
+      - generic [ref=e24]: Moghal Saif · 2026
+      - generic [ref=e25]:
+        - link "X" [ref=e26] [cursor=pointer]:
+          - /url: https://x.com/moghalsaifa
+        - link "Instagram" [ref=e27] [cursor=pointer]:
+          - /url: https://instagram.com/moghalsaif
+        - link "LinkedIn" [ref=e28] [cursor=pointer]:
+          - /url: https://linkedin.com/in/moghalsaifa
+  - button "Open Next.js Dev Tools" [ref=e34] [cursor=pointer]:
+    - img [ref=e35]
+  - alert [ref=e38]

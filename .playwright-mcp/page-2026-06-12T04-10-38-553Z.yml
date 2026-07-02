@@ -1,0 +1,76 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e7] [cursor=pointer]:
+    - img [ref=e8]
+  - main [ref=e11]:
+    - generic [ref=e12]:
+      - generic:
+        - generic: Moghal
+        - generic: Saif
+    - generic [ref=e16]:
+      - paragraph [ref=e17]: been here for 22.182468242 years
+      - generic [ref=e18]:
+        - article [ref=e19]:
+          - generic [ref=e20]:
+            - paragraph [ref=e21]: what's something interesting i'm working on
+            - heading "Mosaic" [level=2] [ref=e22]
+            - paragraph [ref=e23]: A visual knowledge system that saves what I read, connects related ideas, and brings useful notes back when I need them.
+          - link "Github repo" [ref=e24] [cursor=pointer]:
+            - /url: https://github.com/moghalsaif
+        - article [ref=e25]:
+          - paragraph [ref=e26]: what's something interesting i'm reading
+          - generic [ref=e27]:
+            - 'img "The Goal: A Process of Ongoing Improvement cover" [ref=e29]'
+            - generic [ref=e30]:
+              - 'heading "The Goal: A Process of Ongoing Improvement" [level=2] [ref=e31]'
+              - paragraph [ref=e32]: I keep coming back to systems books because they turn messy ambition into constraints, feedback loops, and better decisions.
+    - generic [ref=e34]:
+      - generic [ref=e35]:
+        - paragraph [ref=e36]: explore
+        - heading "sections" [level=2] [ref=e37]
+      - generic [ref=e38]:
+        - button "Projects Selected work and build notes. Open" [ref=e39]:
+          - generic [ref=e40]: Projects
+          - generic [ref=e41]: Selected work and build notes.
+          - generic [ref=e42]: Open
+        - button "Story A short letter about the person behind the work. Open" [ref=e43]:
+          - generic [ref=e44]: Story
+          - generic [ref=e45]: A short letter about the person behind the work.
+          - generic [ref=e46]: Open
+        - button "Writings Essays, notes, and thinking in public. Open" [ref=e47]:
+          - generic [ref=e48]: Writings
+          - generic [ref=e49]: Essays, notes, and thinking in public.
+          - generic [ref=e50]: Open
+        - button "Books A running shelf of what I am reading. Open" [ref=e51]:
+          - generic [ref=e52]: Books
+          - generic [ref=e53]: A running shelf of what I am reading.
+          - generic [ref=e54]: Open
+    - generic [ref=e56]:
+      - generic [ref=e57]: Moghal Saif · 2026
+      - generic [ref=e58]:
+        - link "X" [ref=e59] [cursor=pointer]:
+          - /url: https://x.com/moghalsaifa
+        - link "Instagram" [ref=e60] [cursor=pointer]:
+          - /url: https://instagram.com/moghalsaif
+        - link "LinkedIn" [ref=e61] [cursor=pointer]:
+          - /url: https://linkedin.com/in/moghalsaifa
+    - navigation "Site navigation" [ref=e62]:
+      - button "Home" [ref=e63]:
+        - img [ref=e64]
+      - button "Sections" [ref=e67]:
+        - img [ref=e68]
+      - button "Books" [ref=e70]:
+        - img [ref=e71]
+      - link "GitHub" [ref=e74] [cursor=pointer]:
+        - /url: https://github.com/moghalsaif
+        - img [ref=e75]
+      - link "LinkedIn" [ref=e77] [cursor=pointer]:
+        - /url: https://linkedin.com/in/moghalsaifa
+        - img [ref=e78]
+      - link "X" [ref=e80] [cursor=pointer]:
+        - /url: https://x.com/moghalsaifa
+        - img [ref=e81]
+      - link "Instagram" [ref=e83] [cursor=pointer]:
+        - /url: https://instagram.com/moghalsaif
+        - img [ref=e84]
+      - button "Switch to light mode" [ref=e87]:
+        - img [ref=e88]

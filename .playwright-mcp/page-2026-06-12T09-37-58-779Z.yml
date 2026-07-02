@@ -1,0 +1,90 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic:
+        - generic: Moghal
+        - generic: Saif
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - paragraph [ref=e9]: been here for 21.338235666 years
+        - paragraph [ref=e11]:
+          - img [ref=e12]
+          - text: Singapore
+      - generic [ref=e15]:
+        - article [ref=e16]:
+          - generic [ref=e17]:
+            - paragraph [ref=e18]: what's something interesting i'm working on
+            - heading "Mosaic" [level=2] [ref=e19]
+            - paragraph [ref=e20]: A visual knowledge system that saves what I read, connects related ideas, and brings useful notes back when I need them.
+          - link "GitHub repo" [ref=e21] [cursor=pointer]:
+            - /url: https://github.com/moghalsaif
+            - img [ref=e22]
+            - text: GitHub repo
+        - article [ref=e24]:
+          - paragraph [ref=e25]: what's something interesting i'm reading
+          - generic [ref=e26]:
+            - 'img "The Goal: A Process of Ongoing Improvement cover" [ref=e28]'
+            - generic [ref=e29]:
+              - 'heading "The Goal: A Process of Ongoing Improvement" [level=2] [ref=e30]'
+              - paragraph [ref=e31]: I keep coming back to systems books because they turn messy ambition into constraints, feedback loops, and better decisions.
+    - generic [ref=e33]:
+      - heading "sections" [level=2] [ref=e35]
+      - generic [ref=e36]:
+        - button "Projects Selected work and build notes. Open" [ref=e37]:
+          - generic [ref=e38]: Projects
+          - generic [ref=e39]: Selected work and build notes.
+          - generic [ref=e40]: Open
+        - button "Story A short letter about the person behind the work. Open" [ref=e41]:
+          - generic [ref=e42]: Story
+          - generic [ref=e43]: A short letter about the person behind the work.
+          - generic [ref=e44]: Open
+        - button "Writings Essays, notes, and thinking in public. Open" [ref=e45]:
+          - generic [ref=e46]: Writings
+          - generic [ref=e47]: Essays, notes, and thinking in public.
+          - generic [ref=e48]: Open
+        - button "Books A running shelf of what I am reading. Open" [ref=e49]:
+          - generic [ref=e50]: Books
+          - generic [ref=e51]: A running shelf of what I am reading.
+          - generic [ref=e52]: Open
+    - generic [ref=e54]:
+      - generic [ref=e55]: Moghal Saif · 2026
+      - generic [ref=e56]:
+        - link "GitHub" [ref=e57] [cursor=pointer]:
+          - /url: https://github.com/moghalsaif
+        - link "LinkedIn" [ref=e58] [cursor=pointer]:
+          - /url: https://linkedin.com/in/moghalsaifa
+        - link "Twitter" [ref=e59] [cursor=pointer]:
+          - /url: https://x.com/moghalsaifa
+        - link "Instagram" [ref=e60] [cursor=pointer]:
+          - /url: https://instagram.com/moghalsaif
+    - navigation "Site navigation" [ref=e61]:
+      - button "Home" [ref=e62]:
+        - img [ref=e63]
+      - button "GitHub" [ref=e67]:
+        - img [ref=e68]
+      - button "LinkedIn" [ref=e71]:
+        - img [ref=e72]
+      - button "Twitter" [ref=e75]:
+        - img [ref=e76]
+      - button "Instagram" [ref=e79]:
+        - img [ref=e80]
+      - generic [ref=e82]:
+        - button "Email" [active] [ref=e83]:
+          - img [ref=e84]
+        - menu "Email actions" [ref=e110]:
+          - menuitem "Copy Email Address" [ref=e111]:
+            - img [ref=e113]
+            - text: Copy Email Address
+          - menuitem "Open Gmail" [ref=e116]:
+            - img [ref=e118]
+            - text: Open Gmail
+          - menuitem "Open Outlook" [ref=e120]:
+            - img [ref=e122]
+            - text: Open Outlook
+      - button "Switch to Agent View" [ref=e88]:
+        - img [ref=e89]
+      - button "Switch to light mode" [ref=e93]:
+        - img [ref=e94]
+  - button "Open Next.js Dev Tools" [ref=e105] [cursor=pointer]:
+    - img [ref=e106]
+  - alert [ref=e109]

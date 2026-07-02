@@ -1,0 +1,208 @@
+- generic [active] [ref=e1]:
+  - button "Back home" [ref=e2]:
+    - img [ref=e3]
+  - button "Close page" [ref=e5]:
+    - img [ref=e6]
+  - generic [ref=e10]:
+    - heading "writings" [level=2] [ref=e11]
+    - generic [ref=e12]:
+      - link "Everyone is talking about brand, but no one is talking about sales May 2026" [ref=e14] [cursor=pointer]:
+        - /url: /writing/25
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - heading "Everyone is talking about brand, but no one is talking about sales" [level=3] [ref=e17]
+            - paragraph [ref=e18]: May 2026
+          - img [ref=e19]
+      - link "If you want something no one has, endure what no one will Mar 2026" [ref=e22] [cursor=pointer]:
+        - /url: /writing/1
+        - generic [ref=e23]:
+          - generic [ref=e24]:
+            - heading "If you want something no one has, endure what no one will" [level=3] [ref=e25]
+            - paragraph [ref=e26]: Mar 2026
+          - img [ref=e27]
+      - link "All outliers are rebels, but not all rebels are outliers Feb 2026" [ref=e30] [cursor=pointer]:
+        - /url: /writing/2
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - heading "All outliers are rebels, but not all rebels are outliers" [level=3] [ref=e33]
+            - paragraph [ref=e34]: Feb 2026
+          - img [ref=e35]
+      - link "If religion teaches us to be good, why are history's powerful people bad? Dec 2025" [ref=e38] [cursor=pointer]:
+        - /url: /writing/3
+        - generic [ref=e39]:
+          - generic [ref=e40]:
+            - heading "If religion teaches us to be good, why are history's powerful people bad?" [level=3] [ref=e41]
+            - paragraph [ref=e42]: Dec 2025
+          - img [ref=e43]
+      - link "Why you need to live an intentional life Sep 2025" [ref=e46] [cursor=pointer]:
+        - /url: /writing/4
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - heading "Why you need to live an intentional life" [level=3] [ref=e49]
+            - paragraph [ref=e50]: Sep 2025
+          - img [ref=e51]
+      - link "The next era of human survival Sep 2025" [ref=e54] [cursor=pointer]:
+        - /url: /writing/5
+        - generic [ref=e55]:
+          - generic [ref=e56]:
+            - heading "The next era of human survival" [level=3] [ref=e57]
+            - paragraph [ref=e58]: Sep 2025
+          - img [ref=e59]
+      - link "Most of your efforts are BS Jan 2025" [ref=e62] [cursor=pointer]:
+        - /url: /writing/6
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - heading "Most of your efforts are BS" [level=3] [ref=e65]
+            - paragraph [ref=e66]: Jan 2025
+          - img [ref=e67]
+      - link "dog & bull Jan 2024" [ref=e70] [cursor=pointer]:
+        - /url: /writing/7
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - heading "dog & bull" [level=3] [ref=e73]
+            - paragraph [ref=e74]: Jan 2024
+          - img [ref=e75]
+      - link "revival Jan 2024" [ref=e78] [cursor=pointer]:
+        - /url: /writing/8
+        - generic [ref=e79]:
+          - generic [ref=e80]:
+            - heading "revival" [level=3] [ref=e81]
+            - paragraph [ref=e82]: Jan 2024
+          - img [ref=e83]
+      - link "beauty of darkness Nov 2023" [ref=e86] [cursor=pointer]:
+        - /url: /writing/9
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - heading "beauty of darkness" [level=3] [ref=e89]
+            - paragraph [ref=e90]: Nov 2023
+          - img [ref=e91]
+      - link "respect & attention games Oct 2023" [ref=e94] [cursor=pointer]:
+        - /url: /writing/10
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - heading "respect & attention games" [level=3] [ref=e97]
+            - paragraph [ref=e98]: Oct 2023
+          - img [ref=e99]
+      - link "kabir & zaalima Aug 2023" [ref=e102] [cursor=pointer]:
+        - /url: /writing/11
+        - generic [ref=e103]:
+          - generic [ref=e104]:
+            - heading "kabir & zaalima" [level=3] [ref=e105]
+            - paragraph [ref=e106]: Aug 2023
+          - img [ref=e107]
+      - link "dispose purpose Aug 2023" [ref=e110] [cursor=pointer]:
+        - /url: /writing/12
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - heading "dispose purpose" [level=3] [ref=e113]
+            - paragraph [ref=e114]: Aug 2023
+          - img [ref=e115]
+      - link "at the end, its love Jul 2023" [ref=e118] [cursor=pointer]:
+        - /url: /writing/13
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - heading "at the end, its love" [level=3] [ref=e121]
+            - paragraph [ref=e122]: Jul 2023
+          - img [ref=e123]
+      - link "masks Jun 2023" [ref=e126] [cursor=pointer]:
+        - /url: /writing/14
+        - generic [ref=e127]:
+          - generic [ref=e128]:
+            - heading "masks" [level=3] [ref=e129]
+            - paragraph [ref=e130]: Jun 2023
+          - img [ref=e131]
+      - link "white horse Jun 2023" [ref=e134] [cursor=pointer]:
+        - /url: /writing/15
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - heading "white horse" [level=3] [ref=e137]
+            - paragraph [ref=e138]: Jun 2023
+          - img [ref=e139]
+      - link "Enigma of happiness May 2023" [ref=e142] [cursor=pointer]:
+        - /url: /writing/16
+        - generic [ref=e143]:
+          - generic [ref=e144]:
+            - heading "Enigma of happiness" [level=3] [ref=e145]
+            - paragraph [ref=e146]: May 2023
+          - img [ref=e147]
+      - link "why you don't matter Apr 2023" [ref=e150] [cursor=pointer]:
+        - /url: /writing/17
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - heading "why you don't matter" [level=3] [ref=e153]
+            - paragraph [ref=e154]: Apr 2023
+          - img [ref=e155]
+      - link "space, emptiness and silence Mar 2023" [ref=e158] [cursor=pointer]:
+        - /url: /writing/18
+        - generic [ref=e159]:
+          - generic [ref=e160]:
+            - heading "space, emptiness and silence" [level=3] [ref=e161]
+            - paragraph [ref=e162]: Mar 2023
+          - img [ref=e163]
+      - link "delusional Mar 2023" [ref=e166] [cursor=pointer]:
+        - /url: /writing/19
+        - generic [ref=e167]:
+          - generic [ref=e168]:
+            - heading "delusional" [level=3] [ref=e169]
+            - paragraph [ref=e170]: Mar 2023
+          - img [ref=e171]
+      - link "levels of experience Feb 2023" [ref=e174] [cursor=pointer]:
+        - /url: /writing/20
+        - generic [ref=e175]:
+          - generic [ref=e176]:
+            - heading "levels of experience" [level=3] [ref=e177]
+            - paragraph [ref=e178]: Feb 2023
+          - img [ref=e179]
+      - link "Letting go... Feb 2023" [ref=e182] [cursor=pointer]:
+        - /url: /writing/21
+        - generic [ref=e183]:
+          - generic [ref=e184]:
+            - heading "Letting go..." [level=3] [ref=e185]
+            - paragraph [ref=e186]: Feb 2023
+          - img [ref=e187]
+      - link "best thing to do when you feel low Jan 2023" [ref=e190] [cursor=pointer]:
+        - /url: /writing/22
+        - generic [ref=e191]:
+          - generic [ref=e192]:
+            - heading "best thing to do when you feel low" [level=3] [ref=e193]
+            - paragraph [ref=e194]: Jan 2023
+          - img [ref=e195]
+      - link "Why intellectuals live a miserable life Jan 2023" [ref=e198] [cursor=pointer]:
+        - /url: /writing/23
+        - generic [ref=e199]:
+          - generic [ref=e200]:
+            - heading "Why intellectuals live a miserable life" [level=3] [ref=e201]
+            - paragraph [ref=e202]: Jan 2023
+          - img [ref=e203]
+      - link "12 Realizations of 2021 Dec 2021" [ref=e206] [cursor=pointer]:
+        - /url: /writing/24
+        - generic [ref=e207]:
+          - generic [ref=e208]:
+            - heading "12 Realizations of 2021" [level=3] [ref=e209]
+            - paragraph [ref=e210]: Dec 2021
+          - img [ref=e211]
+    - link "Substack Make Better Decisions, Sign up to my newsletter. Open Substack" [ref=e213] [cursor=pointer]:
+      - /url: https://ratios.substack.com
+      - paragraph [ref=e214]: Substack
+      - generic [ref=e215]:
+        - heading "Make Better Decisions, Sign up to my newsletter." [level=3] [ref=e216]
+        - generic [ref=e217]: Open Substack
+  - navigation "Site navigation" [ref=e218]:
+    - button "Home" [ref=e219]:
+      - img [ref=e220]
+    - button "GitHub" [ref=e224]:
+      - img [ref=e225]
+    - button "LinkedIn" [ref=e228]:
+      - img [ref=e229]
+    - button "Twitter" [ref=e232]:
+      - img [ref=e233]
+    - button "Instagram" [ref=e236]:
+      - img [ref=e237]
+    - button "Email" [ref=e240]:
+      - img [ref=e241]
+    - button "Switch to Agent View" [ref=e245]:
+      - img [ref=e246]
+    - button "Switch to light mode" [ref=e250]:
+      - img [ref=e251]
+  - button "Open Next.js Dev Tools" [ref=e262] [cursor=pointer]:
+    - img [ref=e263]

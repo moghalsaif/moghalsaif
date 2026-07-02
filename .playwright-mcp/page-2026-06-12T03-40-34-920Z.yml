@@ -1,0 +1,82 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - navigation [ref=e4]:
+        - button "Project" [ref=e5]
+        - button "Story" [ref=e6]
+        - button "Writings" [ref=e7]
+        - button "Books" [ref=e8]
+      - generic:
+        - generic: Moghal
+        - generic: Saif
+    - generic [ref=e11]:
+      - paragraph [ref=e12]: Tap a section to explore
+      - generic [ref=e13]:
+        - button "Open Projects" [ref=e14]:
+          - img [ref=e15]:
+            - generic: Projects
+        - button "Open Story" [ref=e16]:
+          - img [ref=e17]:
+            - generic: Story
+        - button "Open Writings" [ref=e18]:
+          - img [ref=e19]:
+            - generic: Writings
+        - button "Open Books" [ref=e20]:
+          - img [ref=e21]:
+            - generic: Books
+    - generic [ref=e43]:
+      - button "Close" [ref=e44]:
+        - img [ref=e45]
+      - generic [ref=e286]:
+        - complementary [ref=e287]:
+          - button "Projects" [ref=e288]:
+            - img [ref=e289]
+            - text: Projects
+          - generic [ref=e291]:
+            - paragraph [ref=e292]: 2024 / Case study
+            - heading "Drift" [level=2] [ref=e293]
+            - generic [ref=e294]:
+              - generic [ref=e295]: iOS
+              - generic [ref=e296]: SwiftUI
+              - generic [ref=e297]: AI
+          - link "View GitHub" [ref=e299] [cursor=pointer]:
+            - /url: https://github.com/moghalsaif
+            - img [ref=e300]
+            - text: View GitHub
+            - img [ref=e302]
+        - generic [ref=e307]:
+          - generic [ref=e308]:
+            - paragraph [ref=e309]: Overview
+            - generic [ref=e310]:
+              - paragraph [ref=e311]: A calm productivity tool that adapts to your energy levels throughout the day. Uses passive signals — typing rhythm, app switching patterns — to model your energy state.
+              - paragraph [ref=e312]: When you're in flow, it fades into the background. When you're lagging, it gently suggests a break. Built with SwiftUI and CoreML. 2,400 MAU.
+          - generic [ref=e313]:
+            - generic [ref=e314]:
+              - paragraph [ref=e315]: Stack
+              - generic [ref=e316]:
+                - generic [ref=e317]:
+                  - img [ref=e319]
+                  - generic [ref=e321]: SwiftUI
+                - generic [ref=e322]:
+                  - img [ref=e324]
+                  - generic [ref=e331]: Core ML
+                - generic [ref=e332]:
+                  - img [ref=e334]
+                  - generic [ref=e336]: OpenAI
+            - generic [ref=e337]:
+              - paragraph [ref=e338]: Demo
+              - generic [ref=e339]:
+                - img [ref=e340]
+                - generic [ref=e343]: Demo coming soon
+    - generic [ref=e23]:
+      - generic [ref=e24]: Moghal Saif · 2026
+      - generic [ref=e25]:
+        - link "X" [ref=e26] [cursor=pointer]:
+          - /url: https://x.com/moghalsaifa
+        - link "Instagram" [ref=e27] [cursor=pointer]:
+          - /url: https://instagram.com/moghalsaif
+        - link "LinkedIn" [ref=e28] [cursor=pointer]:
+          - /url: https://linkedin.com/in/moghalsaifa
+  - button "Open Next.js Dev Tools" [ref=e38] [cursor=pointer]:
+    - img [ref=e39]
+  - alert [ref=e42]

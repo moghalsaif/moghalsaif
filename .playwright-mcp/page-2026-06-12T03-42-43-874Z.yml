@@ -1,0 +1,175 @@
+- generic [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e38] [cursor=pointer]:
+    - img [ref=e39]
+  - alert [ref=e42]: Moghal Saif
+  - main [ref=e448]:
+    - generic [ref=e449]:
+      - navigation [ref=e450]:
+        - button "Project" [ref=e451]
+        - button "Story" [ref=e452]
+        - button "Writings" [ref=e453]
+        - button "Books" [ref=e454]
+      - generic:
+        - generic: Moghal
+        - generic: Saif
+    - generic [ref=e457]:
+      - paragraph [ref=e458]: Tap a section to explore
+      - generic [ref=e459]:
+        - button "Open Projects" [ref=e460]:
+          - img [ref=e461]:
+            - generic: Projects
+        - button "Open Story" [ref=e463]:
+          - img [ref=e464]:
+            - generic: Story
+        - button "Open Writings" [active] [ref=e466]:
+          - img [ref=e467]:
+            - generic: Writings
+        - button "Open Books" [ref=e469]:
+          - img [ref=e470]:
+            - generic: Books
+    - generic [ref=e479]:
+      - button "Close" [ref=e480]:
+        - img [ref=e481]
+      - generic [ref=e483]:
+        - generic [ref=e484]:
+          - generic [ref=e485]:
+            - generic [ref=e486]:
+              - paragraph [ref=e487]: Essays and notes
+              - heading "Writings" [level=2] [ref=e488]
+            - paragraph [ref=e489]: A living archive on business, ambition, philosophy, and the personal operating system behind the work.
+          - generic [ref=e490]:
+            - generic [ref=e491]:
+              - generic [ref=e492]:
+                - paragraph [ref=e493]: Latest
+                - generic [ref=e494]: 25 pieces
+              - link "Website May 2026 Everyone is talking about brand, but no one is talking about sales I interviewed 5 successful businessmen and all of them gave me the same advice. Don't start your own brand if you want to make money. Read essay" [ref=e495] [cursor=pointer]:
+                - /url: /writings/25
+                - generic [ref=e496]:
+                  - generic [ref=e497]: Website
+                  - generic [ref=e498]: May 2026
+                - heading "Everyone is talking about brand, but no one is talking about sales" [level=3] [ref=e499]
+                - paragraph [ref=e500]: I interviewed 5 successful businessmen and all of them gave me the same advice. Don't start your own brand if you want to make money.
+                - generic [ref=e501]:
+                  - text: Read essay
+                  - img [ref=e502]
+            - generic [ref=e504]:
+              - generic [ref=e505]:
+                - paragraph [ref=e506]: Archive
+                - generic [ref=e507]: Page 1 of 4
+              - generic [ref=e508]:
+                - link "Substack Mar 2026 If you want something no one has, endure what no one will Recently I have been going through a transition phase — from being the most capable person in the room to rooms where I'm the least capable person. Read essay" [ref=e509] [cursor=pointer]:
+                  - /url: /writings/1
+                  - generic [ref=e510]:
+                    - generic [ref=e511]: Substack
+                    - generic [ref=e512]: Mar 2026
+                  - heading "If you want something no one has, endure what no one will" [level=3] [ref=e513]
+                  - paragraph [ref=e514]: Recently I have been going through a transition phase — from being the most capable person in the room to rooms where I'm the least capable person.
+                  - generic [ref=e515]:
+                    - text: Read essay
+                    - img [ref=e516]
+                - link "Substack Feb 2026 All outliers are rebels, but not all rebels are outliers My journey of entrepreneurship taught me this lesson the hard way. A few years back I heard Warren Buffett say that one of the most common mistakes founders make is being 'People stupid.' Read essay" [ref=e518] [cursor=pointer]:
+                  - /url: /writings/2
+                  - generic [ref=e519]:
+                    - generic [ref=e520]: Substack
+                    - generic [ref=e521]: Feb 2026
+                  - heading "All outliers are rebels, but not all rebels are outliers" [level=3] [ref=e522]
+                  - paragraph [ref=e523]: My journey of entrepreneurship taught me this lesson the hard way. A few years back I heard Warren Buffett say that one of the most common mistakes founders make is being 'People stupid.'
+                  - generic [ref=e524]:
+                    - text: Read essay
+                    - img [ref=e525]
+                - link "Substack Dec 2025 If religion teaches us to be good, why are history's powerful people bad? Across the world, if there is one thing that has been able to bring together a large group of people and keep them together over a long period of time, it has been religion. Read essay" [ref=e527] [cursor=pointer]:
+                  - /url: /writings/3
+                  - generic [ref=e528]:
+                    - generic [ref=e529]: Substack
+                    - generic [ref=e530]: Dec 2025
+                  - heading "If religion teaches us to be good, why are history's powerful people bad?" [level=3] [ref=e531]
+                  - paragraph [ref=e532]: Across the world, if there is one thing that has been able to bring together a large group of people and keep them together over a long period of time, it has been religion.
+                  - generic [ref=e533]:
+                    - text: Read essay
+                    - img [ref=e534]
+                - link "Substack Sep 2025 Why you need to live an intentional life When someone from the outside looks at the way I live, they find it very planned and intentional — because somehow I know what I'm doing and what I'm going to do. Read essay" [ref=e536] [cursor=pointer]:
+                  - /url: /writings/4
+                  - generic [ref=e537]:
+                    - generic [ref=e538]: Substack
+                    - generic [ref=e539]: Sep 2025
+                  - heading "Why you need to live an intentional life" [level=3] [ref=e540]
+                  - paragraph [ref=e541]: When someone from the outside looks at the way I live, they find it very planned and intentional — because somehow I know what I'm doing and what I'm going to do.
+                  - generic [ref=e542]:
+                    - text: Read essay
+                    - img [ref=e543]
+                - 'link "Substack Sep 2025 The next era of human survival AI is going to make all 100% of people ask the most fundamental question: Who am I? Your physical leverage has been taken away. Your intellectual leverage has been taken away. Read essay" [ref=e545] [cursor=pointer]':
+                  - /url: /writings/5
+                  - generic [ref=e546]:
+                    - generic [ref=e547]: Substack
+                    - generic [ref=e548]: Sep 2025
+                  - heading "The next era of human survival" [level=3] [ref=e549]
+                  - paragraph [ref=e550]: "AI is going to make all 100% of people ask the most fundamental question: Who am I? Your physical leverage has been taken away. Your intellectual leverage has been taken away."
+                  - generic [ref=e551]:
+                    - text: Read essay
+                    - img [ref=e552]
+                - link "Substack Jan 2025 Most of your efforts are BS Not all effort is created equal. The Pareto Principle — 80% of outcomes come from 20% of inputs — is a constant in life. But there's a catch. Read essay" [ref=e554] [cursor=pointer]:
+                  - /url: /writings/6
+                  - generic [ref=e555]:
+                    - generic [ref=e556]: Substack
+                    - generic [ref=e557]: Jan 2025
+                  - heading "Most of your efforts are BS" [level=3] [ref=e558]
+                  - paragraph [ref=e559]: Not all effort is created equal. The Pareto Principle — 80% of outcomes come from 20% of inputs — is a constant in life. But there's a catch.
+                  - generic [ref=e560]:
+                    - text: Read essay
+                    - img [ref=e561]
+              - generic [ref=e563]:
+                - button "Newer" [disabled] [ref=e564]:
+                  - img [ref=e565]
+                  - text: Newer
+                - generic "Writing archive pages" [ref=e567]:
+                  - button "Go to writing page 1" [ref=e568]
+                  - button "Go to writing page 2" [ref=e569]
+                  - button "Go to writing page 3" [ref=e570]
+                  - button "Go to writing page 4" [ref=e571]
+                - button "Older" [ref=e572]:
+                  - text: Older
+                  - img [ref=e573]
+        - generic [ref=e576]:
+          - generic [ref=e577]:
+            - paragraph [ref=e578]: Newsletter
+            - heading "Ratios" [level=3] [ref=e579]
+            - paragraph [ref=e580]: Longer thoughts and field notes, sent when there is something worth saying.
+          - iframe [ref=e582]:
+            - generic [ref=f7e2]:
+              - generic [ref=f7e4]:
+                - generic [ref=f7e5]:
+                  - link "Logo" [ref=f7e6] [cursor=pointer]:
+                    - /url: https://ratios.substack.com/
+                    - img "Logo" [ref=f7e7]
+                  - heading "RATIOS" [level=1] [ref=f7e8]:
+                    - link "RATIOS" [ref=f7e9] [cursor=pointer]:
+                      - /url: https://ratios.substack.com/
+                  - paragraph [ref=f7e10]: Change your destiny with your decisions.
+                  - generic [ref=f7e13]: By Moghal Saif Aliullah
+                  - generic [ref=f7e18]:
+                    - textbox "Type your email..." [ref=f7e21]
+                    - button "Subscribe" [disabled] [ref=f7e22]
+                  - generic [ref=f7e24]:
+                    - text: By subscribing you agree to
+                    - link "Substack's Terms of Use" [ref=f7e25] [cursor=pointer]:
+                      - /url: https://ratios.substack.com/tos?utm_source=embed_publication
+                    - text: ","
+                    - link "our Privacy Policy" [ref=f7e26] [cursor=pointer]:
+                      - /url: https://ratios.substack.com/privacy?utm_source=embed_publication
+                    - text: and
+                    - link "our Information collection notice" [ref=f7e27] [cursor=pointer]:
+                      - /url: https://substack.com/ccpa?utm_source=embed_publication#personal-data-collected
+                - link "Substack":
+                  - /url: https://substack.com/?utm_source=embed&utm_content=ratios
+                  - img "Substack" [ref=f7e28] [cursor=pointer]
+              - region "Notifications (F8)":
+                - list
+    - generic [ref=e473]:
+      - generic [ref=e474]: Moghal Saif · 2026
+      - generic [ref=e475]:
+        - link "X" [ref=e476] [cursor=pointer]:
+          - /url: https://x.com/moghalsaifa
+        - link "Instagram" [ref=e477] [cursor=pointer]:
+          - /url: https://instagram.com/moghalsaif
+        - link "LinkedIn" [ref=e478] [cursor=pointer]:
+          - /url: https://linkedin.com/in/moghalsaifa

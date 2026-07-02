@@ -1,0 +1,3290 @@
+[      86ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[      93ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   58975ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   59004ms] [LOG] [Fast Refresh] done in 15ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  201169ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  201177ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  820011ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17327332ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17327391ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[17327392ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[17327508ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17327841ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[17327841ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[17327843ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[17327863ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[17327897ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/?_rsc=wnywt:0
+[17327912ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[17327999ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[17328029ms] Error: ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./app/writings/[id]/page.tsx:6:1)
+    at Object.getCompilationErrors (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/base-server.js:1745:26)
+[17328031ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17328052ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17328053ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17328089ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17328089ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17429497ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17429497ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17429543ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17489649ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17489649ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17489695ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17501546ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17501546ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17501594ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17507049ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17507151ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17507151ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17507261ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17507323ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[17507360ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[17507393ms] Error: ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./app/writings/[id]/page.tsx:6:1)
+    at Object.getCompilationErrors (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/base-server.js:1745:26)
+[17507394ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17507395ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17507395ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17507428ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17507428ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17507496ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17523402ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17523402ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17523446ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17530574ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17530575ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17530601ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17535603ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17535712ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17535712ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17535824ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17535992ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[17536011ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[17536019ms] Error: ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./app/writings/[id]/page.tsx:6:1)
+    at Object.getCompilationErrors (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/base-server.js:1745:26)
+[17536018ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17536019ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17536019ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17536020ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17536020ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17536053ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17536053ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17536121ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17539912ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17540305ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[17540321ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[17540328ms] Error: ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./app/writings/[id]/page.tsx:6:1)
+    at Object.getCompilationErrors (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/base-server.js:1745:26)
+[17540328ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17540330ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17540330ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17540363ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17540363ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17545707ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17546108ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[17546122ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[17546127ms] Error: ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./app/writings/[id]/page.tsx:6:1)
+    at Object.getCompilationErrors (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/base-server.js:1745:26)
+[17546127ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17546128ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17546128ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17546161ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17546161ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17554017ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17554017ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17554065ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17559832ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17559961ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[17559990ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[17559998ms] Error: ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./app/writings/[id]/page.tsx:6:1)
+    at Object.getCompilationErrors (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/base-server.js:1745:26)
+[17559999ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17560000ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17560000ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17560004ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17560004ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17560035ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17560035ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17560104ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17569463ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17569463ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17569509ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17574137ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17574269ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17574269ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17574292ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[17574314ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[17574321ms] Error: ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./app/writings/[id]/page.tsx:6:1)
+    at Object.getCompilationErrors (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/base-server.js:1745:26)
+[17574325ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17574328ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17574329ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17574360ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17574361ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17574429ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17596408ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17596526ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[17596552ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[17596554ms] Error: ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./app/writings/[id]/page.tsx:6:1)
+    at Object.getCompilationErrors (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/base-server.js:1745:26)
+[17596565ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17596575ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17596575ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17596604ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17596604ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17605761ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17605859ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[17605875ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[17605880ms] Error: ./components/SphereNav.tsx:8:1
+Module not found: Can't resolve './ProjectsSection'
+   6 | import { useState } from "react";
+   7 | import { haptics } from "@/lib/haptics";
+>  8 | import ProjectsSection from "./ProjectsSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import StorySection from "./StorySection";
+  10 | import WritingsSection from "./WritingsSection";
+  11 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/SphereNav.tsx [Client Component Browser]
+    ./components/SiteShell.tsx [Client Component Browser]
+    ./components/SiteShell.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/SphereNav.tsx [Client Component SSR]
+    ./components/SiteShell.tsx [Client Component SSR]
+    ./components/SiteShell.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./components/SphereNav.tsx:8:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/base-server.js:1745:26)
+[17605883ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17605890ms] [ERROR] ./components/SphereNav.tsx:8:1
+Module not found: Can't resolve './ProjectsSection'
+   6 | import { useState } from "react";
+   7 | import { haptics } from "@/lib/haptics";
+>  8 | import ProjectsSection from "./ProjectsSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import StorySection from "./StorySection";
+  10 | import WritingsSection from "./WritingsSection";
+  11 |
+
+Import traces:
+  Client Component Browser:
+    ./components/SphereNav.tsx [Client Component Browser]
+    ./components/SiteShell.tsx [Client Component Browser]
+    ./components/SiteShell.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/SphereNav.tsx [Client Component SSR]
+    ./components/SiteShell.tsx [Client Component SSR]
+    ./components/SiteShell.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17605890ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17605890ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17605898ms] [ERROR] ./components/SphereNav.tsx:8:1
+Module not found: Can't resolve './ProjectsSection'
+   6 | import { useState } from "react";
+   7 | import { haptics } from "@/lib/haptics";
+>  8 | import ProjectsSection from "./ProjectsSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import StorySection from "./StorySection";
+  10 | import WritingsSection from "./WritingsSection";
+  11 |
+
+Import traces:
+  Client Component Browser:
+    ./components/SphereNav.tsx [Client Component Browser]
+    ./components/SiteShell.tsx [Client Component Browser]
+    ./components/SiteShell.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/SphereNav.tsx [Client Component SSR]
+    ./components/SiteShell.tsx [Client Component SSR]
+    ./components/SiteShell.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17605898ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17605898ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17605940ms] [ERROR] ./components/SphereNav.tsx:8:1
+Module not found: Can't resolve './ProjectsSection'
+   6 | import { useState } from "react";
+   7 | import { haptics } from "@/lib/haptics";
+>  8 | import ProjectsSection from "./ProjectsSection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import StorySection from "./StorySection";
+  10 | import WritingsSection from "./WritingsSection";
+  11 |
+
+Import traces:
+  Client Component Browser:
+    ./components/SphereNav.tsx [Client Component Browser]
+    ./components/SiteShell.tsx [Client Component Browser]
+    ./components/SiteShell.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/SphereNav.tsx [Client Component SSR]
+    ./components/SiteShell.tsx [Client Component SSR]
+    ./components/SiteShell.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17605940ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17605940ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17605991ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17624110ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17624236ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[17624269ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[17624276ms] Error: ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./app/writings/[id]/page.tsx:6:1)
+    at Object.getCompilationErrors (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/base-server.js:1745:26)
+[17624277ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17624278ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17624279ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17624281ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17624281ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17624312ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17624312ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17624379ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17640659ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17640719ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17640719ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17640735ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[17640765ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[17640770ms] Error: ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./app/writings/[id]/page.tsx:6:1)
+    at Object.getCompilationErrors (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/base-server.js:1745:26)
+[17640779ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17640784ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17640785ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17640813ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17640813ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17645264ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17645335ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[17645348ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[17645353ms] Error: ./components/SphereNav.tsx:9:1
+Module not found: Can't resolve './StorySection'
+   7 | import { haptics } from "@/lib/haptics";
+   8 | import ProjectsSection from "./ProjectsSection";
+>  9 | import StorySection from "./StorySection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import WritingsSection from "./WritingsSection";
+  11 |
+  12 | const SECTIONS = [
+
+
+
+Import traces:
+  Client Component Browser:
+    ./components/SphereNav.tsx [Client Component Browser]
+    ./components/SiteShell.tsx [Client Component Browser]
+    ./components/SiteShell.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/SphereNav.tsx [Client Component SSR]
+    ./components/SiteShell.tsx [Client Component SSR]
+    ./components/SiteShell.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./components/SphereNav.tsx:9:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/base-server.js:1745:26)
+[17645368ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17645376ms] [ERROR] ./components/SphereNav.tsx:9:1
+Module not found: Can't resolve './StorySection'
+   7 | import { haptics } from "@/lib/haptics";
+   8 | import ProjectsSection from "./ProjectsSection";
+>  9 | import StorySection from "./StorySection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import WritingsSection from "./WritingsSection";
+  11 |
+  12 | const SECTIONS = [
+
+Import traces:
+  Client Component Browser:
+    ./components/SphereNav.tsx [Client Component Browser]
+    ./components/SiteShell.tsx [Client Component Browser]
+    ./components/SiteShell.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/SphereNav.tsx [Client Component SSR]
+    ./components/SiteShell.tsx [Client Component SSR]
+    ./components/SiteShell.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17645376ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17645376ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17645414ms] [ERROR] ./components/SphereNav.tsx:9:1
+Module not found: Can't resolve './StorySection'
+   7 | import { haptics } from "@/lib/haptics";
+   8 | import ProjectsSection from "./ProjectsSection";
+>  9 | import StorySection from "./StorySection";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | import WritingsSection from "./WritingsSection";
+  11 |
+  12 | const SECTIONS = [
+
+Import traces:
+  Client Component Browser:
+    ./components/SphereNav.tsx [Client Component Browser]
+    ./components/SiteShell.tsx [Client Component Browser]
+    ./components/SiteShell.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/SphereNav.tsx [Client Component SSR]
+    ./components/SiteShell.tsx [Client Component SSR]
+    ./components/SiteShell.tsx [Server Component]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17645414ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17645414ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17667512ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17667621ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[17667646ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[17667650ms] Error: ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./app/writings/[id]/page.tsx:6:1)
+    at Object.getCompilationErrors (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/base-server.js:1745:26)
+[17667654ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17667657ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17667658ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17667689ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17667689ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17667757ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17676886ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17676943ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[17676969ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[17676976ms] Error: ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./app/writings/[id]/page.tsx:6:1)
+    at Object.getCompilationErrors (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/base-server.js:1745:26)
+[17676979ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17676982ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17676982ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17677013ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17677013ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17677057ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17677057ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17677121ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17681493ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17681628ms] [ERROR] ./components/SiteShell.tsx:4:1
+Module not found: Can't resolve '@/components/BottomDock'
+  2 |
+  3 | import AgentMarkdownView from "@/components/AgentMarkdownView";
+> 4 | import BottomDock from "@/components/BottomDock";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import HeroSection from "@/components/HeroSection";
+  6 | import HomeHighlights from "@/components/HomeHighlights";
+  7 | import SphereNav from "@/components/SphereNav";
+
+Import map: aliased to relative './components/BottomDock' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/SiteShell.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17681628ms] [ERROR] ./components/BooksPageShell.tsx:5:1
+Module not found: Can't resolve '@/components/BottomDock'
+  3 | import AgentMarkdownView from "@/components/AgentMarkdownView";
+  4 | import BooksSection from "@/components/BooksSection";
+> 5 | import BottomDock from "@/components/BottomDock";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useViewMode } from "@/lib/view-mode";
+  7 |
+  8 | export default function BooksPageShell() {
+
+Import map: aliased to relative './components/BottomDock' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/BooksPageShell.tsx
+    ./app/books/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17681628ms] [ERROR] ./components/BooksSection.tsx:7:1
+Module not found: Can't resolve '@/components/BottomDock'
+   5 | import { X } from "lucide-react";
+   6 | import { useRouter } from "next/navigation";
+>  7 | import BottomDock from "@/components/BottomDock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { books, type Book } from "@/lib/books";
+   9 | import { haptics } from "@/lib/haptics";
+  10 |
+
+Import map: aliased to relative './components/BottomDock' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/BooksSection.tsx [Client Component Browser]
+    ./components/BooksPageShell.tsx [Client Component Browser]
+    ./components/BooksPageShell.tsx [Server Component]
+    ./app/books/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/BooksSection.tsx [Client Component SSR]
+    ./components/BooksPageShell.tsx [Client Component SSR]
+    ./components/BooksPageShell.tsx [Server Component]
+    ./app/books/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17681628ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17681628ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17681731ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17681794ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[17681804ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[17681809ms] Error: ./components/SiteShell.tsx:4:1
+Module not found: Can't resolve '@/components/BottomDock'
+  2 |
+  3 | import AgentMarkdownView from "@/components/AgentMarkdownView";
+> 4 | import BottomDock from "@/components/BottomDock";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import HeroSection from "@/components/HeroSection";
+  6 | import HomeHighlights from "@/components/HomeHighlights";
+  7 | import SphereNav from "@/components/SphereNav";
+
+Import map: aliased to relative './components/BottomDock' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./components/SiteShell.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./components/SiteShell.tsx:4:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at Object.getCompilationErrors (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/base-server.js:1745:26)
+[17681809ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17681812ms] [ERROR] ./components/SiteShell.tsx:4:1
+Module not found: Can't resolve '@/components/BottomDock'
+  2 |
+  3 | import AgentMarkdownView from "@/components/AgentMarkdownView";
+> 4 | import BottomDock from "@/components/BottomDock";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import HeroSection from "@/components/HeroSection";
+  6 | import HomeHighlights from "@/components/HomeHighlights";
+  7 | import SphereNav from "@/components/SphereNav";
+
+Import map: aliased to relative './components/BottomDock' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/SiteShell.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17681812ms] [ERROR] ./components/BooksPageShell.tsx:5:1
+Module not found: Can't resolve '@/components/BottomDock'
+  3 | import AgentMarkdownView from "@/components/AgentMarkdownView";
+  4 | import BooksSection from "@/components/BooksSection";
+> 5 | import BottomDock from "@/components/BottomDock";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useViewMode } from "@/lib/view-mode";
+  7 |
+  8 | export default function BooksPageShell() {
+
+Import map: aliased to relative './components/BottomDock' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/BooksPageShell.tsx
+    ./app/books/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17681812ms] [ERROR] ./components/BooksSection.tsx:7:1
+Module not found: Can't resolve '@/components/BottomDock'
+   5 | import { X } from "lucide-react";
+   6 | import { useRouter } from "next/navigation";
+>  7 | import BottomDock from "@/components/BottomDock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { books, type Book } from "@/lib/books";
+   9 | import { haptics } from "@/lib/haptics";
+  10 |
+
+Import map: aliased to relative './components/BottomDock' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/BooksSection.tsx [Client Component Browser]
+    ./components/BooksPageShell.tsx [Client Component Browser]
+    ./components/BooksPageShell.tsx [Server Component]
+    ./app/books/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/BooksSection.tsx [Client Component SSR]
+    ./components/BooksPageShell.tsx [Client Component SSR]
+    ./components/BooksPageShell.tsx [Server Component]
+    ./app/books/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17681812ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17681812ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17681843ms] [ERROR] ./components/SiteShell.tsx:4:1
+Module not found: Can't resolve '@/components/BottomDock'
+  2 |
+  3 | import AgentMarkdownView from "@/components/AgentMarkdownView";
+> 4 | import BottomDock from "@/components/BottomDock";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import HeroSection from "@/components/HeroSection";
+  6 | import HomeHighlights from "@/components/HomeHighlights";
+  7 | import SphereNav from "@/components/SphereNav";
+
+Import map: aliased to relative './components/BottomDock' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/SiteShell.tsx
+    ./app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17681843ms] [ERROR] ./components/BooksPageShell.tsx:5:1
+Module not found: Can't resolve '@/components/BottomDock'
+  3 | import AgentMarkdownView from "@/components/AgentMarkdownView";
+  4 | import BooksSection from "@/components/BooksSection";
+> 5 | import BottomDock from "@/components/BottomDock";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { useViewMode } from "@/lib/view-mode";
+  7 |
+  8 | export default function BooksPageShell() {
+
+Import map: aliased to relative './components/BottomDock' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./components/BooksPageShell.tsx
+    ./app/books/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17681843ms] [ERROR] ./components/BooksSection.tsx:7:1
+Module not found: Can't resolve '@/components/BottomDock'
+   5 | import { X } from "lucide-react";
+   6 | import { useRouter } from "next/navigation";
+>  7 | import BottomDock from "@/components/BottomDock";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { books, type Book } from "@/lib/books";
+   9 | import { haptics } from "@/lib/haptics";
+  10 |
+
+Import map: aliased to relative './components/BottomDock' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./components/BooksSection.tsx [Client Component Browser]
+    ./components/BooksPageShell.tsx [Client Component Browser]
+    ./components/BooksPageShell.tsx [Server Component]
+    ./app/books/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/BooksSection.tsx [Client Component SSR]
+    ./components/BooksPageShell.tsx [Client Component SSR]
+    ./components/BooksPageShell.tsx [Server Component]
+    ./app/books/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17681843ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17681843ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17748335ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17748563ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[17748574ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[17748581ms] Error: ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./app/writings/[id]/page.tsx:6:1)
+    at Object.getCompilationErrors (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/base-server.js:1745:26)
+[17748580ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17748584ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17748584ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17748614ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17748614ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17765141ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17765173ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[17765198ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[17765202ms] Error: ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./app/writings/[id]/page.tsx:6:1)
+    at Object.getCompilationErrors (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/dev/next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/moghalsaif/moghalsaif/node_modules/next/dist/server/base-server.js:1745:26)
+[17765208ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17765211ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17765211ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17765293ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-client] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17765293ms] [ERROR] ./app/writings/[id]/page.tsx:6:1
+Export writings doesn't exist in target module
+  4 | import Link from "next/link";
+  5 | import { ArrowLeft, ExternalLink } from "lucide-react";
+> 6 | import { writings } from "@/components/WritingsSection";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export default function WritingPage({
+  9 |   params,
+
+The export writings was not found in module [project]/components/WritingsSection.tsx [app-ssr] (ecmascript).
+Did you mean to import default?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/writings/[id]/page.tsx [Client Component Browser]
+    ./app/writings/[id]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/writings/[id]/page.tsx [Client Component SSR]
+    ./app/writings/[id]/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[17765311ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17774206ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17774287ms] [LOG] [Fast Refresh] done in 60ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[17774541ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17774552ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17774672ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17774701ms] [LOG] [Fast Refresh] done in 136ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17781646ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17781675ms] [LOG] [Fast Refresh] done in 28ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17796226ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17796254ms] [LOG] [Fast Refresh] done in 26ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17827129ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17827154ms] [LOG] [Fast Refresh] done in 31ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17845259ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17845260ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17845308ms] [LOG] [Fast Refresh] done in 29ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17845450ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17845463ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17851369ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17851369ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17851459ms] [LOG] [Fast Refresh] done in 20ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17851498ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[17851518ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431

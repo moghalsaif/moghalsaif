@@ -1,0 +1,103 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic:
+        - generic: Moghal
+        - generic: Saif
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - paragraph [ref=e9]: been here for 21.338203838 years
+        - paragraph [ref=e10]:
+          - img [ref=e11]
+          - text: Singapore
+      - generic [ref=e14]:
+        - article [ref=e15]:
+          - generic [ref=e16]:
+            - paragraph [ref=e17]: what's something interesting i'm working on
+            - heading "Mosaic" [level=2] [ref=e18]
+            - paragraph [ref=e19]: A visual knowledge system that saves what I read, connects related ideas, and brings useful notes back when I need them.
+          - link "GitHub repo" [ref=e20] [cursor=pointer]:
+            - /url: https://github.com/moghalsaif
+            - img [ref=e21]
+            - text: GitHub repo
+        - article [ref=e23]:
+          - paragraph [ref=e24]: what's something interesting i'm reading
+          - generic [ref=e25]:
+            - 'img "The Goal: A Process of Ongoing Improvement cover" [ref=e27]'
+            - generic [ref=e28]:
+              - 'heading "The Goal: A Process of Ongoing Improvement" [level=2] [ref=e29]'
+              - paragraph [ref=e30]: I keep coming back to systems books because they turn messy ambition into constraints, feedback loops, and better decisions.
+    - generic [ref=e32]:
+      - heading "sections" [level=2] [ref=e34]
+      - generic [ref=e35]:
+        - button "Projects Selected work and build notes. Open" [ref=e36]:
+          - generic [ref=e37]: Projects
+          - generic [ref=e38]: Selected work and build notes.
+          - generic [ref=e39]: Open
+        - button "Story A short letter about the person behind the work. Open" [ref=e40]:
+          - generic [ref=e41]: Story
+          - generic [ref=e42]: A short letter about the person behind the work.
+          - generic [ref=e43]: Open
+        - button "Writings Essays, notes, and thinking in public. Open" [ref=e44]:
+          - generic [ref=e45]: Writings
+          - generic [ref=e46]: Essays, notes, and thinking in public.
+          - generic [ref=e47]: Open
+        - button "Books A running shelf of what I am reading. Open" [ref=e48]:
+          - generic [ref=e49]: Books
+          - generic [ref=e50]: A running shelf of what I am reading.
+          - generic [ref=e51]: Open
+    - generic [ref=e53]:
+      - generic [ref=e54]: Moghal Saif · 2026
+      - generic [ref=e55]:
+        - link "GitHub" [ref=e56] [cursor=pointer]:
+          - /url: https://github.com/moghalsaif
+        - link "LinkedIn" [ref=e57] [cursor=pointer]:
+          - /url: https://linkedin.com/in/moghalsaifa
+        - link "X" [ref=e58] [cursor=pointer]:
+          - /url: https://x.com/moghalsaifa
+        - link "Instagram" [ref=e59] [cursor=pointer]:
+          - /url: https://instagram.com/moghalsaif
+    - generic [ref=e140]:
+      - img [ref=e141]
+      - text: Copied!
+    - navigation "Site navigation" [ref=e60]:
+      - button "Home" [ref=e61]:
+        - img [ref=e62]
+      - button "Sections" [ref=e65]:
+        - img [ref=e66]
+      - button "Books" [ref=e68]:
+        - img [ref=e69]
+      - button "GitHub" [ref=e72]:
+        - img [ref=e73]
+      - button "LinkedIn" [ref=e76]:
+        - img [ref=e77]
+      - button "X" [ref=e80]:
+        - img [ref=e81]
+      - button "Instagram" [ref=e84]:
+        - img [ref=e85]
+      - generic [ref=e87]:
+        - button "Email" [ref=e88]:
+          - img [ref=e89]
+        - menu "Email actions" [ref=e114]:
+          - menuitem "Compose Email" [ref=e115]:
+            - img [ref=e117]
+            - text: Compose Email
+          - menuitem "Copy Email Address" [active] [ref=e120]:
+            - img [ref=e122]
+            - text: Copy Email Address
+          - menuitem "Copy All Contact Info" [ref=e125]:
+            - img [ref=e127]
+            - text: Copy All Contact Info
+          - menuitem "Open Gmail" [ref=e130]:
+            - img [ref=e132]
+            - text: Open Gmail
+          - menuitem "Open Outlook" [ref=e134]:
+            - img [ref=e136]
+            - text: Open Outlook
+      - button "Switch to Agent View" [ref=e92]:
+        - img [ref=e93]
+      - button "Switch to light mode" [ref=e97]:
+        - img [ref=e98]
+  - button "Open Next.js Dev Tools" [ref=e109] [cursor=pointer]:
+    - img [ref=e110]
+  - alert [ref=e113]

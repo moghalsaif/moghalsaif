@@ -1,0 +1,68 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic:
+        - generic: Moghal
+        - generic: Saif
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - paragraph [ref=e9]: been here for 21.338804876 years
+        - paragraph [ref=e11]:
+          - img [ref=e12]
+          - text: Singapore
+      - generic [ref=e15]:
+        - article [ref=e16]:
+          - generic [ref=e17]:
+            - paragraph [ref=e18]: what's something interesting i'm working on
+            - heading "Dispatch Agent" [level=2] [ref=e19]
+            - paragraph [ref=e20]: An AI-powered procurement assistant that calls vendors, collects pricing, reports lead times, and sends live updates.
+          - link "GitHub repo" [ref=e21] [cursor=pointer]:
+            - /url: https://github.com/moghalsaif/dispatch_agent
+            - img [ref=e22]
+            - text: GitHub repo
+        - article [ref=e24]:
+          - paragraph [ref=e25]: what's something interesting i'm reading
+          - generic [ref=e26]:
+            - 'img "The Goal: A Process of Ongoing Improvement cover" [ref=e28]'
+            - generic [ref=e29]:
+              - 'heading "The Goal: A Process of Ongoing Improvement" [level=2] [ref=e30]'
+              - paragraph [ref=e31]: I keep coming back to systems books because they turn messy ambition into constraints, feedback loops, and better decisions.
+    - generic [ref=e33]:
+      - heading "sections" [level=2] [ref=e35]
+      - generic [ref=e36]:
+        - button "Projects Selected work and build notes. Open" [ref=e37]:
+          - generic [ref=e38]: Projects
+          - generic [ref=e39]: Selected work and build notes.
+          - generic [ref=e40]: Open
+        - button "Story A short letter about the person behind the work. Open" [ref=e41]:
+          - generic [ref=e42]: Story
+          - generic [ref=e43]: A short letter about the person behind the work.
+          - generic [ref=e44]: Open
+        - button "Writings Essays, notes, and thinking in public. Open" [ref=e45]:
+          - generic [ref=e46]: Writings
+          - generic [ref=e47]: Essays, notes, and thinking in public.
+          - generic [ref=e48]: Open
+        - button "Books A running shelf of what I am reading. Open" [ref=e49]:
+          - generic [ref=e50]: Books
+          - generic [ref=e51]: A running shelf of what I am reading.
+          - generic [ref=e52]: Open
+    - navigation "Site navigation" [ref=e53]:
+      - button "Home" [ref=e54]:
+        - img [ref=e55]
+      - button "GitHub" [ref=e59]:
+        - img [ref=e60]
+      - button "LinkedIn" [ref=e63]:
+        - img [ref=e64]
+      - button "Twitter" [ref=e67]:
+        - img [ref=e68]
+      - button "Instagram" [ref=e71]:
+        - img [ref=e72]
+      - button "Email" [ref=e75]:
+        - img [ref=e76]
+      - button "Switch to Agent View" [ref=e80]:
+        - img [ref=e81]
+      - button "Switch to dark mode" [active] [ref=e102]:
+        - img [ref=e103]
+  - button "Open Next.js Dev Tools" [ref=e97] [cursor=pointer]:
+    - img [ref=e98]
+  - alert [ref=e101]

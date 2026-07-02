@@ -1,0 +1,82 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - navigation [ref=e4]:
+        - button "Project" [ref=e5]
+        - button "Story" [ref=e6]
+        - button "Writings" [ref=e7]
+        - button "Books" [ref=e8]
+      - generic:
+        - generic: Moghal
+        - generic: Saif
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - generic [ref=e15]:
+            - paragraph [ref=e16]: what's something interesting i'm working on
+            - generic [ref=e17]:
+              - button "Previous working slide" [ref=e18]:
+                - img [ref=e19]
+              - button "Next working slide" [ref=e21]:
+                - img [ref=e22]
+          - generic [ref=e25]:
+            - img [ref=e27]
+            - paragraph [ref=e31]: project
+            - heading "Mosaic" [level=2] [ref=e32]
+            - paragraph [ref=e33]: A visual knowledge system that embeds what I save, clusters it, and brings the right idea back at the right time.
+            - paragraph [ref=e34]: Next.js / Pinecone / OpenAI
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - generic [ref=e37]:
+              - paragraph [ref=e38]: "01"
+              - paragraph [ref=e39]: save
+            - generic [ref=e40]:
+              - paragraph [ref=e41]: "02"
+              - paragraph [ref=e42]: embed
+            - generic [ref=e43]:
+              - paragraph [ref=e44]: "03"
+              - paragraph [ref=e45]: cluster
+            - generic [ref=e46]:
+              - paragraph [ref=e47]: "04"
+              - paragraph [ref=e48]: return
+          - link "Github repo" [ref=e49] [cursor=pointer]:
+            - /url: https://github.com/moghalsaif
+            - img [ref=e50]
+            - text: Github repo
+            - img [ref=e52]
+      - article [ref=e54]:
+        - paragraph [ref=e55]: what's something interesting i'm reading
+        - generic [ref=e56]:
+          - 'img "The Goal: A Process of Ongoing Improvement cover" [ref=e58]'
+          - generic [ref=e59]:
+            - img [ref=e61]
+            - 'heading "The Goal: A Process of Ongoing Improvement" [level=2] [ref=e63]'
+            - paragraph [ref=e64]: I keep coming back to systems books because they turn messy ambition into constraints, feedback loops, and better decisions.
+            - paragraph [ref=e65]: current shelf note
+    - generic [ref=e66]:
+      - paragraph [ref=e67]: Tap a section to explore
+      - generic [ref=e68]:
+        - button "Open Projects" [ref=e69]:
+          - img [ref=e70]:
+            - generic: Projects
+        - button "Open Story" [ref=e71]:
+          - img [ref=e72]:
+            - generic: Story
+        - button "Open Writings" [ref=e73]:
+          - img [ref=e74]:
+            - generic: Writings
+        - button "Open Books" [ref=e75]:
+          - img [ref=e76]:
+            - generic: Books
+    - generic [ref=e78]:
+      - generic [ref=e79]: Moghal Saif · 2026
+      - generic [ref=e80]:
+        - link "X" [ref=e81] [cursor=pointer]:
+          - /url: https://x.com/moghalsaifa
+        - link "Instagram" [ref=e82] [cursor=pointer]:
+          - /url: https://instagram.com/moghalsaif
+        - link "LinkedIn" [ref=e83] [cursor=pointer]:
+          - /url: https://linkedin.com/in/moghalsaifa
+  - button "Open Next.js Dev Tools" [ref=e89] [cursor=pointer]:
+    - img [ref=e90]
+  - alert [ref=e93]

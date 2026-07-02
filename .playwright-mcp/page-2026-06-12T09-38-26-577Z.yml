@@ -1,0 +1,104 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e105] [cursor=pointer]:
+    - img [ref=e106]
+  - alert [ref=e109]: Projects · Moghal Saif
+  - generic [ref=e127]:
+    - generic [ref=e128]:
+      - heading "projects" [level=2] [ref=e129]
+      - paragraph [ref=e130]: A short list of things I have built or keep returning to. No stack theater, just the work and where to find it.
+    - generic [ref=e131]:
+      - article [ref=e132]:
+        - generic [ref=e133]:
+          - heading "Mosaic" [level=3] [ref=e135]
+          - generic [ref=e136]:
+            - paragraph [ref=e137]: A visual knowledge system that saves what I read, connects related ideas, and brings useful notes back when I need them.
+            - generic [ref=e138]:
+              - link "GitHub repo" [ref=e139] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif
+                - img [ref=e140]
+                - text: GitHub repo
+                - img [ref=e142]
+              - button "Show Mosaic video demo" [ref=e146]:
+                - img [ref=e147]
+      - article [ref=e150]:
+        - generic [ref=e151]:
+          - heading "Drift" [level=3] [ref=e153]
+          - generic [ref=e154]:
+            - paragraph [ref=e155]: A calm productivity tool that adapts to energy levels throughout the day and gets out of the way when focus is high.
+            - generic [ref=e156]:
+              - link "GitHub repo" [ref=e157] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif
+                - img [ref=e158]
+                - text: GitHub repo
+                - img [ref=e160]
+              - button "Show Drift video demo" [ref=e164]:
+                - img [ref=e165]
+      - article [ref=e168]:
+        - generic [ref=e169]:
+          - heading "Volta" [level=3] [ref=e171]
+          - generic [ref=e172]:
+            - paragraph [ref=e173]: An energy-tracking dashboard that turns ambient consumption data into readable, decision-friendly patterns.
+            - generic [ref=e174]:
+              - link "GitHub repo" [ref=e175] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif
+                - img [ref=e176]
+                - text: GitHub repo
+                - img [ref=e178]
+              - button "Show Volta video demo" [ref=e182]:
+                - img [ref=e183]
+      - article [ref=e186]:
+        - generic [ref=e187]:
+          - heading "Reframe" [level=3] [ref=e189]
+          - generic [ref=e190]:
+            - paragraph [ref=e191]: A private journaling app that brings back old entries at meaningful intervals so past thinking can become useful again.
+            - generic [ref=e192]:
+              - link "GitHub repo" [ref=e193] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif
+                - img [ref=e194]
+                - text: GitHub repo
+                - img [ref=e196]
+              - button "Show Reframe video demo" [ref=e200]:
+                - img [ref=e201]
+      - article [ref=e204]:
+        - generic [ref=e205]:
+          - heading "Canvas" [level=3] [ref=e207]
+          - generic [ref=e208]:
+            - paragraph [ref=e209]: A collaborative workspace for structured visual thinking, built around shared blocks and real-time editing.
+            - generic [ref=e210]:
+              - link "GitHub repo" [ref=e211] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif
+                - img [ref=e212]
+                - text: GitHub repo
+                - img [ref=e214]
+              - button "Show Canvas video demo" [ref=e218]:
+                - img [ref=e219]
+      - article [ref=e222]:
+        - generic [ref=e223]:
+          - heading "Signal" [level=3] [ref=e225]
+          - generic [ref=e226]:
+            - paragraph [ref=e227]: A minimal RSS reader for people who want the open web without algorithmic recommendations or engagement metrics.
+            - generic [ref=e228]:
+              - link "GitHub repo" [ref=e229] [cursor=pointer]:
+                - /url: https://github.com/moghalsaif
+                - img [ref=e230]
+                - text: GitHub repo
+                - img [ref=e232]
+              - button "Show Signal video demo" [ref=e236]:
+                - img [ref=e237]
+  - navigation "Site navigation" [ref=e240]:
+    - button "Home" [ref=e241]:
+      - img [ref=e242]
+    - button "GitHub" [ref=e246]:
+      - img [ref=e247]
+    - button "LinkedIn" [ref=e250]:
+      - img [ref=e251]
+    - button "Twitter" [ref=e254]:
+      - img [ref=e255]
+    - button "Instagram" [ref=e258]:
+      - img [ref=e259]
+    - button "Email" [ref=e262]:
+      - img [ref=e263]
+    - button "Switch to Agent View" [ref=e267]:
+      - img [ref=e268]
+    - button "Switch to light mode" [ref=e272]:
+      - img [ref=e273]

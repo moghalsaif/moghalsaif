@@ -1,0 +1,78 @@
+- generic [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e97] [cursor=pointer]:
+    - img [ref=e98]
+  - alert [ref=e101]
+  - main [ref=e112]:
+    - generic [ref=e113]:
+      - generic:
+        - generic: Moghal
+        - generic: Saif
+      - generic [ref=e114]:
+        - generic: I know I look much better in light mode, but anyways it's okay.
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - paragraph [ref=e119]: been here for 21.338808288 years
+        - paragraph [ref=e121]:
+          - img [ref=e122]
+          - text: Singapore
+      - generic [ref=e125]:
+        - article [ref=e126]:
+          - generic [ref=e127]:
+            - paragraph [ref=e128]: what's something interesting i'm working on
+            - heading "Dispatch Agent" [level=2] [ref=e129]
+            - paragraph [ref=e130]: An AI-powered procurement assistant that calls vendors, collects pricing, reports lead times, and sends live updates.
+          - link "GitHub repo" [ref=e131] [cursor=pointer]:
+            - /url: https://github.com/moghalsaif/dispatch_agent
+            - img [ref=e132]
+            - text: GitHub repo
+        - article [ref=e134]:
+          - paragraph [ref=e135]: what's something interesting i'm reading
+          - generic [ref=e136]:
+            - 'img "The Goal: A Process of Ongoing Improvement cover" [ref=e138]'
+            - generic [ref=e139]:
+              - 'heading "The Goal: A Process of Ongoing Improvement" [level=2] [ref=e140]'
+              - paragraph [ref=e141]: I keep coming back to systems books because they turn messy ambition into constraints, feedback loops, and better decisions.
+    - generic [ref=e143]:
+      - heading "sections" [level=2] [ref=e145]
+      - generic [ref=e146]:
+        - button "Projects Selected work and build notes. Open" [ref=e147]:
+          - generic [ref=e148]: Projects
+          - generic [ref=e149]: Selected work and build notes.
+          - generic [ref=e150]: Open
+        - button "Story A short letter about the person behind the work. Open" [ref=e151]:
+          - generic [ref=e152]: Story
+          - generic [ref=e153]: A short letter about the person behind the work.
+          - generic [ref=e154]: Open
+        - button "Writings Essays, notes, and thinking in public. Open" [ref=e155]:
+          - generic [ref=e156]: Writings
+          - generic [ref=e157]: Essays, notes, and thinking in public.
+          - generic [ref=e158]: Open
+        - button "Books A running shelf of what I am reading. Open" [ref=e159]:
+          - generic [ref=e160]: Books
+          - generic [ref=e161]: A running shelf of what I am reading.
+          - generic [ref=e162]: Open
+    - navigation "Site navigation" [ref=e163]:
+      - button "Home" [ref=e164]:
+        - img [ref=e165]
+      - button "GitHub" [ref=e169]:
+        - img [ref=e170]
+      - generic [ref=e172]:
+        - button "LinkedIn" [active] [ref=e173]:
+          - img [ref=e174]
+        - menu "LinkedIn actions" [ref=e214]:
+          - menuitem "Copy LinkedIn profile URL" [ref=e215]:
+            - img [ref=e217]
+            - text: Copy LinkedIn profile URL
+          - menuitem "Open LinkedIn" [ref=e220]:
+            - img [ref=e222]
+            - text: Open LinkedIn
+      - button "Twitter" [ref=e177]:
+        - img [ref=e178]
+      - button "Instagram" [ref=e181]:
+        - img [ref=e182]
+      - button "Email" [ref=e185]:
+        - img [ref=e186]
+      - button "Switch to Agent View" [ref=e190]:
+        - img [ref=e191]
+      - button "Switch to light mode" [ref=e195]:
+        - img [ref=e196]

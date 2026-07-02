@@ -1,0 +1,131 @@
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - navigation [ref=e4]:
+        - button "Project" [ref=e5]
+        - button "Story" [ref=e6]
+        - button "Writings" [ref=e7]
+        - button "Books" [ref=e8]
+      - generic:
+        - generic: Moghal
+        - generic: Saif
+    - generic [ref=e11]:
+      - paragraph [ref=e12]: Tap a section to explore
+      - generic [ref=e13]:
+        - button "Open Projects" [ref=e14]:
+          - img [ref=e15]:
+            - generic: Projects
+        - button "Open Story" [ref=e16]:
+          - img [ref=e17]:
+            - generic: Story
+        - button "Open Writings" [ref=e18]:
+          - img [ref=e19]:
+            - generic: Writings
+        - button "Open Books" [ref=e20]:
+          - img [ref=e21]:
+            - generic: Books
+    - generic [ref=e43]:
+      - button "Close" [ref=e44]:
+        - img [ref=e45]
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - paragraph [ref=e51]: Selected work
+            - heading "Projects" [level=2] [ref=e52]
+          - paragraph [ref=e53]: A tighter archive of products, experiments, and systems work. Filter by stack, then open a project for the longer note.
+        - generic [ref=e54]:
+          - generic [ref=e55]: 2 of 6 works
+          - generic "Filter projects by tool" [ref=e56]:
+            - button "All" [ref=e57]:
+              - img [ref=e59]
+              - text: All
+            - button "OpenAI" [active] [pressed] [ref=e64]:
+              - img [ref=e66]
+              - text: OpenAI
+            - button "Anthropic" [ref=e68]:
+              - img [ref=e70]
+              - text: Anthropic
+            - button "Supabase" [ref=e72]:
+              - img [ref=e74]
+              - text: Supabase
+            - button "Next.js" [ref=e76]:
+              - img [ref=e78]
+              - text: Next.js
+            - button "React" [ref=e80]:
+              - img [ref=e82]
+              - text: React
+            - button "LangChain" [ref=e87]:
+              - img [ref=e89]
+              - text: LangChain
+            - button "Pinecone" [ref=e93]:
+              - img [ref=e95]
+              - text: Pinecone
+            - button "SwiftUI" [ref=e97]:
+              - img [ref=e99]
+              - text: SwiftUI
+            - button "D3.js" [ref=e101]:
+              - img [ref=e103]
+              - text: D3.js
+            - button "Core ML" [ref=e105]:
+              - img [ref=e107]
+              - text: Core ML
+            - button "Yjs" [ref=e114]:
+              - img [ref=e116]
+              - text: Yjs
+            - button "Vercel AI" [ref=e119]:
+              - img [ref=e121]
+              - text: Vercel AI
+            - button "HuggingFace" [ref=e123]:
+              - img [ref=e125]
+              - text: HuggingFace
+        - generic [ref=e127]:
+          - button "2024 Drift A calm productivity tool that adapts to your energy levels throughout the day. Uses passive signals — typing rhythm, app switching patterns — to model your energy state. iOS SwiftUI AI View" [ref=e128]:
+            - generic [ref=e130]: "2024"
+            - heading "Drift" [level=3] [ref=e132]
+            - paragraph [ref=e133]: A calm productivity tool that adapts to your energy levels throughout the day. Uses passive signals — typing rhythm, app switching patterns — to model your energy state.
+            - generic [ref=e134]:
+              - generic [ref=e135]: iOS
+              - generic [ref=e136]: SwiftUI
+              - generic [ref=e137]: AI
+            - generic [ref=e138]:
+              - generic [ref=e139]:
+                - generic "SwiftUI" [ref=e140]:
+                  - img [ref=e141]
+                - generic "Core ML" [ref=e143]:
+                  - img [ref=e144]
+                - generic "OpenAI" [ref=e151]:
+                  - img [ref=e152]
+              - generic [ref=e154]:
+                - text: View
+                - img [ref=e155]
+          - button "2024 Mosaic Visual bookmarking and knowledge graph for curious minds. Everything you save gets embedded, clustered, and surfaced at the right moment. Web AI Vectors View" [ref=e157]:
+            - generic [ref=e159]: "2024"
+            - heading "Mosaic" [level=3] [ref=e161]
+            - paragraph [ref=e162]: Visual bookmarking and knowledge graph for curious minds. Everything you save gets embedded, clustered, and surfaced at the right moment.
+            - generic [ref=e163]:
+              - generic [ref=e164]: Web
+              - generic [ref=e165]: AI
+              - generic [ref=e166]: Vectors
+            - generic [ref=e167]:
+              - generic [ref=e168]:
+                - generic "Pinecone" [ref=e169]:
+                  - img [ref=e170]
+                - generic "Next.js" [ref=e172]:
+                  - img [ref=e173]
+                - generic "OpenAI" [ref=e175]:
+                  - img [ref=e176]
+              - generic [ref=e178]:
+                - text: View
+                - img [ref=e179]
+    - generic [ref=e23]:
+      - generic [ref=e24]: Moghal Saif · 2026
+      - generic [ref=e25]:
+        - link "X" [ref=e26] [cursor=pointer]:
+          - /url: https://x.com/moghalsaifa
+        - link "Instagram" [ref=e27] [cursor=pointer]:
+          - /url: https://instagram.com/moghalsaif
+        - link "LinkedIn" [ref=e28] [cursor=pointer]:
+          - /url: https://linkedin.com/in/moghalsaifa
+  - button "Open Next.js Dev Tools" [ref=e38] [cursor=pointer]:
+    - img [ref=e39]
+  - alert [ref=e42]

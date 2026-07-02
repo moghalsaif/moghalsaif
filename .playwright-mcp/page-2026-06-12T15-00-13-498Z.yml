@@ -1,0 +1,37 @@
+- generic [ref=e1]:
+  - button "Back home" [ref=e2]:
+    - img [ref=e3]
+  - button "Close page" [ref=e5]:
+    - img [ref=e6]
+  - generic [ref=e10]:
+    - complementary [ref=e11]:
+      - heading "story" [level=2] [ref=e12]
+      - paragraph [ref=e13]: A short note about the person behind the work.
+      - button "Expand story photo collage" [active] [ref=e15]:
+        - img "Moghal Saif story collage image 1" [ref=e17]
+        - img "Moghal Saif story collage image 2" [ref=e19]
+        - img "Moghal Saif story collage image 3" [ref=e21]
+        - img "Moghal Saif story collage image 4" [ref=e23]
+        - img "Moghal Saif story collage image 5" [ref=e25]
+    - article [ref=e26]:
+      - generic [ref=e27]: Dear reader, I've always been someone who builds things. Not because I had a perfect plan, but because making things has always been the clearest way for me to understand the world. I grew up around quiet ambition. People worked hard, said little, and let the proof live in what they carried forward. I think I inherited that. I am drawn to systems, products, writing, and the strange inner machinery behind people who keep going. Design came to me through usefulness. I wanted things to feel cleaner, faster, less noisy. Over time I realized that the way something feels is not decoration. It is strategy. It decides whether a person keeps moving or drops the thread. Right now I am interested in the intersection of how we think and how we build. The tools we use shape the thoughts we can have. I want to build tools that make people sharper, calmer, and more capable. If any of this sounds familiar, I would love to talk. Saif
+  - navigation "Site navigation" [ref=e28]:
+    - button "Home" [ref=e29]:
+      - img [ref=e30]
+    - button "GitHub" [ref=e34]:
+      - img [ref=e35]
+    - button "LinkedIn" [ref=e38]:
+      - img [ref=e39]
+    - button "Twitter" [ref=e42]:
+      - img [ref=e43]
+    - button "Instagram" [ref=e46]:
+      - img [ref=e47]
+    - button "Email" [ref=e50]:
+      - img [ref=e51]
+    - button "Switch to Agent View" [ref=e55]:
+      - img [ref=e56]
+    - button "Switch to light mode" [ref=e60]:
+      - img [ref=e61]
+  - button "Open Next.js Dev Tools" [ref=e72] [cursor=pointer]:
+    - img [ref=e73]
+  - alert [ref=e76]

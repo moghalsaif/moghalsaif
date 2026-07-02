@@ -8,7 +8,7 @@ import {
   useCallback,
 } from "react";
 
-export type Theme = "default" | "dark" | "blue" | "pink" | "yellow";
+export type Theme = "default" | "blue" | "pink" | "yellow";
 
 interface ThemeValue {
   theme: Theme;
@@ -17,9 +17,9 @@ interface ThemeValue {
 }
 
 const ThemeCtx = createContext<ThemeValue>({
-  theme: "dark",
+  theme: "default",
   setTheme: () => {},
-  isDark: true,
+  isDark: false,
 });
 
 const THEME_VARS: Record<Theme, Record<string, string>> = {
@@ -32,16 +32,6 @@ const THEME_VARS: Record<Theme, Record<string, string>> = {
     "--site-border": "#DED9CF",
     "--site-card": "#EDEAE2",
     "--site-canvas-bg": "#F4F2EC",
-  },
-  dark: {
-    "--site-bg": "#050505",
-    "--site-fg": "#F6F6F1",
-    "--site-accent": "#F6F6F1",
-    "--site-accent-soft": "rgba(246,246,241,0.1)",
-    "--site-muted": "#9A9A9A",
-    "--site-border": "#242424",
-    "--site-card": "#111111",
-    "--site-canvas-bg": "#050505",
   },
   blue: {
     "--site-bg": "#FAF8F4",
@@ -87,7 +77,7 @@ function applyTheme(t: Theme) {
 }
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setThemeState] = useState<Theme>("dark");
+  const [theme, setThemeState] = useState<Theme>("default");
 
   useEffect(() => {
     const frame = window.requestAnimationFrame(() => {
@@ -112,7 +102,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   }, [theme]);
 
   return (
-    <ThemeCtx.Provider value={{ theme, setTheme, isDark: theme === "dark" }}>
+    <ThemeCtx.Provider value={{ theme, setTheme, isDark: false }}>
       {children}
     </ThemeCtx.Provider>
   );
