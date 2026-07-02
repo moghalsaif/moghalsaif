@@ -658,4 +658,27 @@ At a high level, the amount of love you show someone is based upon how much emot
 
 Most intelligent people's outlook on life is as a whole, while stupid people's outlook on life is in parts.`,
   },
+  {
+    id: 26,
+    title: "Why you start a company matters more than what you build",
+    date: "Jun 2026",
+    platform: "Website",
+    preview:
+      "After seeing Kunal Shah leave CRED for WhatsApp, I had a few realizations from my entrepreneurial journey. Starting a company is a tool, not the goal.",
+    body: `After seeing Kunal Shah leave CRED for WhatsApp, I had a few realizations from my entrepreneurial journey.
+
+It's very important to know why you are starting a company, and a company is just a part of your "why" as a whole for your life. Starting a company is a tool for you to achieve your why.
+
+**Reason 1: Starting a company to make money.** Here, your "why" is to make money. If you can make more money in a job, go for it. But if you see a good business you can build, go build it. Your filter for that decision should be, "Where can I make the most amount of money for myself?" Also, remember, a company's revenue is not your money.
+
+**Reason 2: Starting a company to solve a problem.** Here, your "why" is to solve the problem, not to make a lot of money. You started a company to solve the problem that you wanted to solve. I will give an example here of Demis Hassabis. He sold DeepMind to Google, and his explanation was that he started DeepMind to solve the AGI problem. In the middle of it, he found himself lost in fundraising and managing the company. It made him go further and further away from focusing on solving the problem, so he sold DeepMind to Google so Google could take care of the finances and the management, and he could go and work on solving the problem. If you are a founder who started a company for this reason, it is okay for you to take up a job in an existing company that is already working to solve the problem. Starting a company is not always the right move to make here.
+
+**Reason 3: Starting a company for status.** This is probably the worst reason to start a company. Don't do it. Get your status from other things in life. Even if you start it, you will be focusing more on becoming the "IT"/"Famous" company than focusing on the business side. Most founders who do this fail the most.
+
+People don't recognize this, but it's better to do a job than to stay stuck in a bad business. Business is hard, and if the pain is not worth it, why are you spending time on it? Start something new and better with what you know now, or get a job to learn and earn faster.
+
+I have seen my own companies that I started, and the companies started by people I know. Many failed after 2 years because starting a company is more about things you don't control. When you are new to this, you ignore them and think that if you work hard enough, you will become successful.
+
+What you work on is very important. You are grinding to build your ₹10k agency day and night, while your friend built a tool that helps solve a profitable problem for other businesses and made a recurring business from it with one-third of the work you do, and he makes more than you.`,
+  },
 ];
