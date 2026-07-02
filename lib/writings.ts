@@ -660,14 +660,12 @@ Most intelligent people's outlook on life is as a whole, while stupid people's o
   },
   {
     id: 26,
-    title: "Why you start a company matters more than what you build",
+    title: "After seeing Kunal Shah leave CRED for WhatsApp, I had a few realizations from my entrepreneurial journey.",
     date: "Jun 2026",
     platform: "Website",
     preview:
-      "After seeing Kunal Shah leave CRED for WhatsApp, I had a few realizations from my entrepreneurial journey. Starting a company is a tool, not the goal.",
-    body: `After seeing Kunal Shah leave CRED for WhatsApp, I had a few realizations from my entrepreneurial journey.
-
-It's very important to know why you are starting a company, and a company is just a part of your "why" as a whole for your life. Starting a company is a tool for you to achieve your why.
+      "It's very important to know why you are starting a company, and a company is just a part of your \"why\" as a whole for your life.",
+    body: `It's very important to know why you are starting a company, and a company is just a part of your "why" as a whole for your life. Starting a company is a tool for you to achieve your why.
 
 **Reason 1: Starting a company to make money.** Here, your "why" is to make money. If you can make more money in a job, go for it. But if you see a good business you can build, go build it. Your filter for that decision should be, "Where can I make the most amount of money for myself?" Also, remember, a company's revenue is not your money.
 
