@@ -29,7 +29,7 @@ export type SiteProject = {
 export const SITE_PROFILE = {
   name: "Moghal Saif",
   birthDateISO: "2005-02-09T00:00:00+05:30",
-  currentLocation: "India",
+  currentLocation: "Hyderabad",
   email: "moghalsaif21@gmail.com",
   bio:
     "Moghal Saif is a builder, writer, and systems thinker exploring AI, products, strategy, and the inner life behind ambitious work.",

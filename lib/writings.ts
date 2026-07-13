@@ -677,6 +677,6 @@ People don't recognize this, but it's better to do a job than to stay stuck in a
 
 I have seen my own companies that I started, and the companies started by people I know. Many failed after 2 years because starting a company is more about things you don't control. When you are new to this, you ignore them and think that if you work hard enough, you will become successful.
 
-What you work on is very important. You are grinding to build your ₹10k agency day and night, while your friend built a tool that helps solve a profitable problem for other businesses and made a recurring business from it with one-third of the work you do, and he makes more than you.`,
+What you work on is very important. You are grinding to build your $10k agency day and night, while your friend built a tool that helps solve a profitable problem for other businesses and made a recurring business from it with one-third of the work you do, and he makes more than you.`,
   },
 ];

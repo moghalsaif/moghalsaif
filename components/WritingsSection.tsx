@@ -41,7 +41,7 @@ export default function WritingsSection() {
         </h2>
 
         <div className="mt-14 divide-y divide-[var(--site-border)] sm:mt-18">
-          {writings.map((writing) => (
+          {writings.slice().sort((a, b) => b.id - a.id).map((writing) => (
             <WritingRow key={writing.id} writing={writing} />
           ))}
         </div>
