@@ -186,10 +186,6 @@ export default function IWLCHomepage() {
             <h1 className={styles.heroTagline}>
               You&apos;re not alone on this journey.
             </h1>
-            <a className={styles.heroCta} href="/iwlc/join">
-              Join the next chapter
-              <ArrowUpRight aria-hidden="true" />
-            </a>
             <div className={styles.heroPartners} aria-label="Active Life and LivLife Hospitals">
               <Image
                 src="/iwlc/activelife-on-dark-v1.png"

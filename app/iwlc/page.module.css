@@ -246,42 +246,6 @@
   animation: copyReveal 620ms 1.02s var(--ease-out) forwards;
 }
 
-.heroCta {
-  position: relative;
-  z-index: 2;
-  display: inline-flex;
-  gap: 0.8rem;
-  align-items: center;
-  justify-content: center;
-  min-height: 3.35rem;
-  margin-top: 1.5rem;
-  padding-inline: 1.35rem 1.1rem;
-  border: 1px solid var(--gold);
-  border-radius: 999px;
-  background: var(--gold);
-  color: var(--navy) !important;
-  font-size: 0.78rem;
-  font-weight: 700;
-  opacity: 0;
-  transform: translateY(0.6rem);
-  transition:
-    background-color 220ms var(--ease-out),
-    color 220ms var(--ease-out),
-    transform 220ms var(--ease-out);
-  animation: copyReveal 620ms 1.12s var(--ease-out) forwards;
-}
-
-.heroCta:hover {
-  background: var(--gold-light);
-  transform: translateY(-0.16rem);
-}
-
-.heroCta svg {
-  width: 1rem;
-  height: 1rem;
-  stroke-width: 1.7;
-}
-
 .heroPartners {
   position: relative;
   z-index: 2;
@@ -293,7 +257,7 @@
   margin-top: 1.6rem;
   opacity: 0;
   transform: translateY(0.6rem);
-  animation: copyReveal 620ms 1.24s var(--ease-out) forwards;
+  animation: copyReveal 620ms 1.16s var(--ease-out) forwards;
 }
 
 .heroPartners img {
