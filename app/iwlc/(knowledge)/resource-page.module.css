@@ -1,0 +1,445 @@
+.page {
+  --ink: oklch(18% 0.028 225);
+  --navy: oklch(17% 0.047 242);
+  --paper: oklch(96.5% 0.014 83);
+  --paper-deep: oklch(92.5% 0.022 78);
+  --gold: oklch(76% 0.135 78);
+  --gold-light: oklch(89% 0.09 85);
+  --green: oklch(39% 0.068 157);
+  --muted: oklch(48% 0.025 225);
+  --line: oklch(35% 0.025 225 / 18%);
+  --line-dark: oklch(82% 0.025 85 / 22%);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.hero,
+.featured,
+.collection,
+.tipsCollection,
+.guidesCollection {
+  width: min(100% - clamp(2rem, 6vw, 7rem), 94rem);
+  margin-inline: auto;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(18rem, 0.75fr);
+  gap: clamp(3rem, 9vw, 10rem);
+  align-items: end;
+  min-height: 32rem;
+  padding-block: clamp(5rem, 10vw, 10rem);
+}
+
+.eyebrow {
+  display: block;
+  margin-bottom: 2rem;
+  color: var(--green);
+  font-size: 0.64rem;
+  font-weight: 650;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  max-width: 12ch;
+  font-size: clamp(3.7rem, 7.5vw, 8rem);
+  font-weight: 350;
+  line-height: 0.92;
+  letter-spacing: -0.065em;
+  text-wrap: balance;
+}
+
+.heroAside {
+  padding-top: 2rem;
+  border-top: 1px solid var(--line);
+}
+
+.heroAside p {
+  color: var(--muted);
+  font-size: clamp(1rem, 1.6vw, 1.25rem);
+  line-height: 1.7;
+}
+
+.heroMetric {
+  display: flex;
+  align-items: baseline;
+  gap: 0.8rem;
+  margin-top: 2.5rem;
+}
+
+.heroMetric strong {
+  color: var(--green);
+  font-size: clamp(3.4rem, 6vw, 6rem);
+  font-weight: 300;
+  letter-spacing: -0.055em;
+}
+
+.heroMetric span {
+  max-width: 10ch;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.4;
+}
+
+.featured {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(20rem, 0.75fr);
+  min-height: 36rem;
+  margin-bottom: clamp(6rem, 11vw, 11rem);
+  overflow: hidden;
+  border-radius: 1.25rem;
+  background: var(--navy);
+  color: var(--paper);
+}
+
+.featuredMedia {
+  position: relative;
+  min-height: 28rem;
+  overflow: hidden;
+}
+
+.featuredMedia img {
+  object-fit: cover;
+  transition: transform 700ms var(--ease-out), filter 350ms var(--ease-out);
+}
+
+.featured:hover .featuredMedia img {
+  filter: saturate(1.05);
+  transform: scale(1.02);
+}
+
+.play {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  display: grid;
+  place-items: center;
+  width: 4.5rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--paper);
+  color: var(--navy);
+  transform: translate(-50%, -50%);
+}
+
+.play svg {
+  width: 1.35rem;
+  fill: currentColor;
+}
+
+.featuredCopy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: clamp(2rem, 5vw, 5rem);
+  border-left: 1px solid var(--line-dark);
+}
+
+.featuredCopy small {
+  color: var(--gold-light);
+  font-size: 0.61rem;
+  font-weight: 650;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+}
+
+.featuredCopy h2 {
+  max-width: 10ch;
+  margin-top: 1.5rem;
+  font-size: clamp(2.5rem, 4vw, 4.4rem);
+  font-weight: 350;
+  line-height: 0.98;
+  letter-spacing: -0.05em;
+}
+
+.featuredCopy p {
+  margin-top: 1.4rem;
+  color: oklch(87% 0.02 85);
+  line-height: 1.7;
+}
+
+.featuredMeta {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line-dark);
+  color: oklch(84% 0.025 85);
+  font-size: 0.68rem;
+}
+
+.collection,
+.tipsCollection,
+.guidesCollection {
+  padding-bottom: clamp(7rem, 12vw, 12rem);
+}
+
+.collectionHeader {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 3rem;
+  margin-bottom: clamp(2.5rem, 5vw, 5rem);
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.collectionHeader h2 {
+  font-size: clamp(2.4rem, 4.5vw, 4.8rem);
+  font-weight: 350;
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.collectionHeader p {
+  max-width: 30rem;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.6;
+}
+
+.webinarGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(1rem, 2vw, 1.75rem);
+}
+
+.webinarCard {
+  display: block;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.webinarImage {
+  position: relative;
+  aspect-ratio: 1.55;
+  overflow: hidden;
+  border-radius: 0.75rem;
+  background: var(--paper-deep);
+}
+
+.webinarImage img {
+  object-fit: cover;
+  transition: transform 500ms var(--ease-out), filter 300ms var(--ease-out);
+}
+
+.webinarCard:hover img {
+  filter: saturate(1.08);
+  transform: scale(1.025);
+}
+
+.webinarCard h3 {
+  max-width: 18ch;
+  margin-top: 1rem;
+  font-size: clamp(1.25rem, 2vw, 1.8rem);
+  font-weight: 450;
+  line-height: 1.12;
+  letter-spacing: -0.025em;
+}
+
+.webinarCard p {
+  margin-top: 0.7rem;
+  color: var(--muted);
+  font-size: 0.68rem;
+}
+
+.tipGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(0.8rem, 1.5vw, 1.4rem);
+}
+
+.tipCard {
+  display: block;
+}
+
+.tipImage {
+  position: relative;
+  aspect-ratio: 0.82;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  background: var(--paper-deep);
+}
+
+.tipImage img {
+  padding: 0.45rem;
+  object-fit: contain;
+  transition: transform 450ms var(--ease-out);
+}
+
+.tipCard:hover img {
+  transform: scale(1.018);
+}
+
+.tipCard span {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.7rem;
+  color: var(--muted);
+  font-size: 0.66rem;
+}
+
+.guideList {
+  border-top: 1px solid var(--line);
+}
+
+.guideCard {
+  display: grid;
+  grid-template-columns: 3.5rem minmax(0, 1fr) auto;
+  gap: clamp(1.25rem, 4vw, 4rem);
+  align-items: center;
+  min-height: 11rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.guideIcon {
+  display: grid;
+  place-items: center;
+  width: 3.25rem;
+  aspect-ratio: 1;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  color: var(--green);
+}
+
+.guideIcon svg {
+  width: 1.15rem;
+}
+
+.guideCard h2 {
+  font-size: clamp(1.7rem, 3.2vw, 3.1rem);
+  font-weight: 350;
+  letter-spacing: -0.04em;
+}
+
+.guideCard p {
+  max-width: 42rem;
+  margin-top: 0.7rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+.guideActions {
+  display: flex;
+  gap: 0.7rem;
+}
+
+.guideActions a {
+  display: inline-flex;
+  gap: 0.45rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.8rem;
+  padding-inline: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 650;
+  transition: background 200ms var(--ease-out), color 200ms var(--ease-out);
+}
+
+.guideActions a:hover {
+  background: var(--navy);
+  color: var(--paper);
+}
+
+.guideActions svg {
+  width: 0.9rem;
+}
+
+@media (max-width: 64rem) {
+  .webinarGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tipGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .guideCard {
+    grid-template-columns: 3.5rem minmax(0, 1fr);
+    padding-block: 2rem;
+  }
+
+  .guideActions {
+    grid-column: 2;
+  }
+}
+
+@media (max-width: 50rem) {
+  .hero,
+  .featured {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    min-height: auto;
+  }
+
+  .featuredCopy {
+    gap: 3rem;
+    border-top: 1px solid var(--line-dark);
+    border-left: 0;
+  }
+
+  .collectionHeader {
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .tipGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 36rem) {
+  .hero,
+  .featured,
+  .collection,
+  .tipsCollection,
+  .guidesCollection {
+    width: min(100% - 2rem, 94rem);
+  }
+
+  .hero h1 {
+    font-size: clamp(3.3rem, 16vw, 5rem);
+  }
+
+  .featuredMedia {
+    min-height: 18rem;
+  }
+
+  .webinarGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .tipGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .tipImage {
+    aspect-ratio: 0.9;
+  }
+
+  .guideCard {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .guideActions {
+    grid-column: 1;
+    flex-wrap: wrap;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page *,
+  .page *::before,
+  .page *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
